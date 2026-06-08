@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Mercoventas</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="main-header">
+  <button class="hamburger-btn" id="menuToggle" aria-label="Menú"><i class="fas fa-bars"></i></button>
+  <div class="logo-area">
+    <img src="img/logo.png" alt="Mercoventas" class="logo-img" id="logoImage" onerror="this.style.display='none'; document.getElementById('defaultLogoIcon').style.display='block';">
+    <i class="fas fa-tools logo-icon" id="defaultLogoIcon" style="display:none; font-size:2rem; color:#1e293b;"></i>
+    <span>Mercoventas</span>
+  </div>
+  <button class="cart-icon-btn" id="cartToggleMobile" aria-label="Carrito">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count-badge">0</span>
+  </button>
+</header>
+
+<!-- BANNER CAROUSEL -->
+<section class="banner-carousel" id="banner">
+  <div class="banner-dots" id="bannerDots"></div>
+</section>
+
+<!-- OVERLAYS -->
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<!-- MOBILE LEFT DRAWER (Categorías + Buscador) -->
+<aside class="left-drawer" id="sideMenu">
+  <div class="close-menu" id="closeMenu"><i class="fas fa-times"></i></div>
+  <h4 class="menu-section-title"><i class="fas fa-list-ul"></i> Categorías</h4>
+  
+  <!-- BUSCADOR MÓVIL -->
+  <div class="search-container">
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" class="search-input" placeholder="Buscar productos..." autocomplete="off">
+    </div>
+    <div class="suggestions-list"></div>
+  </div>
+
+  <ul class="categories-list" id="categories-list"></ul>
+  <div class="offer-tiers glass-card">
+    <p><i class="fas fa-tag"></i> +$200 → Precios Oferta</p>
+    <p><i class="fas fa-tags"></i> +$500 → Mejores precios</p>
+    <p><i class="fas fa-crown"></i> +$1000 → Súper precios</p>
+  </div>
+  <!-- DESKTOP LAYOUT
+  <div class="currency-switch-container" id="currencySwitchMobile">
+    <label class="currency-switch-label">
+      <span><i class="fas fa-dollar-sign"></i> USD → <i class="fas fa-coins"></i> CUP</span>
+      <input type="checkbox" id="currencyToggleMobile">
+      <span class="toggle-slider"></span>
+    </label>
+  </div> -->
+</aside>
+
+<!-- MOBILE CART DRAWER -->
+<div class="right-drawer" id="cartDrawer">
+  <div class="cart-drawer-header">
+    <h3><i class="fas fa-shopping-basket"></i> Tu carrito</h3>
+    <button class="close-cart-btn" id="closeCartDrawer"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="cart-panel">
+    <button id="clearCartBtnMobile" class="clear-cart-btn"><i class="fas fa-trash-alt"></i> Vaciar</button>
+    <div class="cart-items" id="cart-items-container-mobile"></div>
+    <div id="savings-message-mobile" class="savings-badge"></div>
+    <div class="savings-amount" id="savings-amount-mobile"></div>
+    <div class="cart-total-row">
+      <span>Total:</span>
+      <span id="cart-total-mobile">$0.00</span>
+    </div>
+    <button class="whatsapp-btn" id="sendWhatsAppMobile"><i class="fab fa-whatsapp"></i> Pedir al WhatsApp</button>
+  </div>
+</div>
+
+<!-- DESKTOP LAYOUT -->
+<div class="pc-layout">
+  <aside class="left-aside glass-card">
+    <h4 class="menu-section-title"><i class="fas fa-grid-2"></i> Categorías</h4>
+    
+    <!-- BUSCADOR ESCRITORIO -->
+    <div class="search-container">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search-input" placeholder="Buscar productos..." autocomplete="off">
+      </div>
+      <div class="suggestions-list"></div>
+    </div>
+
+    <ul class="categories-list" id="desktop-categories-list"></ul>
+    <div class="offer-tiers" style="margin-top:24px;">
+      <p><i class="fas fa-tag"></i> +$200 → Precios Oferta</p>
+      <p><i class="fas fa-tags"></i> +$500 → Mejores precios</p>
+      <p><i class="fas fa-crown"></i> +$1000 → Súper precios</p>
+    </div>
+    <!-- DESKTOP LAYOUT 
+    <div class="currency-switch-container" id="currencySwitchDesktop">
+      <label class="currency-switch-label">
+        <span><i class="fas fa-dollar-sign"></i> USD → <i class="fas fa-coins"></i> CUP</span>
+        <input type="checkbox" id="currencyToggleDesktop">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>  -->
+
+  </aside>
+  <main class="center-products">
+    <div id="products-container" class="products-grid"></div>
+  </main>
+  <aside class="right-aside">
+    <div class="cart-panel glass-card">
+      <button id="clearCartBtn" class="clear-cart-btn"><i class="fas fa-trash-alt"></i> Vaciar</button>
+      <div class="cart-items" id="cart-items-container"></div>
+      <div id="savings-message" class="savings-badge"></div>
+      <div class="savings-amount" id="savings-amount-desktop"></div>
+      <div class="cart-total-row">
+        <span>Total:</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button class="whatsapp-btn" id="sendWhatsApp"><i class="fab fa-whatsapp"></i> Pedir al WhatsApp</button>
+    </div>
+  </aside>
+</div>
+
+<!-- MODAL DE PRODUCTO -->
+<div id="productModal" class="modal-overlay">
+  <div class="modal-content">
+    <span class="modal-close" id="modalClose">&times;</span>
+    <div class="modal-body">
+      <img id="modal-img" src="" alt="" class="modal-product-img">
+      <div class="modal-info">
+        <h2 id="modal-name"></h2>
+        <p id="modal-desc"></p>
+        <div id="modal-price" class="modal-price"></div>
+        <button id="modal-add-btn" class="whatsapp-btn" style="margin-top:16px; background:var(--primary); color:#1e293b;">
+          <i class="fas fa-cart-plus"></i> Añadir al carrito
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4><i class="fas fa-store"></i> Mercoventas</h4>
+      <p><i class="fas fa-clock"></i> Lun - Vie: 8:30 AM - 5:30 PM</p>
+      <p><i class="fas fa-clock"></i> Sábado: 10:00 AM - 5:00 PM</p>
+      <p><i class="fas fa-map-marker-alt"></i> Calle 71 #15615 entre 156 y 158, La Lisa, Cuba</p>
+    </div>
+    <div class="footer-section">
+      <h4><i class="fas fa-share-alt"></i> Síguenos</h4>
+      <div class="social-links">
+        <a href="https://www.facebook.com/share/1BrN29D8qM" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/merco_ventas" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029Vb7m5fG8V0txFmVZro0a" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Mercoventas - Siempre contigo</p>
+  </div>
+</footer>
+
+<script src="scripte.js"></script>
+</body>
+</html>

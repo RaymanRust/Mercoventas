@@ -20,7 +20,7 @@ const CATEGORIES = [
 ];
 
 const PRODUCTS = [
-  { id: 1, name: 'Acoplador Rapido Amaricano de 2 vias',desc:'' , category: 'herramientas', images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
+  { id: 1, name: 'Acoplador Rapido Amaricano de 222222222222 vias',desc:'' , category: 'herramientas', images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
   { id: 2, name: 'Acoplador Rapido kit alta/baja plateado',desc:'' , category: 'herramientas', images: ['img/productos/acoplador-rapido-kit-altabaja-plateado.jpg'], priceBase: 16, price1: 13.86, price2: 12.79, price3: 11.18 },
   { id: 3, name: 'Adaptador Corto 410',desc:'' , category: 'refrigeracion y clima', images: ['img/productos/adaptador-corto.jpg',], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
   { id: 4, name: 'Alambre de Soldadura de estano 100g',desc:'' , category: 'herramientas', images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },

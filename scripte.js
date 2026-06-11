@@ -5,74 +5,71 @@ let useCUP = false;
 const BANNER_SLIDES = [
   { image: 'img/banner1.jpg', text: 'Sabados de Ofertas ' },
   { image: 'img/banner2.jpg', text: 'Envíos gratis +9.9 USD' },
-    { image: 'img/banner2.jpg', text: 'Siente lo nuevo' },
- 
- 
+  { image: 'img/banner2.jpg', text: 'Siente lo nuevo' },
 ];
 
 const CATEGORIES = [
   { id: 'todas', name: 'Todos los productos', icon: 'border-all' },
   { id: 'solar', name: 'Solar', icon: 'sun' },
-  /*{ id: 'compresores', name: 'Compresores', icon: 'cogs' },*/
   { id: 'electricas', name: 'Eléctricas', icon: 'bolt' },
-  { id: 'herramientas', name: 'Herramientas', icon: 'tools' }, 
+  { id: 'herramientas', name: 'Herramientas', icon: 'tools' },
   { id: 'refrigeracion y clima', name: 'Refrigeración y Clima', icon: 'snowflake' }
 ];
 
+// PRODUCTOS CON MÚLTIPLES CATEGORÍAS (array categories)
 const PRODUCTS = [
-  { id: 1, name: 'Acoplador Rapido Amaricano de 2 vias 1/4',desc:'' , category: 'herramientas', images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
-  { id: 2, name: 'Acoplador Rapido kit alta/baja plateado',desc:'' , category: 'herramientas', images: ['img/productos/acoplador-rapido-kit-altabaja-plateado.jpg'], priceBase: 16, price1: 13.86, price2: 12.79, price3: 11.18 },
-  { id: 3, name: 'Adaptador Corto 410',desc:'' , category: 'refrigeracion y clima', images: ['img/productos/adaptador-corto.jpg',], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
-  { id: 4, name: 'Alambre de Soldadura de estano 100g',desc:'' , category: 'herramientas', images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
-  { id: 5, name: 'Alambre para soldar C/ Nucleo Fundente 1kg - 0,8 mm',desc:'' , category: 'herramientas', images: ['img/productos/alambre-para-soldar-con-nucleo-fundente.jpg'], priceBase: 10, price1: 8.76, price2: 8.14, price3: 7.21 },
-  { id: 6, name: 'Alambre de Soldadura Solido 1kg',desc:'' , category: 'herramientas', images: ['img/productos/alambre-de-soldadura-solido.jpg'], priceBase: 10.50, price1: 9.44, price2: 8.91, price3: 8.11 },
-  { id: 7, name: 'Alicate de Corte Diagonal 7"',desc:'' , category: 'herramientas', images: ['img/productos/alicate-de-corte-diagonal-7.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
-  { id: 8, name: 'Alicatede Presion recto 10"',desc:'' , category: 'herramientas', images: ['img/productos/alicate-de-presion-recto-10.jpg'], priceBase: 8, price1: 6.90, price2: 6.35, price3: 5.53 },
-  { id: 9, name: 'Adaptador rotomartillo SDS PLUS 8"/200 mm',desc:'' , category: 'herramientas', images: ['img/productos/adaptador-rotomartillo.jpg'], priceBase: 20, price1: 17.94, price2: 16.91, price3: 15.36 },
-  { id: 10, name: 'Alicatede Multifuncion C/ Bolsa 11 en 1',desc:'' , category: 'herramientas', images: ['img/productos/alicate-multifuncion-con-bolsa-11enuno.jpg'], priceBase: 6, price1: 5.33, price2: 5, price3: 4.50 },
-  { id: 11, name: 'Alicate punta curva 6"',desc:'' , category: 'herramientas', images: ['img/productos/alicate-punta-curva-6.jpg'], priceBase: 6, price1: 5.30, price2: 4.94, price3: 4.42 },
-  { id: 12, name: 'Alicatede punta curva de 8"',desc:'' , category: 'herramientas', images: ['img/productos/alicate-punta-curva-8.jpg'], priceBase: 8, price1: 7.03, price2: 6.55, price3: 5.82 },
-  { id: 13, name: 'Alicate punta larga de 6"',desc:'' , category: 'herramientas', images: ['img/productos/alicate-punta-larga-6.jpg'], priceBase: 6.5, price1: 5.64, price2: 5.21, price3: 4.56 },
-  { id: 14, name: 'Arandelas Autoblocantes de 4mm',desc:'' , category: 'herramientas', images: ['img/productos/arandela-autoblocante-de-4mm.jpg'], priceBase: 1.60, price1: 1.44, price2: 1.35, price3: 1.23 },
-  { id: 15, name: 'Arandelas Autoblocantes de 6mm',desc:'' , category: 'herramientas', images: ['img/productos/arandela-autoblocante-de-6mm.jpg'], priceBase: 1.90, price1: 1.68, price2: 1.57, price3: 1.41 },
-  { id: 16, name: 'Aspa para Micromotor  Refrigerador Fino',desc:'' , category: 'herramientas', images: ['img/productos/aspa-para-micromotor-refrigerador-fina.jpg'], priceBase: 2.5, price1: 2.24, price2: 2.11, price3: 1.91 },
-  { id: 17, name: 'Aspa para Micromotor 0 Fan Eje Gordo',desc:'' , category: 'herramientas', images: ['img/productos/aspa-para-micromotor-o-fan-eje-gorda.jpg'], priceBase: 2, price1: 1.85, price2: 1.78, price3: 1.67 },
-  { id: 18, name: 'Bateria de LiFePO4 12V 200Ah',desc:'' , category: 'solar', images: ['img/productos/bateria lifepo4 12V 200Ah.jpeg'], priceBase: 550, price1: 550, price2: 550, price3: 515.89 },
-  { id: 19, name: 'Bateria lifepo4 24V 200Ah',desc:'' , category: 'solar', images: ['img/productos/bateria lifepo4 24V 200Ah.jpeg'], priceBase: 1050, price1: 1050, price2: 1050, price3: 990  },
-  { id: 20, name: 'Bateria lifepo4 48V 100Ah',desc:'' , category: 'solar', images: ['img/productos/bateria lifepo4 48V 100Ah.jpeg'], priceBase: 1200, price1: 1200, price2: 1200, price3: 1150 },
-  { id: 21, name: 'Estacion de energia portatil DABBSON',desc:'' , category: 'solar', images: ['img/productos/Estacion de energia portatil DABBSON.jpeg'], priceBase: 950, price1: 950, price2: 950, price3: 950  },
-  { id: 22, name: 'Cable original para estacion de energia portatil 3m',desc:'' , category: 'solar', images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 50, price1: 43.26, price2: 39.89, price3: 34.84 },
-  { id: 23, name: 'Cable original para estacion de energia portatil 5m',desc:'' , category: 'solar', images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 70, price1: 61.15, price2: 56.72, price3: 50.08 },
-  { id: 24, name: 'Estacion de Energia Portatil Delta 3 Classic',desc:'' , category: 'solar', images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 690, price1: 690, price2: 690, price3: 690 },
-  { id: 27, name: 'Breaker DC de 25A',desc:'' , category: 'solar', images: ['img/productos/breaker 25 DC.jpg'], priceBase: 18, price1: 15.56, price2: 14.35, price3: 12.52 },
-  { id: 28, name: 'Bateria Inteligente LiFePO4 51.2V 100Ah',desc:'' , category: 'solar', images: ['img/productos/bateria powmr.jpg'], priceBase: 1100, price1: 1100, price2: 1100, price3: 1050 },
-  { id: 29, name: 'Inversor híbrido SOLAR PowMr 6.5KW 48Vdc 120/240 V',desc:'' , category: 'solar', images: ['img/productos/Inversor Powmr.jpg'], priceBase: 1350, price1: 1350, price2: 1350, price3: 1250 },
-  { id: 30, name: 'Inversor híbrido SOLAR PowMr 5KW 48Vdc 120V',desc:'' , category: 'solar', images: ['img/productos/Inversor Powmr.jpg'], priceBase: 850, price1: 850, price2: 850, price3: 800 },
-  { id: 31, name: 'Conectores para paneles solares tipo Y MC4 con cable',desc:'' , category: 'solar', images: ['img/productos/mc4 y con cable.jpg'], priceBase: 12, price1: 10.66, price2: 9.97, price3: 8.96 },
-  { id: 32, name: 'Conectores para paneles solares tipo Y MC4 Rígido',desc:'' , category: 'solar', images: ['img/productos/mc4 y rigido.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
-  { id: 33, name: 'Kit de conectores variados 1200 pcs y pinza de Crimpado',desc:'' , category: 'solar', images: ['img/productos/pinza crimpadora.jpg'], priceBase: 45, price1: 38.79, price2: 35.69, price3: 31.04 },
-  { id: 34, name: 'Kit de conectores variados 2000 pcs y pinza de Crimpado',desc:'' , category: 'solar', images: ['img/productos/pinza crimpadora.jpg'], priceBase: 50, price1: 44.41, price2: 41.61, price3: 37.42 },
-  { id: 35, name: 'Terminales de crimpado tubulares E 60-12 (10 AWG-6 mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 10awg.jpg'], priceBase: 0.08, price1: 0.07, price2: 0.06, price3: 0.06 },
-  { id: 36, name: 'Breaker DC de 63A ',desc:'' , category: 'solar', images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
-  { id: 37, name: 'Terminales de crimpado tubulares E 40-09 (12 AWG-4 mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 12awg.jpg'], priceBase: 0.06, price1: 0.05, price2: 0.04, price3: 0.03 },
-  { id: 38, name: 'Terminales de crimpado tubulares E 15-08 (16 AWG-1.5 mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 16awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
-  { id: 39, name: 'Terminales de crimpado tubulares E 16-12 (6 AWG-16 mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 6awg.jpg'], priceBase: 0.12, price1: 0.10, price2: 0.09, price3: 0.08 },
-  { id: 40, name: 'Terminales de crimpado tubulares E 10-08 (18 AWG-1mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 18awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
-  { id: 41, name: 'Terminales de crimpado tubulares E 75-08 (20 AWG-0.75mm)',desc:'' , category: 'solar', images: ['img/productos/terminal redondo 20awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
-  { id: 42, name: 'Inversor híbrido SOLAR SUMRY 4000W/120VAC',desc:'' , category: 'solar', images: ['img/productos/inversor negro.jpg'], priceBase: 520, price1: 520, price2: 505.8, price3: 495 },
-  { id: 43, name: 'Conectores MC4 (pareja)',desc:'' , category: 'solar', images: ['img/productos/conector mc4.jpg'], priceBase: 2, price1: 1.72, price2: 1.59, price3: 11.38 },
-  { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass',desc:'' , category: 'solar', images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 }
+  { id: 1, name: 'Acoplador Rapido Amaricano de 2 vias 1/4', desc: '', categories: ['herramientas'], images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
+  { id: 2, name: 'Acoplador Rapido kit alta/baja plateado', desc: '', categories: ['herramientas'], images: ['img/productos/acoplador-rapido-kit-altabaja-plateado.jpg'], priceBase: 16, price1: 13.86, price2: 12.79, price3: 11.18 },
+  { id: 3, name: 'Adaptador Corto 410', desc: '', categories: ['refrigeracion y clima'], images: ['img/productos/adaptador-corto.jpg'], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
+  { id: 4, name: 'Alambre de Soldadura de estano 100g', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
+  { id: 5, name: 'Alambre para soldar C/ Nucleo Fundente 1kg - 0,8 mm', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-para-soldar-con-nucleo-fundente.jpg'], priceBase: 10, price1: 8.76, price2: 8.14, price3: 7.21 },
+  { id: 6, name: 'Alambre de Soldadura Solido 1kg', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-solido.jpg'], priceBase: 10.50, price1: 9.44, price2: 8.91, price3: 8.11 },
+  { id: 7, name: 'Alicate de Corte Diagonal 7"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-corte-diagonal-7.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
+  { id: 8, name: 'Alicatede Presion recto 10"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-presion-recto-10.jpg'], priceBase: 8, price1: 6.90, price2: 6.35, price3: 5.53 },
+  { id: 9, name: 'Adaptador rotomartillo SDS PLUS 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/adaptador-rotomartillo.jpg'], priceBase: 20, price1: 17.94, price2: 16.91, price3: 15.36 },
+  { id: 10, name: 'Alicatede Multifuncion C/ Bolsa 11 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-multifuncion-con-bolsa-11enuno.jpg'], priceBase: 6, price1: 5.33, price2: 5, price3: 4.50 },
+  { id: 11, name: 'Alicate punta curva 6"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-6.jpg'], priceBase: 6, price1: 5.30, price2: 4.94, price3: 4.42 },
+  { id: 12, name: 'Alicatede punta curva de 8"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-8.jpg'], priceBase: 8, price1: 7.03, price2: 6.55, price3: 5.82 },
+  { id: 13, name: 'Alicate punta larga de 6"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-larga-6.jpg'], priceBase: 6.5, price1: 5.64, price2: 5.21, price3: 4.56 },
+  { id: 14, name: 'Arandelas Autoblocantes de 4mm', desc: '', categories: ['herramientas'], images: ['img/productos/arandela-autoblocante-de-4mm.jpg'], priceBase: 1.60, price1: 1.44, price2: 1.35, price3: 1.23 },
+  { id: 15, name: 'Arandelas Autoblocantes de 6mm', desc: '', categories: ['herramientas'], images: ['img/productos/arandela-autoblocante-de-6mm.jpg'], priceBase: 1.90, price1: 1.68, price2: 1.57, price3: 1.41 },
+  { id: 16, name: 'Aspa para Micromotor  Refrigerador Fino', desc: '', categories: ['herramientas'], images: ['img/productos/aspa-para-micromotor-refrigerador-fina.jpg'], priceBase: 2.5, price1: 2.24, price2: 2.11, price3: 1.91 },
+  { id: 17, name: 'Aspa para Micromotor 0 Fan Eje Gordo', desc: '', categories: ['herramientas'], images: ['img/productos/aspa-para-micromotor-o-fan-eje-gorda.jpg'], priceBase: 2, price1: 1.85, price2: 1.78, price3: 1.67 },
+  { id: 18, name: 'Bateria de LiFePO4 12V 200Ah', desc: '', categories: ['solar'], images: ['img/productos/bateria lifepo4 12V 200Ah.jpeg'], priceBase: 550, price1: 550, price2: 550, price3: 515.89 },
+  { id: 19, name: 'Bateria lifepo4 24V 200Ah', desc: '', categories: ['solar'], images: ['img/productos/bateria lifepo4 24V 200Ah.jpeg'], priceBase: 1050, price1: 1050, price2: 1050, price3: 990  },
+  { id: 20, name: 'Bateria lifepo4 48V 100Ah', desc: '', categories: ['solar'], images: ['img/productos/bateria lifepo4 48V 100Ah.jpeg'], priceBase: 1200, price1: 1200, price2: 1200, price3: 1150 },
+  { id: 21, name: 'Estacion de energia portatil DABBSON', desc: '', categories: ['solar'], images: ['img/productos/Estacion de energia portatil DABBSON.jpeg'], priceBase: 950, price1: 950, price2: 950, price3: 950  },
+  { id: 22, name: 'Cable original para estacion de energia portatil 3m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 50, price1: 43.26, price2: 39.89, price3: 34.84 },
+  { id: 23, name: 'Cable original para estacion de energia portatil 5m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 70, price1: 61.15, price2: 56.72, price3: 50.08 },
+  { id: 24, name: 'Estacion de Energia Portatil Delta 3 Classic', desc: '', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 690, price1: 690, price2: 690, price3: 690 },
+  { id: 27, name: 'Breaker DC de 25A', desc: '', categories: ['solar'], images: ['img/productos/breaker 25 DC.jpg'], priceBase: 18, price1: 15.56, price2: 14.35, price3: 12.52 },
+  { id: 28, name: 'Bateria Inteligente LiFePO4 51.2V 100Ah', desc: '', categories: ['solar'], images: ['img/productos/bateria powmr.jpg'], priceBase: 1100, price1: 1100, price2: 1100, price3: 1050 },
+  { id: 29, name: 'Inversor híbrido SOLAR PowMr 6.5KW 48Vdc 120/240 V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 1350, price1: 1350, price2: 1350, price3: 1250 },
+  { id: 30, name: 'Inversor híbrido SOLAR PowMr 5KW 48Vdc 120V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 850, price1: 850, price2: 850, price3: 800 },
+  { id: 31, name: 'Conectores para paneles solares tipo Y MC4 con cable', desc: '', categories: ['solar'], images: ['img/productos/mc4 y con cable.jpg'], priceBase: 12, price1: 10.66, price2: 9.97, price3: 8.96 },
+  { id: 32, name: 'Conectores para paneles solares tipo Y MC4 Rígido', desc: '', categories: ['solar'], images: ['img/productos/mc4 y rigido.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
+  { id: 33, name: 'Kit de conectores variados 1200 pcs y pinza de Crimpado', desc: '', categories: ['solar'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 45, price1: 38.79, price2: 35.69, price3: 31.04 },
+  { id: 34, name: 'Kit de conectores variados 2000 pcs y pinza de Crimpado', desc: '', categories: ['solar'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 50, price1: 44.41, price2: 41.61, price3: 37.42 },
+  { id: 35, name: 'Terminales de crimpado tubulares E 60-12 (10 AWG-6 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 10awg.jpg'], priceBase: 0.08, price1: 0.07, price2: 0.06, price3: 0.06 },
+  { id: 36, name: 'Breaker DC de 63A ', desc: '', categories: ['solar'], images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
+  { id: 37, name: 'Terminales de crimpado tubulares E 40-09 (12 AWG-4 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 12awg.jpg'], priceBase: 0.06, price1: 0.05, price2: 0.04, price3: 0.03 },
+  { id: 38, name: 'Terminales de crimpado tubulares E 15-08 (16 AWG-1.5 mm)', desc: '', categories: ['solar', 'herramientas'], images: ['img/productos/terminal redondo 16awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 39, name: 'Terminales de crimpado tubulares E 16-12 (6 AWG-16 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 6awg.jpg'], priceBase: 0.12, price1: 0.10, price2: 0.09, price3: 0.08 },
+  { id: 40, name: 'Terminales de crimpado tubulares E 10-08 (18 AWG-1mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 18awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 41, name: 'Terminales de crimpado tubulares E 75-08 (20 AWG-0.75mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 20awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 42, name: 'Inversor híbrido SOLAR SUMRY 4000W/120VAC', desc: '', categories: ['solar'], images: ['img/productos/inversor negro.jpg'], priceBase: 520, price1: 520, price2: 505.8, price3: 495 },
+  { id: 43, name: 'Conectores MC4 (pareja)', desc: '', categories: ['solar'], images: ['img/productos/conector mc4.jpg'], priceBase: 2, price1: 1.72, price2: 1.59, price3: 11.38 },
+  { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
+  { id: 45, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
+  { id: 46, name: 'Breaker doble  AC de 16A 20/240V', desc: '', categories: ['solar'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
+  { id: 47, name: 'Breker doble AC de 32A 120/240 v', desc: '', categories: ['solar'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
 ];
 
-// 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE (función de comparación)
+// 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE
 function sortProductsAlphabetically(products) {
-    return [...products].sort((a, b) => {
-        // Usamos localeCompare para ordenar correctamente mayúsculas/minúsculas y caracteres especiales
-        return a.name.localeCompare(b.name, 'es', { sensitivity: 'base' });
-    });
+    return [...products].sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
 }
 
-// PRODUCTOS ORDENADOS (creamos una copia ordenada para usar en toda la app)
 const SORTED_PRODUCTS = sortProductsAlphabetically(PRODUCTS);
 
 // Estado global
@@ -85,15 +82,14 @@ const PRODUCTS_PER_PAGE = 16;
 let searchTerm = '';
 let filteredSearchProducts = [];
 
-// === MODAL: variables ===
+// Modal variables
 let productModal, modalClose, modalImg, modalName, modalDesc, modalPrice, modalAddBtn;
 let currentModalProductId = null;
 let currentModalImageIndex = 0;
 let modalImages = [];
 
-// --- Swipe tracking ---
 let swipeStartX = 0;
-let swipeThreshold = 50;
+const swipeThreshold = 50;
 
 // Elementos DOM
 let productsContainer, catListMobile, catListDesktop;
@@ -265,23 +261,23 @@ function renderPaginationControls(totalPages) {
   });
 }
 
+// ---------- RENDER PRODUCTOS CON SOPORTE PARA MÚLTIPLES CATEGORÍAS ----------
 function renderProducts() {
-  // 1. Comenzamos con la lista ORDENADA de productos
   let productsToRender = [...SORTED_PRODUCTS];
   
-  // 2. Aplicar filtro de búsqueda si existe
   if (searchTerm.trim()) {
     productsToRender = productsToRender.filter(p => 
       p.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
   }
   
-  // 3. Aplicar filtro de categoría (si no es 'todas')
+  // FILTRO POR CATEGORÍA (ahora revisa si activeCategory está en el array categories)
   if (activeCategory !== 'todas') {
-    productsToRender = productsToRender.filter(p => p.category === activeCategory);
+    productsToRender = productsToRender.filter(p => 
+      p.categories && p.categories.includes(activeCategory)
+    );
   }
   
-  // Guardar productos filtrados para referencia (opcional)
   if (searchTerm.trim()) {
     filteredSearchProducts = productsToRender;
   }
@@ -302,7 +298,6 @@ function renderProducts() {
     const showOld = currentTotal >= 200 && price < prod.priceBase;
     const oldPriceHtml = showOld ? `<span class="old-price">${formatMoney(prod.priceBase)}</span>` : '';
     const badge = tier ? `<span class="price-tier-badge">${tier}</span>` : '';
-    // Usar la primera imagen del array, o placeholder si no existe
     const imgSrc = (prod.images && prod.images.length) ? prod.images[0] : 'img/placeholder.png';
     html += `<div class="product-card">
       <img src="${imgSrc}" alt="${prod.name}" class="product-img" onerror="this.src='img/placeholder.png'">
@@ -317,7 +312,6 @@ function renderProducts() {
   });
   productsContainer.innerHTML = html || '<p>No hay productos disponibles</p>';
 
-  // === MODAL: Agregar evento click a las imágenes de producto ===
   document.querySelectorAll('.product-img').forEach(img => {
     img.addEventListener('click', function() {
       const productId = parseInt(this.closest('.product-card').querySelector('.incr-prod-btn').dataset.id);
@@ -341,11 +335,10 @@ function renderProducts() {
   renderPaginationControls(totalPages);
 }
 
-// ---------- BÚSQUEDA CON AUTOCOMPLETADO ----------
+// ---------- BÚSQUEDA CON AUTOCOMPLETADO (MULTICATEGORÍA EN SUGERENCIAS) ----------
 function filterProductsBySearch(term) {
   if (!term.trim()) return [];
   const lowerTerm = term.toLowerCase();
-  // Usamos SORTED_PRODUCTS para mantener el orden alfabético incluso en sugerencias
   return SORTED_PRODUCTS.filter(p => p.name.toLowerCase().includes(lowerTerm));
 }
 
@@ -362,10 +355,13 @@ function showSuggestions(term, inputElement, suggestionsContainer) {
   }
   let html = '';
   matches.forEach(product => {
-    const catName = CATEGORIES.find(c => c.id === product.category)?.name || product.category;
+    // Obtener nombres de las categorías del producto (puede tener varias)
+    const catNames = product.categories
+      .map(catId => CATEGORIES.find(c => c.id === catId)?.name || catId)
+      .join(', ');
     html += `<div class="suggestion-item" data-id="${product.id}">
               <span class="suggestion-name">${product.name}</span>
-              <span class="suggestion-category">${catName}</span>
+              <span class="suggestion-category">${catNames}</span>
             </div>`;
   });
   suggestionsContainer.innerHTML = html;
@@ -416,7 +412,7 @@ function initSearch() {
   });
 }
 
-// ---------- CATEGORÍAS ----------
+// ---------- CATEGORÍAS (sin cambios visuales) ----------
 function renderCategoryLists() {
   const render = (cont) => {
     if (!cont) return;
@@ -520,7 +516,6 @@ function closeAll() {
   if (cartDrawer) cartDrawer.classList.remove('active');
   if (menuOverlay) menuOverlay.classList.remove('active');
   if (cartOverlay) cartOverlay.classList.remove('active');
-  // === MODAL: cerrar también el modal ===
   if (productModal) closeModal();
 }
 
@@ -530,7 +525,6 @@ function openProductModal(productId) {
   if (!prod) return;
 
   currentModalProductId = productId;
-  // Obtener array de imágenes (si no existe, usar array vacío y después placeholder)
   modalImages = prod.images && prod.images.length ? [...prod.images] : [];
   if (modalImages.length === 0) modalImages = ['img/placeholder.png'];
   currentModalImageIndex = 0;
@@ -539,7 +533,6 @@ function openProductModal(productId) {
   modalName.textContent = prod.name;
   modalDesc.textContent = prod.desc || 'Producto de alta calidad, nuevo y sellado. Usted lo estrena';
 
-  // Mostrar precio con descuento si aplica
   const price = getPriceForTotal(prod, currentTotal);
   const showOld = currentTotal >= 200 && price < prod.priceBase;
   modalPrice.innerHTML = showOld
@@ -547,8 +540,6 @@ function openProductModal(productId) {
     : formatMoney(price);
 
   productModal.classList.add('active');
-
-  // Asegurar que existe el contenedor de swipe y configurar eventos
   setupSwipeContainer();
 }
 
@@ -572,7 +563,6 @@ function prevImage() {
 }
 
 function setupSwipeContainer() {
-  // Crear o reutilizar un contenedor swipe alrededor de la imagen
   let swiper = document.getElementById('modal-image-swiper');
   if (!swiper) {
     swiper = document.createElement('div');
@@ -580,29 +570,23 @@ function setupSwipeContainer() {
     swiper.style.position = 'relative';
     swiper.style.overflow = 'hidden';
     swiper.style.userSelect = 'none';
-    // Insertar antes de modalImg y mover la imagen dentro
     modalImg.parentNode.insertBefore(swiper, modalImg);
     swiper.appendChild(modalImg);
-    // Añadir indicador de imágenes (puntos)
     const dotsContainer = document.createElement('div');
     dotsContainer.className = 'modal-dots';
     swiper.appendChild(dotsContainer);
   }
-
   updateModalDots();
 
-  // Eventos táctiles
   swiper.removeEventListener('touchstart', handleSwipeStart);
   swiper.removeEventListener('touchend', handleSwipeEnd);
   swiper.addEventListener('touchstart', handleSwipeStart, {passive: true});
   swiper.addEventListener('touchend', handleSwipeEnd);
 
-  // Eventos de ratón
   swiper.removeEventListener('mousedown', handleMouseDown);
   swiper.removeEventListener('mouseup', handleMouseUp);
   swiper.addEventListener('mousedown', handleMouseDown);
   swiper.addEventListener('mouseup', handleMouseUp);
-  // Prevenir arrastre de imagen por defecto
   modalImg.addEventListener('dragstart', e => e.preventDefault());
 }
 
@@ -696,7 +680,6 @@ function init() {
   bannerContainer = document.getElementById('banner');
   bannerDots = document.getElementById('bannerDots');
 
-  // === MODAL: referencias ===
   productModal = document.getElementById('productModal');
   modalClose = document.getElementById('modalClose');
   modalImg = document.getElementById('modal-img');
@@ -705,7 +688,6 @@ function init() {
   modalPrice = document.getElementById('modal-price');
   modalAddBtn = document.getElementById('modal-add-btn');
 
-  // Eventos del modal
   if (modalClose) modalClose.addEventListener('click', closeModal);
   if (productModal) {
     productModal.addEventListener('click', (e) => {

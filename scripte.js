@@ -48,21 +48,21 @@ const PRODUCTS = [
   { id: 30, name: 'Inversor híbrido SOLAR PowMr 5KW 48Vdc 120V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 850, price1: 850, price2: 850, price3: 800 },
   { id: 31, name: 'Conectores para paneles solares tipo Y MC4 con cable', desc: '', categories: ['solar'], images: ['img/productos/mc4 y con cable.jpg'], priceBase: 12, price1: 10.66, price2: 9.97, price3: 8.96 },
   { id: 32, name: 'Conectores para paneles solares tipo Y MC4 Rígido', desc: '', categories: ['solar'], images: ['img/productos/mc4 y rigido.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
-  { id: 33, name: 'Kit de conectores variados 1200 pcs y pinza de Crimpado', desc: '', categories: ['solar'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 45, price1: 38.79, price2: 35.69, price3: 31.04 },
-  { id: 34, name: 'Kit de conectores variados 2000 pcs y pinza de Crimpado', desc: '', categories: ['solar'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 50, price1: 44.41, price2: 41.61, price3: 37.42 },
-  { id: 35, name: 'Terminales de crimpado tubulares E 60-12 (10 AWG-6 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 10awg.jpg'], priceBase: 0.08, price1: 0.07, price2: 0.06, price3: 0.06 },
-  { id: 36, name: 'Breaker DC de 63A ', desc: '', categories: ['solar'], images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
-  { id: 37, name: 'Terminales de crimpado tubulares E 40-09 (12 AWG-4 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 12awg.jpg'], priceBase: 0.06, price1: 0.05, price2: 0.04, price3: 0.03 },
-  { id: 38, name: 'Terminales de crimpado tubulares E 15-08 (16 AWG-1.5 mm)', desc: '', categories: ['solar', 'herramientas'], images: ['img/productos/terminal redondo 16awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
-  { id: 39, name: 'Terminales de crimpado tubulares E 16-12 (6 AWG-16 mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 6awg.jpg'], priceBase: 0.12, price1: 0.10, price2: 0.09, price3: 0.08 },
-  { id: 40, name: 'Terminales de crimpado tubulares E 10-08 (18 AWG-1mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 18awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
-  { id: 41, name: 'Terminales de crimpado tubulares E 75-08 (20 AWG-0.75mm)', desc: '', categories: ['solar'], images: ['img/productos/terminal redondo 20awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 33, name: 'Kit de conectores variados 1200 pcs y pinza de Crimpado', desc: '', categories: ['solar','electricas'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 45, price1: 38.79, price2: 35.69, price3: 31.04 },
+  { id: 34, name: 'Kit de conectores variados 2000 pcs y pinza de Crimpado', desc: '', categories: ['solar','electricas'], images: ['img/productos/pinza crimpadora.jpg'], priceBase: 50, price1: 44.41, price2: 41.61, price3: 37.42 },
+  { id: 35, name: 'Terminales de crimpado tubulares E 60-12 (10 AWG-6 mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 10awg.jpg'], priceBase: 0.08, price1: 0.07, price2: 0.06, price3: 0.06 },
+  { id: 36, name: 'Breaker DC de 63A ', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
+  { id: 37, name: 'Terminales de crimpado tubulares E 40-09 (12 AWG-4 mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 12awg.jpg'], priceBase: 0.06, price1: 0.05, price2: 0.04, price3: 0.03 },
+  { id: 38, name: 'Terminales de crimpado tubulares E 15-08 (16 AWG-1.5 mm)', desc: '', categories: ['solar','electricas', 'herramientas'], images: ['img/productos/terminal redondo 16awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 39, name: 'Terminales de crimpado tubulares E 16-12 (6 AWG-16 mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 6awg.jpg'], priceBase: 0.12, price1: 0.10, price2: 0.09, price3: 0.08 },
+  { id: 40, name: 'Terminales de crimpado tubulares E 10-08 (18 AWG-1mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 18awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 41, name: 'Terminales de crimpado tubulares E 75-08 (20 AWG-0.75mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 20awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
   { id: 42, name: 'Inversor híbrido SOLAR SUMRY 4000W/120VAC', desc: '', categories: ['solar'], images: ['img/productos/inversor negro.jpg'], priceBase: 520, price1: 520, price2: 505.8, price3: 495 },
   { id: 43, name: 'Conectores MC4 (pareja)', desc: '', categories: ['solar'], images: ['img/productos/conector mc4.jpg'], priceBase: 2, price1: 1.72, price2: 1.59, price3: 11.38 },
-  { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
+  { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar','electricas'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
   { id: 45, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
-  { id: 46, name: 'Breaker doble  AC de 16A 20/240V', desc: '', categories: ['solar'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
-  { id: 47, name: 'Breker doble AC de 32A 120/240 v', desc: '', categories: ['solar'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
+  { id: 46, name: 'Breaker doble  AC de 16A 20/240V', desc: '', categories: ['solar', 'electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
+  { id: 47, name: 'Breker doble AC de 32A 120/240 v', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

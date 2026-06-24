@@ -44,7 +44,7 @@ const PRODUCTS = [
   { id: 24, name: 'Estacion de Energia Portatil Delta 3 Classic', desc: '', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 690, price1: 690, price2: 690, price3: 690 },
   { id: 27, name: 'Breaker DC de 25A', desc: '', categories: ['solar'], images: ['img/productos/breaker 25 DC.jpg'], priceBase: 18, price1: 15.56, price2: 14.35, price3: 12.52 },
   { id: 28, name: 'Bateria Inteligente LiFePO4 51.2V 100Ah', desc: '', categories: ['solar'], images: ['img/productos/bateria powmr.jpg'], priceBase: 1100, price1: 1100, price2: 1100, price3: 1050 },
-  { id: 29, name: 'Inversor híbrido SOLAR PowMr 6.5KW 48Vdc 120/240 V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 1350, price1: 1350, price2: 1350, price3: 1250 },
+  { id: 29, name: 'Inversor híbrido SOLAR PowMr 6.5KW 48Vdc 120/240V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 1350, price1: 1350, price2: 1350, price3: 1250 },
   { id: 30, name: 'Inversor híbrido SOLAR PowMr 5KW 48Vdc 120V', desc: '', categories: ['solar'], images: ['img/productos/Inversor Powmr.jpg'], priceBase: 850, price1: 850, price2: 850, price3: 800 },
   { id: 31, name: 'Conectores para paneles solares tipo Y MC4 con cable', desc: '', categories: ['solar'], images: ['img/productos/mc4 y con cable.jpg'], priceBase: 12, price1: 10.66, price2: 9.97, price3: 8.96 },
   { id: 32, name: 'Conectores para paneles solares tipo Y MC4 Rígido', desc: '', categories: ['solar'], images: ['img/productos/mc4 y rigido.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
@@ -61,8 +61,8 @@ const PRODUCTS = [
   { id: 43, name: 'Conectores MC4 (pareja)', desc: '', categories: ['solar'], images: ['img/productos/conector mc4.jpg'], priceBase: 2, price1: 1.72, price2: 1.59, price3: 11.38 },
   { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar','electricas'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
   { id: 45, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
-  { id: 46, name: 'Breaker doble  AC de 16A 120/240V', desc: '', categories: ['solar', 'electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
-  { id: 47, name: 'Breker doble AC de 32A 120/240 v', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
+  { id: 46, name: 'Breaker doble AC de 16A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
+  { id: 47, name: 'Breaker doble AC de 32A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

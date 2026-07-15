@@ -62,7 +62,20 @@ const PRODUCTS = [
   { id: 44, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar','electricas'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
   { id: 45, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
   { id: 46, name: 'Breaker doble AC de 16A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
-  { id: 47, name: 'Breaker doble AC de 32A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 }
+  { id: 47, name: 'Breaker doble AC de 32A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 },
+  { id: 48, name: 'Juego de Manometros R410a/R134a/R22 Cowplandt', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/manometro.jpg'], priceBase: 36, price1: 34.55, price2: 31.83, price3: 27.75 },
+  { id: 49, name: 'Regulador de Oxigeno 9/16" -18RH (entrada 150 Bar/salida 12.5 Bar', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/regulador de oxígeno.jpg'], priceBase: 27, price1: 26.31, price2: 24.46, price3: 21.69 },
+  { id: 50, name: 'Set clip para cables blanco/negros varias medidas 60pcs', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/set clip para cables blanco negro.jpg'], priceBase: 2.25, price1: 2.22, price2: 2.07, price3: 1.86 },
+  { id: 51, name: 'Terminal Macho Redondo Amarillo 12-10 AWG', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/terminal amarillo.jpg'], priceBase: 0.07, price1: 0.06, price2: 0.06, price3: 0.06 },
+  { id: 52, name: 'Hidrolavadora de 1400W', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/hidrolavadora.jpg'], priceBase: 160, price1: 144.87, price2: 137.30, price3: 125.95 },
+  { id: 53, name: 'Hidrolavadora de 1650W', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/hidrolavadora.jpg'], priceBase: 190, price1: 171.38, price2: 162.07, price3: 148.11 },
+  { id: 54, name: 'LLave Combinada Ratchet 10mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet 10.jpg'], priceBase: 4, price1: 3.57, price2: 3.36, price3: 3.03 },
+  { id: 55, name: 'LLave Combinada Ratchet 11mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet 11.jpg'], priceBase: 4, price1: 3.57, price2: 3.35, price3: 3.03 },
+  { id: 56, name: 'LLave Combinada Ratchet 12mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet 12.jpg'], priceBase: 4, price1: 3.64, price2: 3.45, price3: 3.18 },
+  { id: 57, name: 'LLave Combinada Ratchet Flexible 10mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet flexible 10.jpg'], priceBase: 6, price1: 5.3, price2: 4.95, price3: 4.43 },
+  { id: 58, name: 'LLave Combinada Ratchet Flexible 12mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet flexible 12.jpg'], priceBase: 6, price1: 5.31, price2: 4.97, price3: 4.45 },
+  { id: 59, name: 'LLave Combinada Ratchet Flexible 13mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet flexible 13.jpg'], priceBase: 7, price1: 6.16, price2: 5.74, price3: 5.11 },
+  { id: 54, name: 'Taladro de Impacto 13mm (1/2" 600W)', desc: '', categories: ['herramientas'], images: ['img/productos/taladro de impacto 13mm.jpg'], priceBase: 58, price1: 52.24, price2: 49.36, price3: 45.03 },
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

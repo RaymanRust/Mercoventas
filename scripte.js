@@ -76,6 +76,9 @@ const PRODUCTS = [
   { id: 58, name: 'LLave Combinada Ratchet Flexible 12mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet flexible 12.jpg'], priceBase: 6, price1: 5.31, price2: 4.97, price3: 4.45 },
   { id: 59, name: 'LLave Combinada Ratchet Flexible 13mm', desc: '', categories: ['herramientas'], images: ['img/productos/llave ratchet flexible 13.jpg'], priceBase: 7, price1: 6.16, price2: 5.74, price3: 5.11 },
   { id: 54, name: 'Taladro de Impacto 13mm (1/2" 600W)', desc: '', categories: ['herramientas'], images: ['img/productos/taladro de impacto 13mm.jpg'], priceBase: 58, price1: 52.24, price2: 49.36, price3: 45.03 },
+  { id: 55, name: 'Cuchilla doble tiro trif 63 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro trif 63 amp.png'], priceBase: 18, price1: 15.49, price2: 14.23, price3: 12.34 },
+  { id: 56, name: 'Cuchilla doble tiro trif 100 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro trf 100amp.png'], priceBase: 24, price1: 20.71, price2: 19.07, price3: 16.60 },
+  { id: 57, name: 'cuchilla doble tiro monof 63 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro monof 63 amp.png'], priceBase: 12, price1: 10.36, price2: 9.53, price3: 8.30 },
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

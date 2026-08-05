@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 540;
+const USD_TO_CUP = 700;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -79,7 +79,13 @@ const PRODUCTS = [
   { id: 59, name: 'Terminales de crimpado tubulares E 10-08 (18 AWG-1mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 18awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
   { id: 60, name: 'Terminales de crimpado tubulares E 75-08 (20 AWG-0.75mm)', desc: '', categories: ['solar','electricas'], images: ['img/productos/terminal redondo 20awg.jpg'], priceBase: 0.05, price1: 0.04, price2: 0.03, price3: 0.03 },
   { id: 61, name: 'Terminal Macho Redondo Amarillo 12-10 AWG', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/terminal amarillo.jpg'], priceBase: 0.07, price1: 0.06, price2: 0.06, price3: 0.06 },
-  ];
+  { id: 62, name: 'Controlador de carga solar MPPT 30A ,1200 W Input 12 60 V Carga:48,60,72', desc: '', categories: ['solar'], images: ['img/productos/mppt.png'], priceBase: 120, price1: 104.89, price2: 97.34, price3: 86.01 },
+  { id: 63, name: 'Termómetro Infrarrojo Laser HYTAIS TS600 (-50 °C -600°C)', desc: '', categories: ['refrigeracion'], images: ['img/productos/term inf.png'], priceBase: 20, price1: 17.70, price2: 16.55, price3: 14.82 },
+  { id: 64, name: 'Ventilador Recargable X13 20000mAh c/mando', desc: '', categories: ['solar'], images: ['img/productos/ventilador n.png'], priceBase: 60, price1: 53.10, price2: 49.65, price3: 44.48 },
+  { id: 65, name: 'Ventilador Recargable inteligente c/spray fan y luces (verde)', desc: '', categories: ['solar'], images: ['img/productos/ventilador verde.png'], priceBase: 60, price1: 54.82, price2: 52.22, price3: 48.34 },
+  { id: 66, name: 'Soporte magnetico multiuso para telefono giratorio 360° ,plegable y y extensible', desc: '', categories: [''], images: ['img/productos/base celular.png'], priceBase: 8, price1: 6.83, price2: 6.24, price3: 5.36 },
+  
+];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE
 function sortProductsAlphabetically(products) {
@@ -491,7 +497,7 @@ function sendOrder() {
   });
   msg += `%0A*Total: ${formatMoney(currentTotal)}*`;
   if (baseTotal > currentTotal) msg += `%0A*Ahorro: ${formatMoney(baseTotal - currentTotal)}*`;
-  window.open(`https://wa.me/+5350746226?text=${msg}`, '_blank');
+  window.open(`https://wa.me/+5350746228?text=${msg}`, '_blank');
 }
 
 // ---------- BANNER ----------

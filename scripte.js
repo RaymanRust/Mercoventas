@@ -84,6 +84,8 @@ const PRODUCTS = [
   { id: 64, name: 'Ventilador Recargable X13 20000mAh c/mando', desc: '', categories: ['solar'], images: ['img/productos/ventilador n.png'], priceBase: 60, price1: 53.10, price2: 49.65, price3: 44.48 },
   { id: 65, name: 'Ventilador Recargable inteligente c/spray fan y luces (verde)', desc: '', categories: ['solar'], images: ['img/productos/ventilador verde.png'], priceBase: 60, price1: 54.82, price2: 52.22, price3: 48.34 },
   { id: 66, name: 'Soporte magnetico multiuso para telefono giratorio 360° ,plegable y y extensible', desc: '', categories: [''], images: ['img/productos/base celular.png'], priceBase: 8, price1: 6.83, price2: 6.24, price3: 5.36 },
+  { id: 67, name: 'Lampara Solar con Sensor Led (3 luces)', desc: '', categories: ['solar'], images: ['img/productos/lampara.png'], priceBase: 28, price1: 24.62, price2: 22.93, price3: 20.39 },
+  { id: 68, name: 'Refrigerante R32 (cilindro) 3kg', desc: '', categories: ['solar'], images: ['img/productos/refrigerante r32 3kg.png'], priceBase: 80, price1: 74, price2: 71, price3: 66.50 },
   
 ];
 

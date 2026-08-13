@@ -47,7 +47,7 @@ const PRODUCTS = [
   { id: 27, name: 'Cable original para estacion de energia portatil 5m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 70, price1: 61.15, price2: 56.72, price3: 50.08 },
   { id: 28, name: 'Conectores para paneles solares tipo Y MC4 con cable', desc: '', categories: ['solar'], images: ['img/productos/mc4 y con cable.jpg'], priceBase: 12, price1: 10.66, price2: 9.97, price3: 8.96 },
   { id: 29, name: 'Conectores para paneles solares tipo Y MC4 Rígido', desc: '', categories: ['solar'], images: ['img/productos/mc4 y rigido.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
-  { id: 30, name: 'Conectores MC4 (pareja)', desc: '', categories: ['solar'], images: ['img/productos/conector mc4.jpg'], priceBase: 2, price1: 1.72, price2: 1.59, price3: 11.38 },
+  { id: 30, name: 'Conectores MC4 (pareja)', desc: '', categories: ['solar'], images: ['img/productos/conector mc4.jpg'], priceBase: 2.5, price1: 1.72, price2: 1.59, price3: 11.38 },
   { id: 31, name: 'Conectores Xt60I-F (1 pieza) marca Amass', desc: '', categories: ['solar','electricas'], images: ['img/productos/conector xt60i-F.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.53 },
   { id: 32, name: 'Cuchilla doble tiro monof 63 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro monof 63 amp.png'], priceBase: 12, price1: 10.36, price2: 9.53, price3: 8.30 },
   { id: 33, name: 'Cuchilla doble tiro trif 63 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro trif 63 amp.png'], priceBase: 18, price1: 15.49, price2: 14.23, price3: 12.34 },
@@ -82,11 +82,49 @@ const PRODUCTS = [
   { id: 62, name: 'Controlador de carga solar MPPT 30A ,1200 W Input 12 60 V Carga:48,60,72', desc: '', categories: ['solar'], images: ['img/productos/mppt.png'], priceBase: 120, price1: 104.89, price2: 97.34, price3: 86.01 },
   { id: 63, name: 'Termómetro Infrarrojo Laser HYTAIS TS600 (-50 °C -600°C)', desc: '', categories: ['refrigeracion'], images: ['img/productos/term inf.png'], priceBase: 20, price1: 17.70, price2: 16.55, price3: 14.82 },
   { id: 64, name: 'Ventilador Recargable X13 20000mAh c/mando', desc: '', categories: ['solar'], images: ['img/productos/ventilador n.png'], priceBase: 60, price1: 53.10, price2: 49.65, price3: 44.48 },
-  { id: 65, name: 'Ventilador Recargable inteligente c/spray fan y luces (verde)', desc: '', categories: ['solar'], images: ['img/productos/ventilador verde.png'], priceBase: 60, price1: 54.82, price2: 52.22, price3: 48.34 },
+  { id: 65, name: 'Ventilador Recargable inteligente c/spray fan y luces (verde)', desc: '', categories: ['solar'], images: ['img/productos/ventilador verde.png'], priceBase: 45, price1: 40.82, price2: 42.22, price3: 38.34 },
   { id: 66, name: 'Soporte magnetico multiuso para telefono giratorio 360° ,plegable y y extensible', desc: '', categories: [''], images: ['img/productos/base celular.png'], priceBase: 8, price1: 6.83, price2: 6.24, price3: 5.36 },
   { id: 67, name: 'Lampara Solar con Sensor Led (3 luces)', desc: '', categories: ['solar'], images: ['img/productos/lampara.png'], priceBase: 28, price1: 24.62, price2: 22.93, price3: 20.39 },
-  { id: 68, name: 'Refrigerante R32 (cilindro) 3kg', desc: '', categories: ['solar'], images: ['img/productos/refrigerante r32 3kg.png'], priceBase: 80, price1: 74, price2: 71, price3: 66.50 },
-  
+  { id: 68, name: 'Refrigerante R32 (cilindro) 3kg', desc: '', categories: ['refrigeracion'], images: ['img/productos/refrigerante r32 3kg.png'], priceBase: 80, price1: 74, price2: 71, price3: 66.50 },
+  { id: 69, name: 'Juego de Brocas Macho 6 piezas HSS Hoteche ( M3 a M10 )', desc: '', categories: ['herramientas'], images: ['img/productos/ju034.png'], priceBase: 15, price1: 13.40, price2: 12.60, price3: 11.39 },
+  { id: 70, name: 'Virulero mediano 1/8 a 3/4 CFT 275', desc: '', categories: ['herramientas'], images: ['img/productos/vi001.png'], priceBase: 45, price1: 38.70, price2: 35.56, price3: 30.84 },
+  { id: 71, name: 'Termostato k59-Q2800 Original Refrig. Haier', desc: '', categories: ['herramientas'], images: ['img/productos/te049.png'], priceBase: 10, price1: 8.86, price2: 8.29, price3: 7.44 },
+  { id: 72, name: 'Pesa digital Cowplandt de 40 kg', desc: '', categories: ['herramientas'], images: ['img/productos/pe003.png'], priceBase: 50, price1: 43.90, price2: 40.85, price3: 36.27 },
+  { id: 73, name: 'Porta celular carro a retrovisor', desc: '', categories: ['herramientas'], images: ['img/productos/po001.png'], priceBase: 5, price1: 4.51, price2: 4.27, price3: 3.90 },
+  { id: 74, name: 'Manguera corrugada de goma para Lavadora ( 17-30 cm) Diam 2.5 cm', desc: '', categories: ['herramientas'], images: ['img/productos/ma007.png'], priceBase: 4, price1: 3.57, price2: 3.35, price3: 3.02 },
+  { id: 75, name: 'Juego de Brocas Para Taladro SDS PLUS (para hormigón) 5PCS', desc: '', categories: ['herramientas'], images: ['img/productos/ju038.png'], priceBase: 10, price1: 8.95, price2: 8.42, price3: 7.63 },
+  { id: 76, name: 'Cargador telescopico para vehiculos 4 en 1 ', desc: '', categories: ['herramientas'], images: ['img/productos/ca1291.png'], priceBase: 20, price1: 18.10, price2: 17.16, price3: 17.16 },
+  { id: 77, name: 'Filtro/regulador y lubricador tamaño del puerto : 1/4" (Max 1MPA)', desc: '', categories: ['herramientas'], images: ['img/productos/fi014.png'], priceBase: 12, price1: 10.89, price2: 10.33, price3: 9.50 },
+  { id: 78, name: 'Juego 5 PCS de Cepillo de Alambre Circular 1/4" con vástago', desc: '', categories: ['solar'], images: ['img/productos/ju010.png'], priceBase: 9, price1: 8, price2: 7.50, price3: 6.75 },
+  { id: 79, name: 'Juego de 9 piezas llaves hexagonales (allen) largas', desc: '', categories: ['solar'], images: ['img/productos/ju024.png'], priceBase: 9, price1: 7.80, price2: 7.20, price3: 6.30 },
+  { id: 80, name: 'Juego de 9 piezas llaves hexagonales (allen) cortas', desc: '', categories: ['solar'], images: ['img/productos/ju023.png'], priceBase: 9, price1: 7.75, price2: 7.12, price3: 6.18 },
+  { id: 81, name: 'Juego de sierras de Copa P/Metal 5PCS', desc: '', categories: ['solar'], images: ['img/productos/ju075.png'], priceBase: 26, price1: 23.36, price2: 22.04, price3: 20.06 },
+  { id: 82, name: 'Juego de sierras para Agujero 3PCS', desc: '', categories: ['solar'], images: ['img/productos/ju077.png'], priceBase: 5, price1: 4.43, price2: 4.15, price3: 3.72 },
+  { id: 83, name: 'Junta de refrigerador con Iman (2,5 m)', desc: '', categories: ['solar'], images: ['img/productos/ju084.png'], priceBase: 20, price1: 17.81, price2: 16.72, price3: 15.08 },
+  { id: 84, name: 'Llave Combinada 17mm', desc: '', categories: ['solar'], images: ['img/productos/ll019.png'], priceBase: 4, price1: 3.54, price2: 3.31, price3: 2.97 },
+  { id: 85, name: 'Llave Combinada 19mm', desc: '', categories: ['solar'], images: ['img/productos/ll020.png'], priceBase: 4, price1: 3.49, price2: 3.24, price3: 2.85 },
+  { id: 86, name: 'Llave de Tubo 12"/250mm', desc: '', categories: ['solar'], images: ['img/productos/ll036.png'], priceBase: 16, price1: 13.60, price2: 12.40, price3: 10.61 },
+  { id: 87, name: 'Manguera Salida de agua de Split x Metros', desc: '', categories: ['solar'], images: ['img/productos/ma015.png'], priceBase: 1, price1: 0.84, price2: 0.76, price3: 0.65 },
+  { id: 88, name: 'Refrigerante 600a', desc: '', categories: ['refrigeracion'], images: ['img/productos/re014.png'], priceBase: 90, price1: 81.36, price2: 77.04, price3: 70.55 },
+  { id: 89, name: 'Sierra Corona para copa bimetálica HSS 19mm (3/4")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si001.png'], priceBase: 3.80, price1: 3.43, price2: 3.25, price3: 2.97 },
+  { id: 90, name: 'Sierra Corona para copa bimetálica HSS 20mm (25/32")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si002.png'], priceBase: 4.10, price1: 3.69, price2: 3.48, price3: 3.18 },
+  { id: 91, name: 'Sierra Corona para copa bimetálica HSS 22mm (7/8")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si003.png'], priceBase: 4.10, price1: 3.59, price2: 3.34, price3: 2.96 },
+  { id: 92, name: 'Sierra Corona para copa bimetálica HSS 25mm (1")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si004.png'], priceBase: 4.20, price1: 3.73, price2: 3.49, price3: 3.13 },
+  { id: 93, name: 'Sierra Corona para copa bimetálica HSS 29mm (1-1/8")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si005.png'], priceBase: 4.20, price1: 3.78, price2: 3.57, price3: 3.25 },
+  { id: 94, name: 'Sierra Corona para copa bimetálica HSS 32mm (1/4")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si006.png'], priceBase: 6, price1: 5.28, price2: 4.92, price3: 4.38 },
+  { id: 95, name: 'Sierra Corona para copa bimetálica HSS 35mm (1-3/8")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si007.png'], priceBase: 6.50, price1: 5.72, price2: 5.33, price3: 4.74 },
+  { id: 96, name: 'Sierra Corona para copa bimetálica HSS 44mm (1-3/4")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si009.png'], priceBase: 8, price1: 7.06, price2: 6.58, price3: 5.87 },
+  { id: 97, name: 'Sierra Corona para copa bimetálica HSS 51mm (2")', desc: '', categories: ['refrigeracion'], images: ['img/productos/si010.png'], priceBase: 9, price1: 7.95, price2: 7.43, price3: 6.64 },
+
+
+
+
+
+
+
+
+
+
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

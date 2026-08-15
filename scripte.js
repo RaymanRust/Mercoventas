@@ -168,6 +168,41 @@ const PRODUCTS = [
   { id: 148, name: 'Disco de lijado de óxido de aluminio con velcro P60 7"/180 mm x u', desc: '', categories: ['refrigeracion'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.45, price2: 0.43, price3: 0.39 },
   { id: 149, name: 'Disco de lijado de óxido de aluminio con velcro P80 7"/180 mm x u', desc: '', categories: ['refrigeracion'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.41, price3: 0.37 },
   { id: 150, name: 'Disco de lijado de óxido de aluminio con velcro P240 9"/225 mm x u', desc: '', categories: ['refrigeracion'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.45, price2: 0.42, price3: 0.38 },
+  { id: 151, name: 'Detector de fuga fluorecente 2,5 ML', desc: '', categories: ['refrigeracion'], images: ['img/productos/de0241.jpg'], priceBase: 5, price1: 4.54, price2: 4.30, price3: 3.96 },
+  { id: 152, name: 'Bomba de aire para neumáticos 101-150 psi 12V 120W 8000mAh con función Power Bank', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0012.jpg'], priceBase: 35, price1: 30.12, price2: 27.68, price3: 24.02 },
+  { id: 153, name: 'Disco para lijar con Velcro 115 mm x M14', desc: '', categories: ['refrigeracion'], images: ['img/productos/di011.jpg'], priceBase: 4, price1: 3.54, price2: 3.32, price3: 2.97 },
+  { id: 154, name: 'Escuadra de Soldadura Magnética 4" 50 lb', desc: '', categories: ['refrigeracion'], images: ['img/productos/es006-007.jpg'], priceBase: 7, price1: 6.19, price2: 5.79, price3: 5.18 },
+  { id: 155, name: 'Escuadra de Soldadura Magnética 5" 75 lb', desc: '', categories: ['refrigeracion'], images: ['img/productos/es006-007.jpg'], priceBase: 14, price1: 12.57, price2: 11.85, price3: 10.78 },
+  { id: 156, name: 'Expansor de tubo de cobre set 5 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/ex002.jpg'], priceBase: 18, price1: 15.96, price2: 14.94, price3: 13.41 },
+  { id: 157, name: 'Filtro Secador doméstico 5/16 x 1/4 kaled 2T Hercules', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi009.png'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
+  { id: 158, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia ST180', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju002.png'], priceBase: 30, price1: 26.21, price2: 24.31, price3: 21.47 },
+  { id: 159, name: 'Juego de Adaptadores de dados de impacto 6 piezas C-206106', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju027.jpg'], priceBase: 20, price1: 17.34, price2: 16.01, price3: 14.02 },
+  { id: 160, name: 'Juego de destornilladores de precisión de 6 piezas (mango engomado) 241806', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju049.jpg'], priceBase: 5, price1: 4.31, price2: 3.97, price3: 3.46 },
+  { id: 161, name: 'Juego de destornilladores de precisión de 6 piezas (mango metálico) 242006', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju050.png'], priceBase: 5, price1: 4.36, price2: 4.04, price3: 3.57 },
+  { id: 162, name: 'Juego de Extractor de pernos y tuercas 11 piezas', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju052.png'], priceBase: 30, price1: 26.92, price2: 25.38, price3: 23.07 },
+  { id: 163, name: 'Kit para limpieza de drenaje de refrigeracion', desc: '', categories: ['refrigeracion'], images: ['img/productos/ki006.png'], priceBase: 5.50, price1: 4.99, price2: 4.74, price3: 4.36 },
+  { id: 164, name: 'Manguera de Entrada de agua para LAVADORA 1.5 m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ma009.jpg'], priceBase: 6, price1: 5.51, price2: 5.27, price3: 4.90 },
+  { id: 165, name: 'Pintura Spray para Interior/Exterior 450ml Blanco/Blanco Mate', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi006.jpg'], priceBase: 5, price1: 4.60, price2: 4.40, price3: 4.10 },
+  { id: 166, name: 'Protector Circuito Breaker 220 V 63A Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr011.jpg'], priceBase: 28, price1: 24.86, price2: 23.29, price3: 20.94 },
+  { id: 167, name: 'Protector ajustable-programable de voltaje TOMZN LN 220V 63A 2P(pantalla digital -VA)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr022.jpg'], priceBase: 28, price1: 24.43, price2: 22.64, price3: 19.96 },
+  { id: 168, name: 'Relay de Estado Solido JTSSR 40A', desc: '', categories: ['refrigeracion'], images: ['img/productos/re024.jpg'], priceBase: 8, price1: 7.19, price2: 6.79, price3: 6.19 },
+  { id: 169, name: 'Tapas de cable eléctrico azul 22-14 AWG', desc: '', categories: ['refrigeracion'], images: ['img/productos/ta012.jpg'], priceBase: 0.06, price1: 0.05, price2: 0.05, price3: 0.05 },
+  { id: 170, name: 'Tapas de cable eléctrico gris 22-16 AWG', desc: '', categories: ['refrigeracion'], images: ['img/productos/ta013.jpg'], priceBase: 0.04, price1: 0.04, price2: 0.03, price3: 0.03 },
+  { id: 171, name: 'Tapas de cable eléctrico rojo 18-10 AWG', desc: '', categories: ['refrigeracion'], images: ['img/productos/ta014.jpg'], priceBase: 0.10, price1: 0.09, price2: 0.09, price3: 0.08 },
+  { id: 172, name: 'Tarjeta Refrigerador Mabe 225D7291G006', desc: '', categories: ['refrigeracion'], images: ['img/productos/ta019.jpg'], priceBase: 40, price1: 35.66, price2: 33.49, price3: 30.23 },
+  { id: 173, name: 'Terminal Rojo Hembra Estandar (6,3 mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/te036.jpg'], priceBase: 0.15, price1: 0.13, price2: 0.11, price3: 0.10 },
+  { id: 174, name: 'Terminal Rojo Hembra Estandar con Extension', desc: '', categories: ['refrigeracion'], images: ['img/productos/te037.jpg'], priceBase: 0.15, price1: 0.13, price2: 0.12, price3: 0.10 },
+  { id: 175, name: 'Turbina A.A Vent 178x50 Eje 5/16 Plast', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu012-014.jpg'], priceBase: 15, price1: 12.10, price2: 10.65, price3: 8.47 },
+  { id: 176, name: 'Turbina A.A Vent 182x52 Eje 5/16 Plast', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu012-014.jpg'], priceBase: 15, price1: 12.10, price2: 10.65, price3: 8.47 },
+  { id: 177, name: 'Turbina A.A Vent 182x76 Eje 1/2 Plast', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu012-014.jpg'], priceBase: 15, price1: 12.89, price2: 11.83, price3: 10.25 },
+  { id: 178, name: 'Turbina P/Split 96x611mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu018.jpg'], priceBase: 20, price1: 17.49, price2: 16.24, price3: 14.36 },
+  { id: 179, name: 'Válvula dispensadora para bala de refrigerante (Azul)', desc: '', categories: ['refrigeracion'], images: ['img/productos/va009.jpg'], priceBase: 7, price1: 6.24, price2: 5.86, price3: 5.29 },
+  { id: 180, name: 'Válvula dispensadora para bala de refrigerante (Plateada)', desc: '', categories: ['refrigeracion'], images: ['img/productos/va010.jpg'], priceBase: 9, price1: 7.98, price2: 7.47, price3: 6.71 },
+
+
+
+
+
 
 ];
 

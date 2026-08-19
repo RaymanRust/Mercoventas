@@ -198,6 +198,59 @@ const PRODUCTS = [
   { id: 178, name: 'Turbina P/Split 96x611mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu018.jpg'], priceBase: 20, price1: 17.49, price2: 16.24, price3: 14.36 },
   { id: 179, name: 'Válvula dispensadora para bala de refrigerante (Azul)', desc: '', categories: ['refrigeracion'], images: ['img/productos/va009.jpg'], priceBase: 7, price1: 6.24, price2: 5.86, price3: 5.29 },
   { id: 180, name: 'Válvula dispensadora para bala de refrigerante (Plateada)', desc: '', categories: ['refrigeracion'], images: ['img/productos/va010.jpg'], priceBase: 9, price1: 7.98, price2: 7.47, price3: 6.71 },
+  { id: 181, name: 'Breker Extintor en aeresol', desc: '', categories: ['refrigeracion'], images: ['img/productos/br0070.jpg'], priceBase: 12, price1: 10.31, price2: 9.47, price3: 8.20 },
+  { id: 182, name: 'Cinta Metálica 5cm x 25m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci017.jpg'], priceBase: 6, price1: 5.31, price2: 4.97, price3: 4.46 },
+  { id: 183, name: 'Cinturón de soporte lumbar 20 x 108 cm (Talla L)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci024.jpg'], priceBase: 15, price1: 13.42, price2: 12.62, price3: 11.44 },
+  { id: 184, name: 'Cinturón de soporte lumbar 20 x 116 cm (Talla XL)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci025.jpg'], priceBase: 15, price1: 13.42, price2: 12.62, price3: 11.44 },
+  { id: 185, name: 'Capacitor plastico Bomba de agua 14 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca0412.jpg'], priceBase: 3.50, price1: 3.02, price2: 2.78, price3: 2.42 },
+  { id: 186, name: 'Capacitor plastico Bomba de agua 15 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca0413.jpg'], priceBase: 4, price1: 3.43, price2: 3.15, price3: 2.73 },
+  { id: 187, name: 'Compresor R134 110v 1/3 hp Cowplandt 110v', desc: '', categories: ['refrigeracion'], images: ['img/productos/co025.jpg'], priceBase: 160, price1: 142.50, price2: 133.76, price3: 120.63 },
+  { id: 188, name: 'Compresor R134 110v 1/4 hp SECOP (Danfoss)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co029.jpg'], priceBase: 150, price1: 134.69, price2: 127.04, price3: 115.56 },
+  { id: 189, name: 'Compresor R134 110v 1/5-1/6 hp Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/co033.jpg'], priceBase: 110, price1: 98.75, price2: 93.13, price3: 84.69 },
+  { id: 190, name: 'Compresor R134 220v 1/3 hp Tecumseh Refrigeración', desc: '', categories: ['refrigeracion'], images: ['img/productos/co043.jpg'], priceBase: 170, price1: 158, price2: 152, price3: 143 },
+  { id: 191, name: 'Condensador/Parrilla 6 vueltas (60 x 43.5 cm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co049.jpg'], priceBase: 22, price1: 18.47, price2: 16.70, price3: 14.05 },
+  { id: 192, name: 'Condensador/Parrilla 7 vueltas (70 x 43.5 cm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co050.jpg'], priceBase: 25, price1: 21.04, price2: 19.06, price3: 16.09 },
+  { id: 193, name: 'Conector de manguera de cocina de gas 1.1 cm', desc: '', categories: ['refrigeracion'], images: ['img/productos/co063.jpg'], priceBase: 2.50, price1: 2.32, price2: 2.22, price3: 2.09 },
+  { id: 194, name: 'Corta Tubo Ratchet Hoteche 3-32 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/co087.jpg'], priceBase: 10, price1: 8.99, price2: 8.48, price3: 7.72 },
+  { id: 195, name: 'Corta Tubo 3-22 mm hoteche', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0891.jpg'], priceBase: 8, price1: 6.89, price2: 6.33, price3: 5.49 },
+  { id: 196, name: 'Dado Profundo de 1/2" de 21 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/da006.jpg'], priceBase: 5, price1: 4.42, price2: 4.13, price3: 3.70 },
+  { id: 197, name: 'Destornillador PH 2x100mm (241610)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de006.jpg'], priceBase: 3, price1: 2.61, price2: 2.42, price3: 2.13 },
+  { id: 198, name: 'Destornillador PH 2x300mm (241630)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de008.jpg'], priceBase: 4, price1: 3.51, price2: 3.26, price3: 2.89 },
+  { id: 199, name: 'Destornillador PH 2x38 mm (Chico) (241638)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de009.jpg'], priceBase: 2, price1: 1.74, price2: 1.62, price3: 1.43 },
+  { id: 200, name: 'Destornillador PH 3x150mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/de010.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.02 },
+  { id: 201, name: 'Destornillador punta pasante PH3 x 200 mm (245820)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de012.jpg'], priceBase: 5, price1: 4.48, price2: 4.23, price3: 3.84 },
+  { id: 202, name: 'Destornillador PZ1 x 100mm (242510)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de013.jpg'], priceBase: 2.50, price1: 2.19, price2: 2.04, price3: 1.81 },
+  { id: 203, name: 'Destornillador PZ2 x 150mm (242615)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de015.jpg'], priceBase: 4, price1: 3.46, price2: 3.18, price3: 2.77 },
+  { id: 204, name: 'Destornillador punta pasante PH2 x 100 mm (245610)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de0061.jpg'], priceBase: 3.50, price1: 3.14, price2: 2.96, price3: 2.69 },
+  { id: 205, name: 'Destornillador PH 2x250mm (241625)', desc: '', categories: ['refrigeracion'], images: ['img/productos/de0071.jpg'], priceBase: 3.50, price1: 3.10, price2: 2.90, price3: 2.60 },
+  { id: 206, name: 'Toma Doble Universal -110-15A Blanco Q7-Lumina', desc: '', categories: ['refrigeracion'], images: ['img/productos/to003.jpg'], priceBase: 2.20, price1: 1.93, price2: 1.79, price3: 1.58 },
+  { id: 207, name: 'Tomacorriente Tri.20A/240V-Blanco-Q7-Lumina', desc: '', categories: ['refrigeracion'], images: ['img/productos/to004.jpg'], priceBase: 2.00, price1: 1.72, price2: 1.59, price3: 1.38 },
+  { id: 208, name: 'Termico Universal Rotativo Protector 36000 Btu A.A 110V', desc: '', categories: ['refrigeracion'], images: ['img/productos/te019.jpg'], priceBase: 2.00, price1: 1.70, price2: 1.55, price3: 1.32 },
+  { id: 209, name: 'Terminal Macho Redon/Amr 195 12-10 AWG 100', desc: '', categories: ['refrigeracion'], images: ['img/productos/te0261.jpg'], priceBase: 0.08, price1: 0.07, price2: 0.06, price3: 0.06 },
+  { id: 210, name: 'Taladro de Impacto 13mm (1/2")-600W 5amp', desc: '', categories: ['refrigeracion'], images: ['img/productos/ta002.jpg'], priceBase: 58, price1: 52.24, price2: 49.36, price3: 45.03 },
+  { id: 211, name: 'Timer 8Hr20min Plas Bco AP14', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti004.jpg'], priceBase: 8, price1: 6.96, price2: 6.44, price3: 5.66 },
+  { id: 212, name: 'Timer Deshielo 10Hrs Orig.2188371', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti010.jpg'], priceBase: 8, price1: 6.97, price2: 6.45, price3: 5.67 },
+  { id: 213, name: 'Timer Deshielo 10Hrs/30m 110V Mabe /GE', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti011.jpg'], priceBase: 8, price1: 6.98, price2: 6.47, price3: 5.71 },
+  { id: 214, name: 'Timer univ 4H 25min DS004A 1/2HP 110V 10A', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti017.jpg'], priceBase: 8, price1: 6.96, price2: 6.44, price3: 5.66 },
+  { id: 215, name: 'Silicona Multiuso -Negra-85 G-Q7', desc: '', categories: ['refrigeracion'], images: ['img/productos/si011.jpg'], priceBase: 1.80, price1: 1.57, price2: 1.45, price3: 1.28 },
+  { id: 216, name: 'Sellador de Gotera Multi Uso -Negro-400ml Q7', desc: '', categories: ['refrigeracion'], images: ['img/productos/se005.jpg'], priceBase: 6, price1: 5.18, price2: 4.77, price3: 4.15 },
+  { id: 217, name: 'Set clip para cables blanco/negro medidas varias 60 PZAS', desc: '', categories: ['refrigeracion'], images: ['img/productos/se037.jpg'], priceBase: 2.50, price1: 2.22, price2: 2.07, price3: 1.86 },
+  { id: 218, name: 'Presostato CP1-7M716R Cowplandt 0.5-7Bar (C-5259)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr002.jpg'], priceBase: 20, price1: 17.81, price2: 16.71, price3: 15.06 },
+  { id: 219, name: 'Presostato CP5-32M14R Cowplandt 8-30 Bar (C-5444)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr003.jpg'], priceBase: 22, price1: 19.79, price2: 18.68, price3: 17.02 },
+  { id: 220, name: 'Presostato Nev 010-1402 Baja (C-3090)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr005.jpg'], priceBase: 22, price1: 19.67, price2: 18.51, price3: 16.77 },
+  { id: 221, name: 'Fan o Motor de Ventilador Axial 450MM YWF4E-450BC', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa062.jpg'], priceBase: 190, price1: 164.36, price2: 151.54, price3: 1132.31 },
+
+  
+
+
+
+
+
+  
+
+
+
+
 
 
 

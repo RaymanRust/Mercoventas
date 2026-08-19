@@ -174,13 +174,13 @@ const PRODUCTS = [
   { id: 154, name: 'Escuadra de Soldadura Magnética 4" 50 lb', desc: '', categories: ['refrigeracion'], images: ['img/productos/es006-007.jpg'], priceBase: 7, price1: 6.19, price2: 5.79, price3: 5.18 },
   { id: 155, name: 'Escuadra de Soldadura Magnética 5" 75 lb', desc: '', categories: ['refrigeracion'], images: ['img/productos/es006-007.jpg'], priceBase: 14, price1: 12.57, price2: 11.85, price3: 10.78 },
   { id: 156, name: 'Expansor de tubo de cobre set 5 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/ex002.jpg'], priceBase: 18, price1: 15.96, price2: 14.94, price3: 13.41 },
-  { id: 157, name: 'Filtro Secador doméstico 5/16 x 1/4 kaled 2T Hercules', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi009.png'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
-  { id: 158, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia ST180', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju002.png'], priceBase: 30, price1: 26.21, price2: 24.31, price3: 21.47 },
+  { id: 157, name: 'Filtro Secador doméstico 5/16 x 1/4 kaled 2T Hercules', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi009.jpg'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
+  { id: 158, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia ST180', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju002.jpg'], priceBase: 30, price1: 26.21, price2: 24.31, price3: 21.47 },
   { id: 159, name: 'Juego de Adaptadores de dados de impacto 6 piezas C-206106', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju027.jpg'], priceBase: 20, price1: 17.34, price2: 16.01, price3: 14.02 },
   { id: 160, name: 'Juego de destornilladores de precisión de 6 piezas (mango engomado) 241806', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju049.jpg'], priceBase: 5, price1: 4.31, price2: 3.97, price3: 3.46 },
-  { id: 161, name: 'Juego de destornilladores de precisión de 6 piezas (mango metálico) 242006', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju050.png'], priceBase: 5, price1: 4.36, price2: 4.04, price3: 3.57 },
+  { id: 161, name: 'Juego de destornilladores de precisión de 6 piezas (mango metálico) 242006', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju050.jpg'], priceBase: 5, price1: 4.36, price2: 4.04, price3: 3.57 },
   { id: 162, name: 'Juego de Extractor de pernos y tuercas 11 piezas', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju052.png'], priceBase: 30, price1: 26.92, price2: 25.38, price3: 23.07 },
-  { id: 163, name: 'Kit para limpieza de drenaje de refrigeracion', desc: '', categories: ['refrigeracion'], images: ['img/productos/ki006.png'], priceBase: 5.50, price1: 4.99, price2: 4.74, price3: 4.36 },
+  { id: 163, name: 'Kit para limpieza de drenaje de refrigeracion', desc: '', categories: ['refrigeracion'], images: ['img/productos/ki006.jpg'], priceBase: 5.50, price1: 4.99, price2: 4.74, price3: 4.36 },
   { id: 164, name: 'Manguera de Entrada de agua para LAVADORA 1.5 m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ma009.jpg'], priceBase: 6, price1: 5.51, price2: 5.27, price3: 4.90 },
   { id: 165, name: 'Pintura Spray para Interior/Exterior 450ml Blanco/Blanco Mate', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi006.jpg'], priceBase: 5, price1: 4.60, price2: 4.40, price3: 4.10 },
   { id: 166, name: 'Protector Circuito Breaker 220 V 63A Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr011.jpg'], priceBase: 28, price1: 24.86, price2: 23.29, price3: 20.94 },
@@ -239,6 +239,14 @@ const PRODUCTS = [
   { id: 219, name: 'Presostato CP5-32M14R Cowplandt 8-30 Bar (C-5444)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr003.jpg'], priceBase: 22, price1: 19.79, price2: 18.68, price3: 17.02 },
   { id: 220, name: 'Presostato Nev 010-1402 Baja (C-3090)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pr005.jpg'], priceBase: 22, price1: 19.67, price2: 18.51, price3: 16.77 },
   { id: 221, name: 'Fan o Motor de Ventilador Axial 450MM YWF4E-450BC', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa062.jpg'], priceBase: 190, price1: 164.36, price2: 151.54, price3: 1132.31 },
+  { id: 222, name: 'Pie de Rey 5"/Calibre Vernier de 120mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi00123.jpg'], priceBase: 8, price1: 6.84, price2: 6.27, price3: 5.40 },
+  { id: 223, name: 'Pie de Rey 6"/Calibre Vernier de 150mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi00123.jpg'], priceBase: 15, price1: 13.55, price2: 12.82, price3: 11.74 },
+  { id: 224, name: 'Pie de Rey 8"/Calibre Vernier de 200mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi00123.jpg'], priceBase: 28.50, price1: 25.65, price2: 24.22, price3: 22.09 },
+  { id: 225, name: 'Espatula 1"(25mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es012.jpg'], priceBase: 2.50, price1: 2.20, price2: 2.05, price3: 1.83 },
+  { id: 226, name: 'Espatula 2"(50mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es014.jpg'], priceBase: 3.00, price1: 2.65, price2: 2.48, price3: 2.21 },
+  { id: 227, name: 'Espatula 3"(75mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es016.jpg'], priceBase: 4.00, price1: 3.51, price2: 3.27, price3: 2.91 },
+  { id: 228, name: 'Espatula 6"(150mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es021.jpg'], priceBase: 5.50, price1: 4.89, price2: 4.59, price3: 4.13 },
+
 
   
 

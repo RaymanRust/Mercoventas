@@ -13,14 +13,14 @@ const CATEGORIES = [
   { id: 'solar', name: 'Solar', icon: 'sun' },
   { id: 'electricas', name: 'Eléctricas', icon: 'bolt' },
   { id: 'herramientas', name: 'Herramientas', icon: 'tools' },
-  { id: 'refrigeracion y clima', name: 'Refrigeración y Clima', icon: 'snowflake' }
+  { id: 'refrigeracion', name: 'Refrigeración y Clima', icon: 'snowflake' }
 ];
 
 // PRODUCTOS CON MÚLTIPLES CATEGORÍAS (array categories)
 const PRODUCTS = [
   { id: 1, name: 'Acoplador Rapido Amaricano de 2 vias 1/4', desc: '', categories: ['herramientas'], images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
   { id: 2, name: 'Acoplador Rapido kit alta/baja plateado', desc: '', categories: ['herramientas'], images: ['img/productos/acoplador-rapido-kit-altabaja-plateado.jpg'], priceBase: 16, price1: 13.86, price2: 12.79, price3: 11.18 },
-  { id: 3, name: 'Adaptador Corto 410', desc: '', categories: ['refrigeracion y clima'], images: ['img/productos/adaptador-corto.jpg'], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
+  { id: 3, name: 'Adaptador Corto 410', desc: '', categories: ['refrigeracion'], images: ['img/productos/adaptador-corto.jpg'], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
   { id: 4, name: 'Alambre de Soldadura de estano 100g', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
   { id: 5, name: 'Alambre para soldar C/ Nucleo Fundente 1kg - 0,8 mm', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-para-soldar-con-nucleo-fundente.jpg'], priceBase: 10, price1: 8.76, price2: 8.14, price3: 7.21 },
   { id: 6, name: 'Alambre de Soldadura Solido 1kg', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-solido.jpg'], priceBase: 10.50, price1: 9.44, price2: 8.91, price3: 8.11 },
@@ -53,7 +53,7 @@ const PRODUCTS = [
   { id: 33, name: 'Cuchilla doble tiro trif 63 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro trif 63 amp.png'], priceBase: 18, price1: 15.49, price2: 14.23, price3: 12.34 },
   { id: 34, name: 'Cuchilla doble tiro trif 100 amp', desc: '', categories: ['herramientas','electricas'], images: ['img/productos/cuchilla doble tiro trf 100amp.png'], priceBase: 24, price1: 20.71, price2: 19.07, price3: 16.60 },
   { id: 35, name: 'Estacion de energia portatil DABBSON', desc: '', categories: ['solar'], images: ['img/productos/Estacion de energia portatil DABBSON.jpeg'], priceBase: 950, price1: 950, price2: 950, price3: 950  },
-  { id: 36, name: 'Estacion de Energia Portatil Delta 3 Classic', desc: '', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 690, price1: 690, price2: 690, price3: 690 },
+  { id: 36, name: 'Estacion de Energia Portatil Delta 3 Classic', desc: '', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 720, price1: 720, price2: 720, price3: 720 },
   { id: 37, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
   { id: 38, name: 'Hidrolavadora de 1400W', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/hidrolavadora.jpg'], priceBase: 160, price1: 144.87, price2: 137.30, price3: 125.95 },
   { id: 39, name: 'Hidrolavadora de 1650W', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/hidrolavadora.jpg'], priceBase: 190, price1: 171.38, price2: 162.07, price3: 148.11 },
@@ -246,6 +246,46 @@ const PRODUCTS = [
   { id: 226, name: 'Espatula 2"(50mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es014.jpg'], priceBase: 3.00, price1: 2.65, price2: 2.48, price3: 2.21 },
   { id: 227, name: 'Espatula 3"(75mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es016.jpg'], priceBase: 4.00, price1: 3.51, price2: 3.27, price3: 2.91 },
   { id: 228, name: 'Espatula 6"(150mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/es021.jpg'], priceBase: 5.50, price1: 4.89, price2: 4.59, price3: 4.13 },
+  { id: 229, name: 'Disco de lana para pulir de velcro 7"/180mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/di003.jpg'], priceBase: 9, price1: 8.17, price2: 7.75, price3: 7.12 },
+  { id: 230, name: 'Alicate /Crimpadora Modular 7.5" (140811)', desc: '', categories: ['refrigeracion'], images: ['img/productos/al021.jpg'], priceBase: 15, price1: 13.46, price2: 12.70, price3: 11.55 },
+  { id: 231, name: 'Alicate de Crimpado con Ratchet 9"/23 cm- Acero de Alto Carbono (140801)', desc: '', categories: ['refrigeracion'], images: ['img/productos/al022.jpg'], priceBase: 22, price1: 19.65, price2: 18.48, price3: 16.72 },
+  { id: 232, name: 'Alicate para Engarzar/Crimpar conectores modulares: 4P. 6P y 8P (8"/200) (140802)', desc: '', categories: ['refrigeracion'], images: ['img/productos/al023.jpg'], priceBase: 22, price1: 19.66, price2: 18.48, price3: 16.73 },
+  { id: 233, name: 'Bomb Vacio 3CFM 1/3HP115V 2Etapas Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0061.jpg'], priceBase: 220, price1: 200.37, price2: 190.56, price3: 175.84 },
+  { id: 234, name: 'Bomb Vacio 5CFM 1/2HP 115V 2Etapas PR 1 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0062.jpg'], priceBase: 240, price1: 221.97, price2: 212.95, price3: 199.42 },
+  { id: 235, name: 'Cable Eléctrico Doble Royal Cord -90/10 #10 x metro', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca004.jpg'], priceBase: 1.20, price1: 1.07, price2: 1.01, price3: 0.91 },
+  { id: 236, name: 'Cable Eléctrico Doble Royal Cord -90/10 #12 x metro', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca005.jpg'], priceBase: 1.00, price1: 0.88, price2: 0.83, price3: 0.74 },
+  { id: 237, name: 'Cable Eléctrico Doble Royal Cord -90/10 #14 x metro', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca006.jpg'], priceBase: 0.30, price1: 0.27, price2: 0.25, price3: 0.22 },
+  { id: 238, name: 'Cable Eléctrico Individual Negro #12x328FT x metro', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca007.jpg'], priceBase: 0.30, price1: 0.27, price2: 0.25, price3: 0.22 },
+  { id: 239, name: 'Cable Eléctrico Individual Rojo #12x328FT x metro', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca008.jpg'], priceBase: 0.30, price1: 0.27, price2: 0.25, price3: 0.22 },
+  { id: 240, name: 'Capacitor de Arranque 700 mf 450V metalico', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca112.jpg'], priceBase: 12, price1: 10.46, price2: 9.69, price3: 8.53 },
+  { id: 241, name: 'Capacitor de Arranque Gris 1000 µF 250v-450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca114.jpg'], priceBase: 16, price1: 13.79, price2: 12.68, price3: 11.02 },
+  { id: 242, name: 'Capacitor de Arranque Blanco 1000 µF 250v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca115.jpg'], priceBase: 12, price1: 10.46, price2: 9.69, price3: 8.54 },
+  { id: 243, name: 'Capacitor de Arranque 1200 mf 450V metalico', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca116.jpg'], priceBase: 15, price1: 13.05, price2: 12.08, price3: 10.62 },
+  { id: 244, name: 'Capacitor Microwave 0,75 mf 2100v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca118.jpg'], priceBase: 6, price1: 5.25, price2: 4.87, price3: 4.31 },
+  { id: 245, name: 'Capacitor Microwave 0,80 mf 2100v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca119.jpg'], priceBase: 6, price1: 5.27, price2: 4.90, price3: 4.35 },
+  { id: 246, name: 'Capacitor Microwave 0,85 mf 2100v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca120.jpg'], priceBase: 6, price1: 5.30, price2: 4.95, price3: 4.43 },
+  { id: 247, name: 'Capilar 0,80 3m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca123.jpg'], priceBase: 4, price1: 3.54, price2: 3.31, price3: 2.97 },
+  { id: 248, name: 'Capilar 0,85 3m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca124.jpg'], priceBase: 4.50, price1: 3.95, price2: 3.67, price3: 3.26 },
+  { id: 249, name: 'Capilar 0.054"x 0.106"x 1m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca126.jpg'], priceBase: 1.50, price1: 1.33, price2: 1.24, price3: 1.11 },
+  { id: 250, name: 'Capilar 0.064"x 0.125"x 1m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca127.jpg'], priceBase: 2, price1: 1.79, price2: 1.68, price3: 1.52 },
+  { id: 251, name: 'Cargador de Batería Multifuncional de lithium', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca129.jpg'], priceBase: 30, price1: 27.54, price2: 26.31, price3: 24.47 },
+  { id: 252, name: 'Cautin con Estaño 120v 30w', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca132.jpg'], priceBase: 7, price1: 6.27, price2: 5.90, price3: 5.35 },
+  { id: 253, name: 'Cautin con Estaño 120v 60w', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca133.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
+  { id: 254, name: 'Casco para soldar oscurecimiento automatico con diseño (439007)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca134.jpg'], priceBase: 35, price1: 31.07, price2: 29.11, price3: 26.16 },
+  { id: 255, name: 'Casco para soldar oscurecimiento automatico color negro (439008)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca135.jpg'], priceBase: 25, price1: 22.24, price2: 20.87, price3: 18.80 },
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   

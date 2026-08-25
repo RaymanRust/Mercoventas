@@ -725,6 +725,10 @@ function showSuggestions(term, inputElement, suggestionsContainer) {
         renderProducts();
         renderCategoryLists();
         suggestionsContainer.classList.remove('show');
+
+        // Cerrar menú lateral al seleccionar un producto
+if (sideMenu) sideMenu.classList.remove('active');
+if (menuOverlay) menuOverlay.classList.remove('active');
       }
     });
   });

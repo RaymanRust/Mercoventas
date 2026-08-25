@@ -273,6 +273,110 @@ const PRODUCTS = [
   { id: 253, name: 'Cautin con Estaño 120v 60w', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca133.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
   { id: 254, name: 'Casco para soldar oscurecimiento automatico con diseño (439007)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca134.jpg'], priceBase: 35, price1: 31.07, price2: 29.11, price3: 26.16 },
   { id: 255, name: 'Casco para soldar oscurecimiento automatico color negro (439008)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca135.jpg'], priceBase: 25, price1: 22.24, price2: 20.87, price3: 18.80 },
+  { id: 256, name: 'Capacitor de Arranque 88 mf 110v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca0805.jpg'], priceBase: 6, price1: 5.16, price2: 4.74, price3: 4.11 },
+  { id: 257, name: 'Centralita EK 3030 220v 2 sensores', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce002.jpg'], priceBase: 40, price1: 36.76, price2: 35.19, price3: 32.78 },
+  { id: 258, name: 'Cepillo circular 150 mm X 32mm (6"/150 mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce003.jpg'], priceBase: 10, price1: 8.96, price2: 8.44, price3: 7.66 },
+  { id: 259, name: 'Cepillo circular 200 mm X 32 mm (8"/200)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce004.jpg'], priceBase: 13, price1: 11.73, price2: 11.10, price3: 10.15 },
+  { id: 260, name: 'Cepillo de alambre 10"/250mm C-410101', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce005.jpg'], priceBase: 4, price1: 3.34, price2: 3.02, price3: 2.52 },
+  { id: 261, name: 'Cepillo de Alambre 4x18', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce007.jpg'], priceBase: 4, price1: 3.48, price2: 3.21, price3: 2.82 },
+  { id: 262, name: 'Cepillo de Alambre Circular 6 "(150mm x 22.23 x 12.7)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce009.jpg'], priceBase: 7, price1: 6.23, price2: 5.84, price3: 5.26 },
+  { id: 263, name: 'Cepillo de Alambre Circular Plano torcido 150mm x 22mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce012.jpg'], priceBase: 12, price1: 10.59, price2: 9.89, price3: 8.83 },
+  { id: 264, name: 'Cepillo de Alambre Entorchado Tipo Copa 3"x 5/8', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce013.jpg'], priceBase: 5, price1: 4.46, price2: 4.19, price3: 3.79 },
+  { id: 265, name: 'Cepillo de Alambre Entorchado Tipo Copa 4"x 5/8', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce014.jpg'], priceBase: 10, price1: 8.76, price2: 8.14, price3: 7.21 },
+  { id: 266, name: 'Cepillo de alambre para taladro con vástago 2-1/2"(63mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce017.jpg'], priceBase: 3.50, price1: 3.05, price2: 2.83, price3: 2.49 },
+  { id: 267, name: 'Cepillo de alambre para taladro con vástago 3"(75mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce018.jpg'], priceBase: 4, price1: 3.48, price2: 3.22, price3: 2.83 },
+  { id: 268, name: 'Cepillo de Alambre tipo Copa 3"x 5/8', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce019.jpg'], priceBase: 4.50, price1: 4.01, price2: 3.76, price3: 3.39 },
+  { id: 269, name: 'Cepillo de Alambre tipo Copa 4"x 5/8', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce020.jpg'], priceBase: 7, price1: 6.18, price2: 5.76, price3: 5.14 },
+  { id: 270, name: 'Cerradura para gavetas (19x22 mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce021.jpg'], priceBase: 4, price1: 3.53, price2: 3.30, price3: 2.95 },
+  { id: 271, name: 'Cerradura para gavetas (19x32 mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce021.jpg'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
+  { id: 272, name: 'Cerradura univeral para puerta de refriferador', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce023.jpg'], priceBase: 1.50, price1: 1.33, price2: 1.25, price3: 1.13 },
+  { id: 273, name: 'Cierre para Puerta de Cristal', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci001.jpg'], priceBase: 4, price1: 3.62, price2: 3.43, price3: 3.14 },
+  { id: 274, name: 'Cinta americana 2x50 mediana gris', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci003.jpg'], priceBase: 9.50, price1: 8.28, price2: 7.68, price3: 6.77 },
+  { id: 275, name: 'Cinta Armaflex 2 x 1/8 x 10 m Cowp', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci005.jpg'], priceBase: 6, price1: 5.40, price2: 5.10, price3: 4.64 },
+  { id: 276, name: 'Cinta de teflón 10m X 12mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci006.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.41, price3: 0.36 },
+  { id: 277, name: 'Cinta Gris para ducto 3x60 YDS -0.17mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci007.jpg'], priceBase: 12, price1: 10.57, price2: 9.86, price3: 8.79 },
+  { id: 278, name: 'Cinta metálica 16m x 48 mm hoteche 438402', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci008.jpg'], priceBase: 3, price1: 2.53, price2: 2.30, price3: 1.95 },
+  { id: 279, name: 'Cinta metálica 24m x 48 mm hoteche 438401', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci009.jpg'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
+  { id: 280, name: 'Cinta Metalica 2x50 yds-0,03 mm Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci011.jpg'], priceBase: 10, price1: 8.75, price2: 8.13, price3: 7.19 },
+  { id: 281, name: 'Cinta PRO negra 2x60 yds-0,23 mm Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci021.jpg'], priceBase: 10, price1: 8.78, price2: 8.16, price3: 7.24 },
+  { id: 282, name: 'Cinta PRO PVC Tape Split con Adhesivo', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci022.jpg'], priceBase: 3, price1: 2.62, price2: 2.42, price3: 2.14 },
+  { id: 283, name: 'Cinta/Hule crema para ducto', desc: '', categories: ['refrigeracion'], images: ['img/productos/ci023.jpg'], priceBase: 2.50, price1: 2.11, price2: 1.91, price3: 1.61 },
+  { id: 284, name: 'Clavos para Grapadora (2 x10) 1000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl002.jpg'], priceBase: 1.30, price1: 1.15, price2: 1.07, price3: 0.96 },
+  { id: 285, name: 'Clavos para Grapadora (2 x10) 5000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl003.jpg'], priceBase: 4.50, price1: 4.03, price2: 3.79, price3: 3.43 },
+  { id: 286, name: 'Clavos para Grapadora (2 x12) 1000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl004.jpg'], priceBase: 2, price1: 1.75, price2: 1.62, price3: 1.43 },
+  { id: 287, name: 'Clavos para Grapadora (2 x14) 1000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl005.jpg'], priceBase: 2, price1: 1.74, price2: 1.61, price3: 1.41 },
+  { id: 288, name: 'Clavos para Grapadora (2 x15) 5000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl006.jpg'], priceBase: 6, price1: 5.38, price2: 5.07, price3: 4.60 },
+  { id: 289, name: 'Clavos para Grapadora (2 x20) 5000 pcs', desc: '', categories: ['refrigeracion'], images: ['img/productos/cl007.jpg'], priceBase: 8, price1: 7.20, price2: 6.80, price3: 6.20 },
+  { id: 290, name: 'Hidrolavadora 110v Hoteche -1650W', desc: '', categories: ['refrigeracion'], images: ['img/productos/hi008.jpg'], priceBase: 190, price1: 171.38, price2: 162.07, price3: 148.11 },
+  { id: 291, name: 'Juego Brocas 25 piezas (barrenas mm caja metal)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju013.jpg'], priceBase: 32, price1: 28.60, price2: 26.90, price3: 24.34 },
+  { id: 292, name: 'Juego de Manómetro R410/134/22/404- 4000psi (C-23884)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju0661.jpg'], priceBase: 50, price1: 45.26, price2: 42.89, price3: 39.34 },
+  { id: 293, name: 'Juego para roscas macho y hembra 20 Piezas (640207)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju0810.jpg'], priceBase: 36, price1: 32.40, price2: 30.61, price3: 30.61 },
+  { id: 294, name: 'Mini Bomba de Condensado Cowp 110V-220V PR', desc: '', categories: ['refrigeracion'], images: ['img/productos/mi006.jpg'], priceBase: 50, price1: 45.86, price2: 43.79, price3: 40.69 },
+  { id: 295, name: 'Regulador de Oxígeno 9/16"-18Rh (Entrada:150 bar-Salida:12.5 bar)', desc: '', categories: ['refrigeracion'], images: ['img/productos/re017.jpg'], priceBase: 30, price1: 26.31, price2: 24.46, price3: 21.69 },
+  { id: 296, name: 'Varilla de Bronce 3/32x 36 UNI-1501 con fundente', desc: '', categories: ['refrigeracion'], images: ['img/productos/va0181.jpg'], priceBase: 2.80, price1: 2.48, price2: 2.31, price3: 2.07 },
+  { id: 297, name: 'Pinza pela cable con juego de conectores (8"/200 mm),10-22 AWG (140271)', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi0164.jpg'], priceBase: 20, price1: 17.93, price2: 16.90, price3: 15.34 },
+  { id: 298, name: 'Llave ajustable 6"/150 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll001-002-003-004.jpg'], priceBase: 6, price1: 5.34, price2: 5.02, price3: 4.52 },
+  { id: 299, name: 'Llave ajustable 8"/200 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll001-002-003-004.jpg'], priceBase: 8, price1: 7.19, price2: 6.79, price3: 6.19 },
+  { id: 300, name: 'Llave ajustable 10"/250 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll001-002-003-004.jpg'], priceBase: 12, price1: 10.77, price2: 10.15, price3: 9.22 },
+  { id: 301, name: 'Llave ajustable 12"/250 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll001-002-003-004.jpg'], priceBase: 18, price1: 16.04, price2: 15.06, price3: 13.59 },
+  { id: 302, name: 'Llave Ajustable Mango Dos Colores 6" / 150 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll005-007-008.jpg'], priceBase: 9, price1: 8.03, price2: 7.55, price3: 6.82 },
+  { id: 303, name: 'Llave Ajustable Mango Dos Colores 8" / 200 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll005-007-008.jpg'], priceBase: 12, price1: 10.67, price2: 10, price3: 9 },
+  { id: 304, name: 'Llave Ajustable Mango Dos Colores 10" / 250 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll005-007-008.jpg'], priceBase: 16, price1: 14.39, price2: 13.58, price3: 12.37 },
+  { id: 305, name: 'Llave Ajustable Mango Dos Colores 12 "/300mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll005-007-008.jpg'], priceBase: 22, price1: 19.39, price2: 18.09, price3: 16.13 },
+  { id: 306, name: 'Llave Combinada de Rachet 10mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll021.jpg'], priceBase: 4, price1: 3.57, price2: 3.36, price3: 3.03 },
+  { id: 307, name: 'Llave Combinada de Rachet 12mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll022.jpg'], priceBase: 4, price1: 3.64, price2: 3.45, price3: 3.18 },
+  { id: 308, name: 'Llave Combinada de Rachet 17mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll025.jpg'], priceBase: 8, price1: 7.11, price2: 6.67, price3: 6.01 },
+  { id: 309, name: 'Llave Combinada de Rachet 8mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll027.jpg'], priceBase: 4, price1: 3.51, price2: 3.27, price3: 2.90 },
+  { id: 310, name: 'Llave Combinada ratchet Flexible 10mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll028.jpg'], priceBase: 6, price1: 5.30, price2: 4.95, price3: 4.43 },
+  { id: 311, name: 'Llave Combinada ratchet Flexible 12mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll029.jpg'], priceBase: 6, price1: 5.31, price2: 4.97, price3: 4.45 },
+  { id: 312, name: 'Llave Combinada ratchet Flexible 13mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll031.jpg'], priceBase: 7, price1: 6.16, price2: 5.74, price3: 5.11 },
+  { id: 313, name: 'Llave de Extension de Cabeza Flexible 3/8', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll032.jpg'], priceBase: 8, price1: 7.19, price2: 6.79, price3: 6.18 },
+  { id: 314, name: 'Llave de Tubo 8"/200mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll033.jpg'], priceBase: 8, price1: 6.92, price2: 6.38, price3: 5.58 },
+  { id: 315, name: 'Llave de Tubo 10"/250mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll035-036.jpg'], priceBase: 12, price1: 10.22, price2: 9.33, price3: 8 },
+  { id: 316, name: 'Llave Combinada de Rachet 9 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll0201.jpg'], priceBase: 4, price1: 3.53, price2: 3.29, price3: 2.94 },
+  { id: 317, name: 'Llave Combinada de Rachet 11 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll0211.jpg'], priceBase: 4, price1: 3.57, price2: 3.35, price3: 3.03 },
+  { id: 318, name: 'Refrigerante 410a', desc: '', categories: ['refrigeracion'], images: ['img/productos/re009.jpg'], priceBase: 210, price1: 197, price2: 191.10, price3: 181.65 },
+  { id: 319, name: 'Relay Negro PTC 4 Terminales 1/3', desc: '', categories: ['refrigeracion'], images: ['img/productos/re031.jpg'], priceBase: 1.50, price1: 1.30, price2: 1.21, price3: 1.06 },
+  { id: 320, name: 'Rollo de tuberia 1/2 15m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ro009.jpg'], priceBase: 55, price1: 49.71, price2: 47.07, price3: 43.11 },
+  { id: 321, name: 'Juego de 6 destornilladores Hoteche', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju020.jpg'], priceBase: 12, price1: 10.61, price2: 9.92, price3: 8.87 },
+  { id: 322, name: 'Timer de Nevera Visor 720 6hx25 min chino', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti008.jpg'], priceBase: 9, price1: 7.98, price2: 7.47, price3: 6.70 },
+  { id: 323, name: 'Capacitor Microwave mf 2100v DCM', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca117.jpg'], priceBase: 4, price1: 3.81, price2: 3.72, price3: 3.58 },
+  { id: 324, name: 'Destornillador de Impacto 7 PCS .Q7', desc: '', categories: ['refrigeracion'], images: ['img/productos/de001.jpg'], priceBase: 18, price1: 16.15, price2: 15.23, price3: 13.84 },
+  { id: 325, name: 'Fan o Micromotor 110v Nev CCW-9MM carmelita 2 cables (C-20407)', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa022.jpg'], priceBase: 13, price1: 11.47, price2: 10.70, price3: 9.55 },
+  { id: 326, name: 'Fan o Micromotor 5,5W 0,09A terminales C-11288', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa029.jpg'], priceBase: 15, price1: 12.77, price2: 11.65, price3: 9.98 },
+  { id: 327, name: 'Fan o Micromotor 110v Cowplandt C-20357', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa015.jpg'], priceBase: 14, price1: 12.12, price2: 11.18, price3: 9.76 },
+  { id: 328, name: 'Fan o Micromotor ori evap LG e/grueso C-8083', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa039.jpg'], priceBase: 13, price1: 11.50, price2: 10.74, price3: 9.62 },
+  { id: 329, name: 'Fan o Micromotor ori evap samsung 110v e/grueso C-8079', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa040.jpg'], priceBase: 13, price1: 11.51, price2: 10.77, price3: 9.65 },
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+ 
+  
+
+  
   
 
 

@@ -179,7 +179,7 @@ const PRODUCTS = [
   { id: 159, name: 'Juego de Adaptadores de dados de impacto 6 piezas C-206106', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju027.jpg'], priceBase: 20, price1: 17.34, price2: 16.01, price3: 14.02 },
   { id: 160, name: 'Juego de destornilladores de precisión de 6 piezas (mango engomado) 241806', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju049.jpg'], priceBase: 5, price1: 4.31, price2: 3.97, price3: 3.46 },
   { id: 161, name: 'Juego de destornilladores de precisión de 6 piezas (mango metálico) 242006', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju050.jpg'], priceBase: 5, price1: 4.36, price2: 4.04, price3: 3.57 },
-  { id: 162, name: 'Juego de Extractor de pernos y tuercas 11 piezas', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju052.png'], priceBase: 30, price1: 26.92, price2: 25.38, price3: 23.07 },
+  { id: 162, name: 'Juego de Extractor de pernos y tuercas 11 piezas', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju052.jpg'], priceBase: 30, price1: 26.92, price2: 25.38, price3: 23.07 },
   { id: 163, name: 'Kit para limpieza de drenaje de refrigeracion', desc: '', categories: ['refrigeracion'], images: ['img/productos/ki006.jpg'], priceBase: 5.50, price1: 4.99, price2: 4.74, price3: 4.36 },
   { id: 164, name: 'Manguera de Entrada de agua para LAVADORA 1.5 m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ma009.jpg'], priceBase: 6, price1: 5.51, price2: 5.27, price3: 4.90 },
   { id: 165, name: 'Pintura Spray para Interior/Exterior 450ml Blanco/Blanco Mate', desc: '', categories: ['refrigeracion'], images: ['img/productos/pi006.jpg'], priceBase: 5, price1: 4.60, price2: 4.40, price3: 4.10 },

@@ -339,11 +339,11 @@ const PRODUCTS = [
   { id: 322, name: 'Timer de Nevera Visor 720 6hx25 min chino', desc: '', categories: ['refrigeracion'], images: ['img/productos/ti008.jpg'], priceBase: 9, price1: 7.98, price2: 7.47, price3: 6.70 },
   { id: 323, name: 'Capacitor Microwave mf 2100v DCM', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca117.jpg'], priceBase: 4, price1: 3.81, price2: 3.72, price3: 3.58 },
   { id: 324, name: 'Destornillador de Impacto 7 PCS .Q7', desc: '', categories: ['refrigeracion'], images: ['img/productos/de001.jpg'], priceBase: 18, price1: 16.15, price2: 15.23, price3: 13.84 },
-  { id: 325, name: 'Medidor digital de panel solar ZIBOO FT-2000W', desc: '', categories: ['refrigeracion'], images: ['img/productos/me005.jpg'], priceBase: 120, price1: 106.66, price2: 99.99, price3: 89.98 },
-  { id: 326, name: 'Compresor R134 110v 1/3 hp SECOP (Danfoss)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0261.jpg'], priceBase: 170, price1: 170, price2: 170, price3: 170 },
-  { id: 327, name: 'Compresor R134 220v 1/4 hp SECOP (Danfoss)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0441.jpg'], priceBase: 160, price1: 144, price2: 136, price3: 124 },
-  { id: 328, name: 'Unidad condensadora 1/2 110v R-134a Danfoss', desc: '', categories: ['refrigeracion'], images: ['img/productos/un007.jpg'], priceBase: 200, price1: 184, price2: 176, price3: 164 },
-  { id: 329, name: 'Unidad condensadora 1/3 110v R-134a Danfoss', desc: '', categories: ['refrigeracion'], images: ['img/productos/un007.jpg'], priceBase: 200, price1: 184, price2: 176, price3: 164 },
+  { id: 404, name: 'Medidor digital de panel solar ZIBOO FT-2000W', desc: '', categories: ['refrigeracion'], images: ['img/productos/me005.jpg'], priceBase: 120, price1: 106.66, price2: 99.99, price3: 89.98 },
+  { id: 400, name: 'Compresor R134 110v 1/3 hp SECOP (Danfoss)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0261.jpg'], priceBase: 170, price1: 170, price2: 170, price3: 170 },
+  { id: 401, name: 'Compresor R134 220v 1/4 hp SECOP (Danfoss)', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0441.jpg'], priceBase: 160, price1: 144, price2: 136, price3: 124 },
+  { id: 402, name: 'Unidad condensadora 1/2 110v R-134a Danfoss', desc: '', categories: ['refrigeracion'], images: ['img/productos/un007.jpg'], priceBase: 200.00, price1: 184, price2: 176, price3: 164 },
+  { id: 403, name: 'Unidad condensadora 1/3 110v R-134a Danfoss', desc: '', categories: ['refrigeracion'], images: ['img/productos/un007.jpg'], priceBase: 200.00, price1: 184, price2: 176, price3: 164 },
   
 
   

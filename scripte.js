@@ -370,24 +370,44 @@ const PRODUCTS = [
   { id: 427, name: 'Capacitor de Arranque 340-408 mf 220v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca103.jpg'], priceBase: 8, price1: 7.01, price2: 6.52, price3: 5.78 },
   { id: 428, name: 'Capacitor de Arranque 378-454 mf 220v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca104.jpg'], priceBase: 9.50, price1: 8.23, price2: 7.59, price3: 6.64 },
   { id: 429, name: 'Capacitor de Arranque 400 mf 450V metalico', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca105.jpg'], priceBase: 12, price1: 10.31, price2: 9.46, price3: 8.19 },
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  { id: 430, name: 'Bomba de agua 1/2 hp 110V TREVI', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0015.jpg'], priceBase: 50, price1: 44.40, price2: 41.60, price3: 37.40 },
+  { id: 431, name: 'Termostato Horno 300 grados ( control de temperatura para horno de 300 grados) 250 V-16 A', desc: '', categories: ['refrigeracion'], images: ['img/productos/te054.jpg'], priceBase: 10, price1: 8.87, price2: 8.30, price3: 7.45 },
+  { id: 432, name: 'Valvula Solenoide 5/8 SAE 220V', desc: '', categories: ['refrigeracion'], images: ['img/productos/va013.jpg'], priceBase: 30, price1: 27.50, price2: 26.17, price3: 24.26 },
+  { id: 433, name: 'Fan o Micromotor 110 v 120*120*38 50/60 HZ 23/27W 0.23/0.24A 2700/2800 rpm', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa007.jpg'], priceBase: 16, price1: 13.96, price2: 12.94, price3: 11.41 },
+  { id: 434, name: 'Fan o Micromotor 3612JL-04W-S49 Samsung 12v Cuadrado 0.3A (3 cables con conector)', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa0472.jpg'], priceBase: 25, price1: 21.89, price2: 20.33, price3: 17.99 },
+  { id: 435, name: 'Cubierta /Forro tipo C para lavadora Semiautomática 83 x46 x83 cm', desc: '', categories: ['refrigeracion'], images: ['img/productos/cu010.jpg'], priceBase: 5, price1: 4.48, price2: 4.23, price3: 3.84 },
+  { id: 436, name: 'Compresor R600 110V 1/5 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0325.jpg'], priceBase: 110, price1: 98.43, price2: 92.64, price3: 83.96 },
+  { id: 437, name: 'Compresor R600 110V 1/6 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0365.jpg'], priceBase: 105, price1: 93.74, price2: 88.10, price3: 79.65 },
+  { id: 438, name: 'Compresor R600 110V 1/8 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0395.jpg'], priceBase: 95, price1: 84.89, price2: 79.83, price3: 72.25 },
+  { id: 439, name: 'Compresor R600 110V 1/4 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0295.jpg'], priceBase: 130, price1: 116.09, price2: 109.14, price3: 98.70 },
+  { id: 440, name: 'Capacitor plastico Bomba de agua 16 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca042.jpg'], priceBase: 4, price1: 3.42, price2: 3.13, price3: 2.70 },
+  { id: 441, name: 'Capacitor plastico Bomba de agua 18 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca043.jpg'], priceBase: 5, price1: 4.23, price2: 3.85, price3: 3.28 },
+  { id: 442, name: 'Capacitor plastico Bomba de agua 25 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca045.jpg'], priceBase: 5, price1: 4.25, price2: 3.87, price3: 3.31 },
+  { id: 443, name: 'Capacitor plastico Bomba de agua 30 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca046.jpg'], priceBase: 5, price1: 4.29, price2: 3.94, price3: 3.41 },
+  { id: 444, name: 'Capacitor plastico Bomba de agua 35 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca047.jpg'], priceBase: 5, price1: 4.30, price2: 3.96, price3: 3.43 },
+  { id: 445, name: 'Capacitor plastico Bomba de agua 40 µF 400v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca048.jpg'], priceBase: 5, price1: 4.34, price2: 4.01, price3: 3.51 },
+  { id: 446, name: 'Capacitor de marcha 20 mf 450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca050.jpg'], priceBase: 6, price1: 5.22, price2: 4.84, price3: 4.25 },
+  { id: 447, name: 'Capacitor de marcha 20+5 mf 450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca051.jpg'], priceBase: 7, price1: 5.91, price2: 5.37, price3: 4.55 },
+  { id: 448, name: 'Capacitor de marcha 25 mf 450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca052.jpg'], priceBase: 6, price1: 5.08, price2: 4.63, price3: 3.94 },
+  { id: 449, name: 'Capacitor de marcha 30 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca055.jpg'], priceBase: 6, price1: 5.11, price2: 4.66, price3: 3.99 },
+  { id: 450, name: 'Capacitor de marcha 30+3 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca056.jpg'], priceBase: 7, price1: 5.93, price2: 5.40, price3: 4.60 },
+  { id: 451, name: 'Capacitor de marcha 30+5 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca058.jpg'], priceBase: 8, price1: 6.77, price2: 6.16, price3: 5.23 },
+  { id: 452, name: 'Capacitor de marcha 35 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca060.jpg'], priceBase: 6, price1: 5.14, price2: 4.72, price3: 4.08 },
+  { id: 453, name: 'Capacitor de marcha 35+5 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca061.jpg'], priceBase: 7, price1: 6.01, price2: 5.51, price3: 4.77 },
+  { id: 454, name: 'Capacitor de marcha 40 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca062.jpg'], priceBase: 6.50, price1: 5.58, price2: 5.12, price3: 4.42 },
+  { id: 455, name: 'Capacitor de marcha 40+5 mf 370/440v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca063.jpg'], priceBase: 7, price1: 6.03, price2: 5.55, price3: 4.82 },
+  { id: 456, name: 'Capacitor de marcha 45 mf 370/450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca064.jpg'], priceBase: 7, price1: 6.11, price2: 5.66, price3: 4.99 },
+  { id: 457, name: 'Capacitor de marcha 45+5 mf 370/ 450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca065.jpg'], priceBase: 8, price1: 6.85, price2: 6.27, price3: 5.41 },
+  { id: 458, name: 'Capacitor de marcha 50 mf 370/450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca066.jpg'], priceBase: 8, price1: 6.83, price2: 6.24, price3: 5.37 },
+  { id: 459, name: 'Capacitor de marcha 50+5 mf 450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca068.jpg'], priceBase: 10, price1: 8.71, price2: 8.07, price3: 7.11 },
+  { id: 460, name: 'Capacitor de marcha 55mf 370/450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca069.jpg'], priceBase: 10, price1: 8.55, price2: 7.82, price3: 6.73 },
+  { id: 461, name: 'Capacitor de marcha 55+5 mf 370/450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca070.jpg'], priceBase: 9, price1: 7.76, price2: 7.15, price3: 6.22 },
+  { id: 462, name: 'Capacitor de marcha 60 mf 370/450v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca072.jpg'], priceBase: 9, price1: 7.77, price2: 7.16, price3: 6.24 },
+  { id: 463, name: 'Capacitor de Arranque 400-480 mf 220v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca106.jpg'], priceBase: 10, price1: 8.60, price2: 7.90, price3: 6.85 },
+  { id: 464, name: 'Capacitor de Arranque 569-708 mf 250v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca108.jpg'], priceBase: 13, price1: 11.49, price2: 10.73, price3: 9.59 },
+  { id: 465, name: 'Capacitor de Arranque 700-800 mf 250v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca110.jpg'], priceBase: 14, price1: 12.52, price2: 11.77, price3: 10.66 },
+  { id: 466, name: 'Capacitor de Arranque 700µF 250v', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca111.jpg'], priceBase: 12, price1: 10.51, price2: 9.76, price3: 8.64 },
+ 
   
   
   

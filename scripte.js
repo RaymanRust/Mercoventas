@@ -442,7 +442,23 @@ const PRODUCTS = [
   { id: 505, name: 'Protector ajustable-programable de voltaje TOMZN LN 110V 80A 2P(pantalla digital -VA)', desc: '', categories: ['solar'], images: ['img/productos/pr020.jpg'], priceBase: 30, price1: 26.09, price2: 24.14, price3: 21.21 },
   { id: 506, name: 'Protector ajustable-programable de voltaje TOMZN LN 110V 63A 2P(pantalla digital -VA)', desc: '', categories: ['solar'], images: ['img/productos/pr021.jpg'], priceBase: 25, price1: 22.07, price2: 20.61, price3: 18.42 },
   { id: 507, name: 'Supresores de sobretensión DC 1000 V 3.6kv', desc: '', categories: ['solar'], images: ['img/productos/su001.jpg'], priceBase: 18, price1: 16.03, price2: 15.05, price3: 13.58 },
-  
+  { id: 508, name: 'Extensión 8 puestos con puerto USB y puerto C', desc: '', categories: ['solar'], images: ['img/productos/ex010.jpg'], priceBase: 18, price1: 16.46, price2: 15.68, price3: 14.53 },
+  { id: 509, name: 'Juego de Manometro Universal con accesorios', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju067.jpg'], priceBase: 80, price1: 70.53, price2: 65.80, price3: 58.69 },
+  { id: 510, name: 'Bomba de aire para neumáticos 150 psi 14.8 Wh 5V/1A', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0013.jpg'], priceBase: 35, price1: 30.26, price2: 27.89, price3: 24.34 },
+  { id: 511, name: 'Bomba de aire para neumáticos 150 psi 18.72Wh 5V/2A', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0014.jpg'], priceBase: 40, price1: 34.70, price2: 32.04, price3: 28.06 },
+  { id: 512, name: 'Extensión 8 puestos con puerto USB y puerto C cable 1.5 m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ex011.jpg'], priceBase: 20, price1: 18.26, price2: 17.40, price3: 16.09 },
+  { id: 513, name: 'Extensión 16 puestos con puerto USB y puerto C tipo torre 2.68 m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ex012.jpg'], priceBase: 38, price1: 34.88, price2: 33.32, price3: 30.97 },
+  { id: 514, name: 'Juego de manómetro Universal con adaptadores y válvula 0-500 psi', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju0662.jpg'], priceBase: 50, price1: 45.77, price2: 43.66, price3: 40.49 },
+  { id: 515, name: 'Juego de manómetro Universal 0-500 psi', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju0663.jpg'], priceBase: 50, price1: 44.32, price2: 41.47, price3: 37.21 },
+  { id: 516, name: 'Switch Incendido Automático 4 Via-125A 230V TOMZN', desc: '', categories: ['electricidad'], images: ['img/productos/sw003.jpg'], priceBase: 80, price1: 71.09, price2: 66.63, price3: 59.95 },
+  { id: 517, name: 'Ventilador recargable coldSky 20000 mAh 8 velocidades/4 linternas led c/control remoto (doble aspa)', desc: '', categories: ['electricidad'], images: ['img/productos/ve007.jpg'], priceBase: 65, price1: 55.27, price2: 52.90, price3: 49.35 },
+  { id: 518, name: 'Ventilador recargable TAZTIR 20000 mAh 4 en 1 con paneles en la base y altura ajustable', desc: '', categories: ['electricidad'], images: ['img/productos/ve008.jpg'], priceBase: 90, price1: 90.54, price2: 85.81, price3: 78.71 },
+  { id: 519, name: 'Ventilador recargable coldSky 40000 mAh con led de 32 pcs (grande)', desc: '', categories: ['electricidad'], images: ['img/productos/ve009.jpg'], priceBase: 120, price1: 119.36, price2: 114.04, price3: 106.07 },
+  { id: 520, name: 'Lampara solar c/ señuelo cámara de seguridad y sensor de movimiento 77 luces led', desc: '', categories: ['electricidad'], images: ['img/productos/la010.jpg'], priceBase: 20, price1: 17.59, price2: 16.39, price3: 14.58 },
+  { id: 521, name: 'Breker AC C-80 80 amp 230-400 V 2Polos EARU', desc: '', categories: ['electricidad'], images: ['img/productos/br0052.jpg'], priceBase: 20, price1: 18.20, price2: 17.31, price3: 15.96 },
+  { id: 522, name: 'Breker AC C-100 100 amp 230-400 V 2Polos EARU', desc: '', categories: ['electricidad'], images: ['img/productos/br0053.jpg'], priceBase: 25, price1: 22.26, price2: 20.90, price3: 18.84 },
+  { id: 523, name: 'Breker AC C-125 125 amp 230-400 V 2Polos EARU', desc: '', categories: ['electricidad'], images: ['img/productos/br0054.jpg'], priceBase: 25, price1: 22.18, price2: 20.77, price3: 18.66 },
+  { id: 524, name: 'Disyuntor de transferencia manual (MTS) 63a 2P', desc: '', categories: ['electricidad'], images: ['img/productos/di017.jpg'], priceBase: 15, price1: 13.28, price2: 12.43, price3: 11.14 },
   
   
  

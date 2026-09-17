@@ -211,7 +211,7 @@ const PRODUCTS = [
   { id: 123, name: 'Trampa de Cobre Soldable 3/4"', desc: '', categories: ['refrigeracion'], images: ['img/productos/tr001.jpg'], priceBase: 9.50, price1: 8.42, price2: 7.88, price3: 7.06 },
   { id: 124, name: 'Trampa de Cobre Soldable 5/8"', desc: '', categories: ['refrigeracion'], images: ['img/productos/tr001.jpg'], priceBase: 7, price1: 6.08, price2: 5.62, price3: 4.93 },
   { id: 125, name: 'Trampa de Cobre Soldable 7/8"', desc: '', categories: ['refrigeracion'], images: ['img/productos/tr001.jpg'], priceBase: 12, price1: 10.74, price2: 10.11, price3: 9.17 },
-  { id: 151, name: 'Detector de fuga fluorecente 2,5 ML', desc: '', categories: ['refrigeracion'], images: ['img/productos/de0241.jpg'], priceBase: 5, price1: 4.54, price2: 4.30, price3: 3.96 },
+  { id: 151, name: 'Detector de fugas fluorescente 7.5 ml', desc: '', categories: ['refrigeracion'], images: ['img/productos/de0241.jpg'], priceBase: 5, price1: 4.54, price2: 4.30, price3: 3.96 },
   { id: 153, name: 'Disco para lijar con Velcro 115 mm x M14', desc: '', categories: ['refrigeracion'], images: ['img/productos/di011.jpg'], priceBase: 4, price1: 3.54, price2: 3.32, price3: 2.97 },
   { id: 157, name: 'Filtro Secador doméstico 5/16 x 1/4 kaled 2T Hercules', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi009.jpg'], priceBase: 4, price1: 3.56, price2: 3.34, price3: 3.01 },
   { id: 158, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia ST180', desc: '', categories: ['refrigeracion'], images: ['img/productos/ju002.jpg'], priceBase: 30, price1: 26.21, price2: 24.31, price3: 21.47 },
@@ -459,9 +459,18 @@ const PRODUCTS = [
   { id: 522, name: 'Breker AC C-100 100 amp 230-400 V 2Polos EARU', desc: '', categories: ['electricidad'], images: ['img/productos/br0053.jpg'], priceBase: 25, price1: 22.26, price2: 20.90, price3: 18.84 },
   { id: 523, name: 'Breker AC C-125 125 amp 230-400 V 2Polos EARU', desc: '', categories: ['electricidad'], images: ['img/productos/br0054.jpg'], priceBase: 25, price1: 22.18, price2: 20.77, price3: 18.66 },
   { id: 524, name: 'Disyuntor de transferencia manual (MTS) 63a 2P', desc: '', categories: ['electricidad'], images: ['img/productos/di017.jpg'], priceBase: 15, price1: 13.28, price2: 12.43, price3: 11.14 },
-  
-  
- 
+  { id: 525, name: 'Gafas de proteccion para luz UV/Detección fugas', desc: '', categories: ['refrigeracion'], images: ['img/productos/ga001.jpg'], priceBase: 5, price1: 4.35, price2: 4.02, price3: 3.54 },
+  { id: 526, name: 'Terminal conector de cobre para baterias con termoretractil 1 AWG 5/16 (M8) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0401.jpg'], priceBase: 2.20, price1: 1.97, price2: 1.86, price3: 1.69 },
+  { id: 527, name: 'Terminal conector de cobre para baterias con termoretractil 1 0 AWG 5/16 (M8) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0402.jpg'], priceBase: 2.50, price1: 2.27, price2: 2.15, price3: 1.98 },
+  { id: 528, name: 'Terminal conector de cobre para baterias con termoretractil 2 AWG 5/16 (M8) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0403.jpg'], priceBase: 2.20, price1: 1.96, price2: 1.85, price3: 1.67 },
+  { id: 529, name: 'Terminal conector de cobre para baterias con termoretractil 2 0 AWG 5/16 (M8) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0404.jpg'], priceBase: 4, price1: 3.66, price2: 3.48, price3: 3.23 },
+  { id: 530, name: 'TTerminal conector de cobre para baterias con termoretractil 1 AWG 3/8 (M10) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0405.jpg'], priceBase: 2.20, price1: 1.98, price2: 1.88, price3: 1.71 },
+  { id: 531, name: 'Terminal conector de cobre para baterias con termoretractil 1 0 AWG 3/8 (M10) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0406.jpg'], priceBase: 2.50, price1: 2.25, price2: 2.13, price3: 1.94 },
+  { id: 532, name: 'Terminal conector de cobre para baterias con termoretractil 2 AWG 3/8 (M10) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0407.jpg'], priceBase: 2.20, price1: 1.96, price2: 1.84, price3: 1.66 },
+  { id: 533, name: 'Terminal conector de cobre para baterias con termoretractil 2 0 AWG 3/8 (M10) x u', desc: '', categories: ['electricidad'], images: ['img/productos/te0408.jpg'], priceBase: 4, price1: 3.66, price2: 3.49, price3: 3.24 },
+  { id: 534, name: 'Detector de fuga fluorecente 2,5 ML', desc: '', categories: ['refrigeracion'], images: ['img/productos/de024.jpg'], priceBase: 2.80, price1: 2.52, price2: 2.38, price3: 2.16 },
+  { id: 535, name: 'Detector de Voltaje Inteligente ANENG', desc: '', categories: ['electricidad'], images: ['img/productos/de026.jpg'], priceBase: 9, price1: 8.03, price2: 7.55, price3: 6.82 },
+
   
   
  

@@ -699,56 +699,101 @@ function renderCartItems(container) {
 }
 
 // ---------- PAGINACIÓN ----------
-controlsHtml = `
-<button class="page-btn" data-page="prev"
-${currentPage === 1 ? 'disabled' : ''}>
-◀ Anterior
-</button>
-`;
+function renderPaginationControls(totalPages) {
+  let paginationDiv = document.getElementById('pagination-controls');
 
-// Primera página
-controlsHtml += `<button class="page-btn ${currentPage === 1 ? 'active-page' : ''}" data-page="1">1</button>`;
+  if (!paginationDiv && productsContainer) {
+    paginationDiv = document.createElement('div');
+    paginationDiv.id = 'pagination-controls';
+    paginationDiv.className = 'pagination';
+    productsContainer.insertAdjacentElement('afterend', paginationDiv);
+  }
 
-// Puntos suspensivos iniciales
-if (currentPage > 4) {
-  controlsHtml += `<span class="dots">...</span>`;
-}
+  if (!paginationDiv) return;
 
-// Páginas cercanas a la actual
-for (
-  let i = Math.max(2, currentPage - 2);
-  i <= Math.min(totalPages - 1, currentPage + 2);
-  i++
-) {
-  controlsHtml += `
-    <button class="page-btn ${i === currentPage ? 'active-page' : ''}"
-      data-page="${i}">
-      ${i}
+  if (totalPages <= 1) {
+    paginationDiv.innerHTML = '';
+    return;
+  }
+
+  let controlsHtml = `
+    <button class="page-btn" data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>
+      ◀ Anterior
     </button>
   `;
-}
 
-// Puntos suspensivos finales
-if (currentPage < totalPages - 3) {
-  controlsHtml += `<span class="dots">...</span>`;
-}
-
-// Última página
-if (totalPages > 1) {
+  // Primera página
   controlsHtml += `
-    <button class="page-btn ${currentPage === totalPages ? 'active-page' : ''}"
-      data-page="${totalPages}">
-      ${totalPages}
+    <button class="page-btn ${currentPage === 1 ? 'active-page' : ''}" data-page="1">
+      1
     </button>
   `;
-}
 
-controlsHtml += `
-<button class="page-btn" data-page="next"
-${currentPage === totalPages ? 'disabled' : ''}>
-Siguiente ▶
-</button>
-`;
+  // Puntos suspensivos al inicio
+  if (currentPage > 4) {
+    controlsHtml += `<span class="pagination-dots">...</span>`;
+  }
+
+  // Páginas cercanas a la actual
+  const startPage = Math.max(2, currentPage - 2);
+  const endPage = Math.min(totalPages - 1, currentPage + 2);
+
+  for (let i = startPage; i <= endPage; i++) {
+    controlsHtml += `
+      <button class="page-btn ${i === currentPage ? 'active-page' : ''}"
+              data-page="${i}">
+        ${i}
+      </button>
+    `;
+  }
+
+  // Puntos suspensivos al final
+  if (currentPage < totalPages - 3) {
+    controlsHtml += `<span class="pagination-dots">...</span>`;
+  }
+
+  // Última página
+  if (totalPages > 1) {
+    controlsHtml += `
+      <button class="page-btn ${currentPage === totalPages ? 'active-page' : ''}"
+              data-page="${totalPages}">
+        ${totalPages}
+      </button>
+    `;
+  }
+
+  controlsHtml += `
+    <button class="page-btn" data-page="next"
+      ${currentPage === totalPages ? 'disabled' : ''}>
+      Siguiente ▶
+    </button>
+  `;
+
+  paginationDiv.innerHTML = controlsHtml;
+
+  paginationDiv.querySelectorAll('.page-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const page = btn.dataset.page;
+
+      if (page === 'prev' && currentPage > 1) {
+        currentPage--;
+      } else if (page === 'next' && currentPage < totalPages) {
+        currentPage++;
+      } else if (!isNaN(parseInt(page))) {
+        currentPage = parseInt(page);
+      }
+
+      renderProducts();
+
+      if (productsContainer) {
+        productsContainer.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+}
 
 // ---------- RENDER PRODUCTOS CON SOPORTE PARA MÚLTIPLES CATEGORÍAS ----------
 function renderProducts() {

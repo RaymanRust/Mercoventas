@@ -730,7 +730,7 @@ function renderPaginationControls(totalPages) {
   `;
 
   // Puntos suspensivos al inicio
-  if (currentPage > 4) {
+  if (currentPage > 3) {
     controlsHtml += `<span class="pagination-dots">...</span>`;
   }
 

@@ -493,8 +493,22 @@ const PRODUCTS = [
   { id: 556, name: 'Fan o Micromotor 110v Nev F61-10 Negro 2 cables (C-20367)', desc: '', categories: ['electricidad'], images: ['img/productos/fa023.jpg'], priceBase: 12, price1: 10.51, price2: 9.77, price3: 8.65 },
   { id: 557, name: 'Fan o Micromotor 110v Nev F61-10G 2 cables con terminales (C-20368)', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa024.jpg'], priceBase: 12, price1: 10.53, price2: 9.80, price3: 8.70 },
   { id: 558, name: 'Fan o Micromotor 110v Nev IS-3210DWNFF-2 cables c/enchufe (C-20409)', desc: '', categories: ['refrigeracion'], images: ['img/productos/fa026.jpg'], priceBase: 12, price1: 10.43, price2: 9.65, price3: 8.48 },
-
-  
+  { id: 559, name: 'Kit Acople Lic Oster', desc: '', categories: ['herramientas'], images: ['img/productos/ki001.jpg'], priceBase: 2.80, price1: 2.43, price2: 2.25, price3: 1.97 },
+  { id: 560, name: 'Cuchilla Licuadora Oster', desc: '', categories: ['herramientas'], images: ['img/productos/cu006.jpg'], priceBase: 5.00, price1: 4.41, price2: 4.12, price3: 3.68 },
+  { id: 561, name: 'Relay Capacitivo rc0810 Refrigeracion', desc: '', categories: ['refrigeracion'], images: ['img/productos/re018.jpg'], priceBase: 12.00, price1: 10.51, price2: 9.77, price3: 8.66 },
+  { id: 562, name: 'Rodamiento 6000 2rs Ventilador 26x10mm', desc: '', categories: ['herramientas'], images: ['img/productos/ro001.jpg'], priceBase: 1.20, price1: 1.06, price2: 0.99, price3: 0.88 },
+  { id: 563, name: 'Rodamiento 608 zz Para Impresoras 3d, Patines y Scooters', desc: '', categories: ['herramientas'], images: ['img/productos/ro002.jpg'], priceBase: 0.70, price1: 0.63, price2: 0.59, price3: 0.54 },
+  { id: 564, name: 'Rodamiento 608.2rs', desc: '', categories: ['herramientas'], images: ['img/productos/ro003.jpg'], priceBase: 1.00, price1: 0.87, price2: 0.81, price3: 0.72 },
+  { id: 565, name: 'Rodamiento 6200 Ventilador 30x10mm', desc: '', categories: ['herramientas'], images: ['img/productos/ro004.jpg'], priceBase: 1.10, price1: 0.94, price2: 0.86, price3: 0.75 },
+  { id: 566, name: 'Termico Universal Rotativo 12000 btu 110V', desc: '', categories: ['refrigeracion'], images: ['img/productos/te015.jpg'], priceBase: 2.00, price1: 1.70, price2: 1.56, price3: 1.34 },
+  { id: 567, name: 'Resistencia de cristal 10 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.32, price2: 4.99, price3: 4.48 },
+  { id: 568, name: 'Resistencia de cristal 11 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.30, price2: 4.95, price3: 4.42 },
+  { id: 569, name: 'Resistencia de cristal 12 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.26, price2: 4.89, price3: 4.34 },
+  { id: 570, name: 'Resistencia de cristal 13 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.28, price2: 4.92, price3: 4.39 },
+  { id: 571, name: 'Resistencia de cristal 14 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.26, price2: 4.89, price3: 4.34 },
+  { id: 572, name: 'Resistencia de cristal 15 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.29, price2: 4.93, price3: 4.40 },
+  { id: 573, name: 'Resistencia de cristal 16 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.42, price2: 5.14, price3: 4.71 },
+  { id: 575, name: 'Resistencia de cristal 18 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.83 },
   
  
   

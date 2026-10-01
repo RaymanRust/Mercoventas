@@ -3,9 +3,10 @@ const USD_TO_CUP = 760;
 let useCUP = false;
 
 const BANNER_SLIDES = [
-  { image: 'img/banner1.jpg', text: 'Sabados de Ofertas ' },
+  { image: 'img/logop.png', },
   { image: 'img/banner2.jpg', text: 'Envíos gratis +9.9 USD' },
   { image: 'img/banner2.jpg', text: 'Siente lo nuevo' },
+  { image: 'img/banner2.jpg', text: 'Sabados de Ofertas ' },
 ];
 
 const CATEGORIES = [

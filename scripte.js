@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 760;
+const USD_TO_CUP = 780;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -31,7 +31,7 @@ const PRODUCTS = [
   { id: 7, name: 'Alicate de Corte Diagonal 7"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-corte-diagonal-7.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
   { id: 8, name: 'Alicatede Presion recto 10"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-presion-recto-10.jpg'], priceBase: 8, price1: 6.90, price2: 6.35, price3: 5.53 },
   { id: 9, name: 'Adaptador rotomartillo SDS PLUS 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/adaptador-rotomartillo.jpg'], priceBase: 20, price1: 17.94, price2: 16.91, price3: 15.36 },
-  { id: 10, name: 'Alicatede Multifuncion C/ Bolsa 11 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-multifuncion-con-bolsa-11enuno.jpg'], priceBase: 6, price1: 5.33, price2: 5, price3: 4.50 },
+  { id: 10, name: 'Alicatede Multifuncion C/ Bolsa 11 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-multifuncion-con-bolsa-11enuno.jpg','img/productos/al011.jpg'], priceBase: 6, price1: 5.33, price2: 5, price3: 4.50 },
   { id: 11, name: 'Alicate punta curva 6"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-6.jpg'], priceBase: 6, price1: 5.30, price2: 4.94, price3: 4.42 },
   { id: 12, name: 'Alicatede punta curva de 8"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-8.jpg'], priceBase: 8, price1: 7.03, price2: 6.55, price3: 5.82 },
   { id: 13, name: 'Alicate punta larga de 6"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-larga-6.jpg'], priceBase: 6.5, price1: 5.64, price2: 5.21, price3: 4.56 },
@@ -510,12 +510,63 @@ const PRODUCTS = [
   { id: 572, name: 'Resistencia de cristal 15 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.29, price2: 4.93, price3: 4.40 },
   { id: 573, name: 'Resistencia de cristal 16 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.42, price2: 5.14, price3: 4.71 },
   { id: 575, name: 'Resistencia de cristal 18 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.83 },
-  
- 
-  
-
-  
-  
+  { id: 576, name: 'Aceite lubricante sintético para Refrigerante 134 PAG 46 (237 MlL)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ac0051.jpg'], priceBase: 20.00, price1: 17.45, price2: 16.17, price3: 14.26 },
+  { id: 577, name: 'Adaptador Para Broca 3/8', desc: '', categories: ['herramientas'], images: ['img/productos/ad002.jpg'], priceBase: 3.50, price1: 3.10, price2: 2.90, price3: 2.60 },
+  { id: 578, name: 'Aflojalo Todo WD40 450 ml', desc: '', categories: ['herramientas'], images: ['img/productos/af001.jpg'], priceBase: 5.00, price1: 4.30, price2: 3.94, price3: 3.41 },
+  { id: 579, name: 'Alicate Punta Curva 6"/160 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al012.jpg'], priceBase: 6.00, price1: 5.30, price2: 4.94, price3: 4.42 },
+  { id: 580, name: 'Alicate Punta Curva 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al013.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.82 },
+  { id: 581, name: 'Alicate Punta Larga 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al015.jpg'], priceBase: 8.00, price1: 7.11, price2: 6.66, price3: 6.00 },
+  { id: 582, name: 'Alicate Sellador Ct-201-7 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al016.jpg'], priceBase: 10.00, price1: 8.94, price2: 8.42, price3: 7.62 },
+  { id: 583, name: 'Arandelas autoblocante 4mm (paquete)', desc: '', categories: ['herramientas'], images: ['img/productos/ar001.jpg'], priceBase: 1.60, price1: 1.44, price2: 1.35, price3: 1.23 },
+  { id: 584, name: 'Arandelas autoblocante 6mm (paquete)', desc: '', categories: ['herramientas'], images: ['img/productos/ar002.jpg'], priceBase: 1.90, price1: 1.68, price2: 1.57, price3: 1.41 },
+  { id: 585, name: 'Aspa para micromotor o fan eje gordo', desc: '', categories: ['herramientas'], images: ['img/productos/as002.jpg'], priceBase: 2.00, price1: 1.85, price2: 1.78, price3: 1.67 },
+  { id: 586, name: 'Aspa para Micromotror Refrigerador Fina', desc: '', categories: ['herramientas'], images: ['img/productos/as003.jpg'], priceBase: 2.50, price1: 2.24, price2: 2.11, price3: 1.91 },
+  { id: 587, name: 'Bateria 12V 1.3 AH', desc: '', categories: ['herramientas'], images: ['img/productos/ba005.jpg'], priceBase: 20.00, price1: 18.25, price2: 17.37, price3: 16.05 },
+  { id: 588, name: 'Bateria 20V 4.0 AH modelo P8', desc: '', categories: ['herramientas'], images: ['img/productos/ba007.jpg'], priceBase: 50.00, price1: 47.70, price2: 46.54, price3: 44.82 },
+  { id: 589, name: 'Baterías recargables 3.7V- 2000 MAH (pack de 4 u)', desc: '', categories: ['herramientas'], images: ['img/productos/ba008.jpg'], priceBase: 7.00, price1: 6.37, price2: 6.05, price3: 5.58 },
+  { id: 590, name: 'Bimetal 2 ter open 15c close 0c', desc: '', categories: ['herramientas'], images: ['img/productos/bi001.jpg'], priceBase: 2.50, price1: 2.13, price2: 1.94, price3: 1.67 },
+  { id: 591, name: 'Bimetal Asiatico 2 ter N13 de 13c close 4c', desc: '', categories: ['herramientas'], images: ['img/productos/bi002.jpg'], priceBase: 2.50, price1: 2.13, price2: 1.94, price3: 1.66 },
+  { id: 592, name: 'Bimetal Bombom L45-22f', desc: '', categories: ['herramientas'], images: ['img/productos/bi005.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.41, price3: 2.11 },
+  { id: 593, name: 'Bimetal Bombom Mabe Negro L60-32f', desc: '', categories: ['herramientas'], images: ['img/productos/bi007.jpg'], priceBase: 2.50, price1: 2.20, price2: 2.05, price3: 1.82 },
+  { id: 594, name: 'Bimetal Bombom Mabe Soporte L50-30f', desc: '', categories: ['herramientas'], images: ['img/productos/bi008.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.40, price3: 2.10 },
+  { id: 595, name: 'Bimetal Bombom Negro L60-32f (cable rojo)', desc: '', categories: ['herramientas'], images: ['img/productos/bi009.jpg'], priceBase: 3.00, price1: 2.62, price2: 2.42, price3: 2.14 },
+  { id: 596, name: 'Bimetal Bombom Termico Defrost L 70-50F', desc: '', categories: ['herramientas'], images: ['img/productos/bi010.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.41, price3: 2.11 },
+  { id: 597, name: 'Bimetal Bombon L60-40f c/gancho ML 60', desc: '', categories: ['herramientas'], images: ['img/productos/bi012.jpg'], priceBase: 3.00, price1: 2.76, price2: 2.64, price3: 2.46 },
+  { id: 598, name: 'Bimetal Bombon L70 -50f c/gancho ML70', desc: '', categories: ['herramientas'], images: ['img/productos/bi013.jpg'], priceBase: 3.00, price1: 2.76, price2: 2.64, price3: 2.46 },
+  { id: 599, name: 'Bimetal LG 3 ter con fusible KSD 2002 DCM', desc: '', categories: ['herramientas'], images: ['img/productos/bi017.jpg'], priceBase: 3.20, price1: 2.86, price2: 2.68, price3: 2.42 },
+  { id: 600, name: 'Bimetal LG con fusible 4 ter close 4c open 13c', desc: '', categories: ['herramientas'], images: ['img/productos/bi019.jpg'], priceBase: 3.00, price1: 2.64, price2: 2.46, price3: 2.20 },
+  { id: 601, name: 'Bimetal LG con fusible indepdte 3 ter open 8c close -4c', desc: '', categories: ['herramientas'], images: ['img/productos/bi020.jpg'], priceBase: 3.00, price1: 2.61, price2: 2.42, price3: 2.13 },
+  { id: 602, name: 'Bimetal LG/SAM 2 ter N13 de open 13c a 4c', desc: '', categories: ['herramientas'], images: ['img/productos/bi021.jpg'], priceBase: 2.50, price1: 2.14, price2: 1.96, price3: 1.69 },
+  { id: 603, name: 'Bimetal Nev elect/lux/Mabe P001 16a 250V', desc: '', categories: ['herramientas'], images: ['img/productos/bi022.jpg'], priceBase: 3.00, price1: 2.63, price2: 2.44, price3: 2.17 },
+  { id: 604, name: 'Bimetal Nev N12-5 Ope12 c-Close 5 C (0857) KSD 2008', desc: '', categories: ['herramientas'], images: ['img/productos/bi023.jpg'], priceBase: 3.00, price1: 2.71, price2: 2.57, price3: 2.35 },
+  { id: 605, name: 'Bimetal Nev Term Defrost Gancho L50-30F', desc: '', categories: ['herramientas'], images: ['img/productos/bi024.jpg'], priceBase: 3.00, price1: 2.61, price2: 2.41, price3: 2.11 },
+  { id: 606, name: 'Bimetal Nev Term Defrost gancho L55-35F', desc: '', categories: ['herramientas'], images: ['img/productos/bi025.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.40, price3: 2.10 },
+  { id: 607, name: 'Bimetal Nev Term Defrost s/Gancho L50-30F', desc: '', categories: ['herramientas'], images: ['img/productos/bi026.jpg'], priceBase: 3.00, price1: 2.62, price2: 2.43, price3: 2.15 },
+  { id: 608, name: 'Bimetal Nev/cabl.Defr.gan/comp L45-25F', desc: '', categories: ['herramientas'], images: ['img/productos/bi027.jpg'], priceBase: 3.00, price1: 2.61, price2: 2.41, price3: 2.11 },
+  { id: 609, name: 'Bimetal Nev/Defrost/gancho comp L60-40F', desc: '', categories: ['herramientas'], images: ['img/productos/bi028.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.40, price3: 2.09 },
+  { id: 610, name: 'Bombillo para Refrigeradores Led 2W 110V (E-14)', desc: '', categories: ['herramientas'], images: ['img/productos/bo007.jpg'], priceBase: 3.00, price1: 2.74, price2: 2.60, price3: 2.40 },
+  { id: 611, name: 'Botón Universal de lavadora', desc: '', categories: ['herramientas'], images: ['img/productos/bo010.jpg'], priceBase: 2.00, price1: 1.82, price2: 1.73, price3: 1.60 },
+  { id: 612, name: 'Boquillas/puntas para soldadura (P812161-TP0.8)', desc: '', categories: ['herramientas'], images: ['img/productos/bo010.jpg'], priceBase: 7.00, price1: 6.25, price2: 5.88, price3: 5.32 },
+  { id: 613, name: 'Boquillas/puntas para soldadura (P812161-TP1.0)', desc: '', categories: ['herramientas'], images: ['img/productos/bo011.jpg'], priceBase: 7.00, price1: 6.25, price2: 5.88, price3: 5.32 },
+  { id: 614, name: 'Bridas/Tirrap 4,8x430mm (100 pcs)', desc: '', categories: ['herramientas'], images: ['img/productos/br016.jpg'], priceBase: 7.00, price1: 6.31, price2: 5.97, price3: 5.45 },
+  { id: 615, name: 'Bridas/Tirrap 6,8x300 mm (100 pcs)', desc: '', categories: ['herramientas'], images: ['img/productos/br017.jpg'], priceBase: 8.00, price1: 7.10, price2: 6.64, price3: 5.97 },
+  { id: 616, name: 'Bridas/Tirrap 6,8x350 mm (100 pcs)', desc: '', categories: ['herramientas'], images: ['img/productos/br018.jpg'], priceBase: 8.50, price1: 7.49, price2: 6.98, price3: 6.22 },
+  { id: 617, name: 'Bridas/Tirrap 6,8x400 mm (100 pcs)', desc: '', categories: ['herramientas'], images: ['img/productos/br019.jpg'], priceBase: 10.00, price1: 8.81, price2: 8.21, price3: 7.31 },
+  { id: 618, name: 'Broca 50 mm', desc: '', categories: ['herramientas'], images: ['img/productos/br021.jpg'], priceBase: 12.00, price1: 10.36, price2: 9.54, price3: 8.31 },
+  { id: 619, name: 'Broca HSS/Barrena P/metal 10mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br037.jpg'], priceBase: 1.80, price1: 1.59, price2: 1.48, price3: 1.32 },
+  { id: 620, name: 'Broca HSS/Barrena P/metal 12mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br038.jpg'], priceBase: 2.00, price1: 1.78, price2: 1.67, price3: 1.50 },
+  { id: 621, name: 'Broca HSS/Barrena P/metal 2,5mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br040.jpg'], priceBase: 0.18, price1: 0.16, price2: 0.15, price3: 0.13 },
+  { id: 622, name: 'Broca HSS/Barrena P/metal 3mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br041.jpg'], priceBase: 0.20, price1: 0.17, price2: 0.16, price3: 0.14 },
+  { id: 623, name: 'Broca HSS/Barrena P/metal 4,5mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br042.jpg'], priceBase: 0.35, price1: 0.31, price2: 0.29, price3: 0.26 },
+  { id: 624, name: 'Broca HSS/Barrena P/metal 4mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br043.jpg'], priceBase: 0.35, price1: 0.31, price2: 0.29, price3: 0.26 },
+  { id: 625, name: 'Broca HSS/Barrena P/metal 5mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br044.jpg'], priceBase: 1.20, price1: 1.07, price2: 1.01, price3: 0.91 },
+  { id: 626, name: 'Broca HSS/Barrena P/metal 6mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br045.jpg'], priceBase: 0.60, price1: 0.52, price2: 0.49, price3: 0.43 },
+  { id: 627, name: 'Breker AC C-80 80 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0052.jpg'], priceBase: 20.00, price1: 18.20, price2: 17.31, price3: 15.96 },
+  { id: 628, name: 'Breker AC C-100 100 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0053.jpg'], priceBase: 25.00, price1: 20.90, price2: 20.75, price3: 18.84 },
+  { id: 629, name: 'Breker AC C-125 125 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0054.jpg'], priceBase: 25.00, price1: 22.18, price2: 20.77, price3: 18.66 },
+  { id: 630, name: 'Breker DC 20 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0062.jpg'], priceBase: 20.00, price1: 17.40, price2: 16.11, price3: 14.16 },
+  { id: 631, name: 'Breker DC 25 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0063.jpg'], priceBase: 20.00, price1: 17.36, price2: 16.05, price3: 14.07 },
+  { id: 632, name: 'Breker Extintor en aeresol', desc: '', categories: ['herramientas'], images: ['img/productos/br0070.jpg'], priceBase: 12.00, price1: 10.31, price2: 9.47, price3: 8.20 },
 
 
 

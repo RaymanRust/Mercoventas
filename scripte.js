@@ -517,10 +517,6 @@ const PRODUCTS = [
   { id: 580, name: 'Alicate Punta Curva 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al013.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.82 },
   { id: 581, name: 'Alicate Punta Larga 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al015.jpg'], priceBase: 8.00, price1: 7.11, price2: 6.66, price3: 6.00 },
   { id: 582, name: 'Alicate Sellador Ct-201-7 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al016.jpg'], priceBase: 10.00, price1: 8.94, price2: 8.42, price3: 7.62 },
-  { id: 583, name: 'Arandelas autoblocante 4mm (paquete)', desc: '', categories: ['herramientas'], images: ['img/productos/ar001.jpg'], priceBase: 1.60, price1: 1.44, price2: 1.35, price3: 1.23 },
-  { id: 584, name: 'Arandelas autoblocante 6mm (paquete)', desc: '', categories: ['herramientas'], images: ['img/productos/ar002.jpg'], priceBase: 1.90, price1: 1.68, price2: 1.57, price3: 1.41 },
-  { id: 585, name: 'Aspa para micromotor o fan eje gordo', desc: '', categories: ['herramientas'], images: ['img/productos/as002.jpg'], priceBase: 2.00, price1: 1.85, price2: 1.78, price3: 1.67 },
-  { id: 586, name: 'Aspa para Micromotror Refrigerador Fina', desc: '', categories: ['herramientas'], images: ['img/productos/as003.jpg'], priceBase: 2.50, price1: 2.24, price2: 2.11, price3: 1.91 },
   { id: 587, name: 'Bateria 12V 1.3 AH', desc: '', categories: ['herramientas'], images: ['img/productos/ba005.jpg'], priceBase: 20.00, price1: 18.25, price2: 17.37, price3: 16.05 },
   { id: 588, name: 'Bateria 20V 4.0 AH modelo P8', desc: '', categories: ['herramientas'], images: ['img/productos/ba007.jpg'], priceBase: 50.00, price1: 47.70, price2: 46.54, price3: 44.82 },
   { id: 589, name: 'Baterías recargables 3.7V- 2000 MAH (pack de 4 u)', desc: '', categories: ['herramientas'], images: ['img/productos/ba008.jpg'], priceBase: 7.00, price1: 6.37, price2: 6.05, price3: 5.58 },
@@ -545,7 +541,7 @@ const PRODUCTS = [
   { id: 608, name: 'Bimetal Nev/cabl.Defr.gan/comp L45-25F', desc: '', categories: ['herramientas'], images: ['img/productos/bi027.jpg'], priceBase: 3.00, price1: 2.61, price2: 2.41, price3: 2.11 },
   { id: 609, name: 'Bimetal Nev/Defrost/gancho comp L60-40F', desc: '', categories: ['herramientas'], images: ['img/productos/bi028.jpg'], priceBase: 3.00, price1: 2.60, price2: 2.40, price3: 2.09 },
   { id: 610, name: 'Bombillo para Refrigeradores Led 2W 110V (E-14)', desc: '', categories: ['herramientas'], images: ['img/productos/bo007.jpg'], priceBase: 3.00, price1: 2.74, price2: 2.60, price3: 2.40 },
-  { id: 611, name: 'Botón Universal de lavadora', desc: '', categories: ['herramientas'], images: ['img/productos/bo010.jpg'], priceBase: 2.00, price1: 1.82, price2: 1.73, price3: 1.60 },
+  { id: 611, name: 'Botón Universal de lavadora', desc: '', categories: ['herramientas'], images: ['img/productos/bo009.jpg'], priceBase: 2.00, price1: 1.82, price2: 1.73, price3: 1.60 },
   { id: 612, name: 'Boquillas/puntas para soldadura (P812161-TP0.8)', desc: '', categories: ['herramientas'], images: ['img/productos/bo010.jpg'], priceBase: 7.00, price1: 6.25, price2: 5.88, price3: 5.32 },
   { id: 613, name: 'Boquillas/puntas para soldadura (P812161-TP1.0)', desc: '', categories: ['herramientas'], images: ['img/productos/bo011.jpg'], priceBase: 7.00, price1: 6.25, price2: 5.88, price3: 5.32 },
   { id: 614, name: 'Bridas/Tirrap 4,8x430mm (100 pcs)', desc: '', categories: ['herramientas'], images: ['img/productos/br016.jpg'], priceBase: 7.00, price1: 6.31, price2: 5.97, price3: 5.45 },
@@ -561,13 +557,8 @@ const PRODUCTS = [
   { id: 624, name: 'Broca HSS/Barrena P/metal 4mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br043.jpg'], priceBase: 0.35, price1: 0.31, price2: 0.29, price3: 0.26 },
   { id: 625, name: 'Broca HSS/Barrena P/metal 5mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br044.jpg'], priceBase: 1.20, price1: 1.07, price2: 1.01, price3: 0.91 },
   { id: 626, name: 'Broca HSS/Barrena P/metal 6mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br045.jpg'], priceBase: 0.60, price1: 0.52, price2: 0.49, price3: 0.43 },
-  { id: 627, name: 'Breker AC C-80 80 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0052.jpg'], priceBase: 20.00, price1: 18.20, price2: 17.31, price3: 15.96 },
-  { id: 628, name: 'Breker AC C-100 100 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0053.jpg'], priceBase: 25.00, price1: 20.90, price2: 20.75, price3: 18.84 },
-  { id: 629, name: 'Breker AC C-125 125 amp 230-400 V 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0054.jpg'], priceBase: 25.00, price1: 22.18, price2: 20.77, price3: 18.66 },
   { id: 630, name: 'Breker DC 20 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0062.jpg'], priceBase: 20.00, price1: 17.40, price2: 16.11, price3: 14.16 },
   { id: 631, name: 'Breker DC 25 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0063.jpg'], priceBase: 20.00, price1: 17.36, price2: 16.05, price3: 14.07 },
-  { id: 632, name: 'Breker Extintor en aeresol', desc: '', categories: ['herramientas'], images: ['img/productos/br0070.jpg'], priceBase: 12.00, price1: 10.31, price2: 9.47, price3: 8.20 },
-
 
 
 

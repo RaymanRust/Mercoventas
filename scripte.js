@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 780;
+const USD_TO_CUP = 770;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -49,8 +49,8 @@ const PRODUCTS = [
   { id: 23, name: 'Breaker DC de 63A ', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
   { id: 24, name: 'Breaker doble AC de 16A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
   { id: 25, name: 'Breaker doble AC de 32A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 },
-  { id: 26, name: 'Cable original para estacion de energia portatil 3m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 50, price1: 43.26, price2: 39.89, price3: 34.84 },
-  { id: 27, name: 'Cable original para estacion de energia portatil 5m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 70, price1: 61.15, price2: 56.72, price3: 50.08 },
+  { id: 26, name: 'Cable original para estacion de energia portatil 3m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 40, price1: 34.97, price2: 32.45, price3: 28.68 },
+  { id: 27, name: 'Cable original para estacion de energia portatil 5m', desc: '', categories: ['solar'], images: ['img/productos/Cable original para estacion de energia portatil.jpeg'], priceBase: 60, price1: 52.67, price2: 49.01, price3: 43.52 },
   { id: 76, name: 'Cargador telescopico para vehiculos 4 en 1 ', desc: '', categories: ['herramientas'], images: ['img/productos/ca1291.png'], priceBase: 20, price1: 18.10, price2: 17.16, price3: 17.16 },
   { id: 257, name: 'Centralita EK 3030 220v 2 sensores', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce002.jpg'], priceBase: 40, price1: 36.76, price2: 35.19, price3: 32.78 },
   { id: 258, name: 'Cepillo circular 150 mm X 32mm (6"/150 mm)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ce003.jpg'], priceBase: 10, price1: 8.96, price2: 8.44, price3: 7.66 },
@@ -559,7 +559,26 @@ const PRODUCTS = [
   { id: 626, name: 'Broca HSS/Barrena P/metal 6mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br045.jpg'], priceBase: 0.60, price1: 0.52, price2: 0.49, price3: 0.43 },
   { id: 630, name: 'Breker DC 20 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0062.jpg'], priceBase: 20.00, price1: 17.40, price2: 16.11, price3: 14.16 },
   { id: 631, name: 'Breker DC 25 amp / 1000VDC 2Polos  EARU', desc: '', categories: ['herramientas'], images: ['img/productos/br0063.jpg'], priceBase: 20.00, price1: 17.36, price2: 16.05, price3: 14.07 },
-
+  { id: 632, name: 'Broca HSS/Barrena P/metal 7mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br046.jpg'], priceBase: 0.65, price1: 0.58, price2: 0.54, price3: 0.49 },
+  { id: 633, name: 'Broca para martillo SDS plus 10 x 160 mm', desc: '', categories: ['herramientas'], images: ['img/productos/br049.jpg'], priceBase: 2.50, price1: 2.18, price2: 2.02, price3: 1.79 },
+  { id: 634, name: 'Broca para martillo SDS plus 8 x 160 mm', desc: '', categories: ['herramientas'], images: ['img/productos/br050.jpg'], priceBase: 2.20, price1: 1.92, price2: 1.78, price3: 1.57 },
+  { id: 635, name: 'Broca para martillo SDS plus 10 x 110 mm', desc: '', categories: ['herramientas'], images: ['img/productos/br051.jpg'], priceBase: 2.00, price1: 1.75, price2: 1.62, price3: 1.44 },
+  { id: 636, name: 'Broca/Sierra Para Agujeros de Concreto 100 mm x72 mm c/extensión 90mm', desc: '', categories: ['herramientas'], images: ['img/productos/br055.jpg'], priceBase: 22.00, price1: 19.66, price2: 18.49, price3: 16.74 },
+  { id: 637, name: 'Broca/Sierra Para Agujeros de Concreto 120 mm x72 mm c/extensión 90mm', desc: '', categories: ['herramientas'], images: ['img/productos/br056.jpg'], priceBase: 28.00, price1: 25.26, price2: 23.89, price3: 21.84 },
+  { id: 641, name: 'Capacitor de 7 mf 450v cuadrado', desc: '', categories: ['herramientas'], images: ['img/productos/ca032.jpg'], priceBase: 3.00, price1: 2.54, price2: 2.31, price3: 1.96 },
+  { id: 642, name: 'Capacitor de Arranque Blanco 1000 µF 250v', desc: '', categories: ['herramientas'], images: ['img/productos/ca115.jpg'], priceBase: 12.00, price1: 10.46, price2: 9.69, price3: 8.54 },
+  { id: 643, name: 'Capacitor Microwave mf 2100v DCM', desc: '', categories: ['herramientas'], images: ['img/productos/ca117.jpg'], priceBase: 4.00, price1: 3.81, price2: 3.72, price3: 3.58 },
+  { id: 644, name: 'Capacitor Microwave 0,75 mf 2100v', desc: '', categories: ['herramientas'], images: ['img/productos/ca118.jpg'], priceBase: 6.00, price1: 5.25, price2: 4.87, price3: 4.31 },
+  { id: 645, name: 'Capacitor Microwave 0,80 mf 2100v', desc: '', categories: ['herramientas'], images: ['img/productos/ca119.jpg'], priceBase: 6.00, price1: 5.27, price2: 4.90, price3: 4.35 },
+  { id: 647, name: 'Capilar 0,80 3m', desc: '', categories: ['herramientas'], images: ['img/productos/ca123.jpg'], priceBase: 4.00, price1: 3.54, price2: 3.31, price3: 2.97 },
+  { id: 648, name: 'Capilar 0,85 3m', desc: '', categories: ['herramientas'], images: ['img/productos/ca124.jpg'], priceBase: 4.50, price1: 3.95, price2: 3.67, price3: 3.26 },
+  { id: 649, name: 'Capilar 0.054"x 0.106"x 1m', desc: '', categories: ['herramientas'], images: ['img/productos/ca126.jpg'], priceBase: 1.50, price1: 1.33, price2: 1.24, price3: 1.11 },
+  { id: 650, name: 'Capilar 0.064"x 0.125"x 1m', desc: '', categories: ['herramientas'], images: ['img/productos/ca127.jpg'], priceBase: 1.50, price1: 1.33, price2: 1.24, price3: 1.11 },
+  { id: 652, name: 'Cable original para estaciones de energia portatil (ECOFLOW) de 12 AWG con conectores MC4 a XT60i (6 mts)', desc: '', categories: ['herramientas'], images: ['img/productos/ca0143.jpg'], priceBase: 65.00, price1: 57.76, price2: 54.14, price3: 48.71 },
+  { id: 656, name: 'Cargador telescópico para vehículos 4 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/ca1291.jpg'], priceBase: 20.00, price1: 18.10, price2: 17.16, price3: 15.74 },
+  { id: 657, name: 'Condensador/Parrilla de 10 vueltas 100 x 43,5 cm', desc: '', categories: ['herramientas'], images: ['img/productos/co054.jpg'], priceBase: 32.00, price1: 26.66, price2: 23.99, price3: 19.99 },
+  { id: 658, name: 'Condensador/Parrilla de 12 vueltas 120 x43,5 cm', desc: '', categories: ['herramientas'], images: ['img/productos/co057.jpg'], priceBase: 38.00, price1: 31.66, price2: 28.49, price3: 23.74 },
+ 
 
 
 

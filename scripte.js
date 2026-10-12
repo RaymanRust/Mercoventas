@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 770;
+const USD_TO_CUP = 780;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -45,7 +45,6 @@ const PRODUCTS = [
   { id: 152, name: 'Bomba de aire para neumáticos 101-150 psi 12V 120W 8000mAh con función Power Bank', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0012.jpg'], priceBase: 35, price1: 30.12, price2: 27.68, price3: 24.02 },
   { id: 233, name: 'Bomb Vacio 3CFM 1/3HP115V 2Etapas Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0061.jpg'], priceBase: 220, price1: 200.37, price2: 190.56, price3: 175.84 },
   { id: 234, name: 'Bomb Vacio 5CFM 1/2HP 115V 2Etapas PR 1 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0062.jpg'], priceBase: 240, price1: 221.97, price2: 212.95, price3: 199.42 },
-  { id: 22, name: 'Breaker DC de 25A', desc: '', categories: ['solar'], images: ['img/productos/breaker 25 DC.jpg'], priceBase: 18, price1: 15.56, price2: 14.35, price3: 12.52 },
   { id: 23, name: 'Breaker DC de 63A ', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 63 DC.jpg'], priceBase: 20, price1: 17.17, price2: 15.76, price3: 13.64 },
   { id: 24, name: 'Breaker doble AC de 16A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/Breaker 16 AC.jpg'], priceBase: 4, price1: 3.56, price2: 3.35, price3: 3.03 },
   { id: 25, name: 'Breaker doble AC de 32A 120/240V', desc: '', categories: ['solar','electricas'], images: ['img/productos/breaker 32 AC.jpg'], priceBase: 4, price1: 3.55, price2: 3.33, price3: 2.99 },
@@ -97,15 +96,15 @@ const PRODUCTS = [
   { id: 204, name: 'Destornillador punta pasante PH2 x 100 mm (245610)', desc: '', categories: ['herramientas'], images: ['img/productos/de0061.jpg'], priceBase: 3.50, price1: 3.14, price2: 2.96, price3: 2.69 },
   { id: 205, name: 'Destornillador PH 2x250mm (241625)', desc: '', categories: ['herramientas'], images: ['img/productos/de0071.jpg'], priceBase: 3.50, price1: 3.10, price2: 2.90, price3: 2.60 },
   { id: 141, name: 'Disco de lijado de óxido de aluminio con velcro P320 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.25, price1: 0.21, price2: 0.20, price3: 0.17 },
-  { id: 142, name: 'Disco de lijado de óxido de aluminio con velcro P240 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.25, price1: 0.21, price2: 0.20, price3: 0.17 },
-  { id: 143, name: 'Disco de lijado de óxido de aluminio con velcro P320 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.40, price1: 0.35, price2: 0.33, price3: 0.29 },
-  { id: 144, name: 'Disco de lijado de óxido de aluminio con velcro P240 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.40, price1: 0.35, price2: 0.33, price3: 0.29 },
+  { id: 142, name: 'Disco de lijado de óxido de aluminio con velcro P240 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0034.jpg'], priceBase: 0.25, price1: 0.21, price2: 0.20, price3: 0.17 },
+  { id: 143, name: 'Disco de lijado de óxido de aluminio con velcro P320 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0035.jpg'], priceBase: 0.40, price1: 0.35, price2: 0.33, price3: 0.29 },
+  { id: 144, name: 'Disco de lijado de óxido de aluminio con velcro P240 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0036.jpg'], priceBase: 0.40, price1: 0.35, price2: 0.33, price3: 0.29 },
   { id: 145, name: 'Disco de lijado de óxido de aluminio con velcro P120 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.41, price3: 0.37 },
   { id: 146, name: 'Disco de lijado de óxido de aluminio con velcro P180 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.41, price3: 0.37 },
   { id: 147, name: 'Disco de lijado de óxido de aluminio con velcro P40 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.42, price3: 0.37 },
   { id: 148, name: 'Disco de lijado de óxido de aluminio con velcro P60 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.45, price2: 0.43, price3: 0.39 },
   { id: 149, name: 'Disco de lijado de óxido de aluminio con velcro P80 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.44, price2: 0.41, price3: 0.37 },
-  { id: 150, name: 'Disco de lijado de óxido de aluminio con velcro P240 9"/225 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.50, price1: 0.45, price2: 0.42, price3: 0.38 },
+  { id: 150, name: 'Disco de lijado de óxido de aluminio con velcro P240 9"/225 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0085.jpg'], priceBase: 0.50, price1: 0.45, price2: 0.42, price3: 0.38 },
   { id: 35, name: 'Estacion de energia portatil DABBSON', desc: '', categories: ['solar'], images: ['img/productos/Estacion de energia portatil DABBSON.jpeg'], priceBase: 950, price1: 950, price2: 950, price3: 950  },
   { id: 36, name: 'Estacion de Energia Portatil Delta 3 Classic', desc: '', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Classic.jpeg'], priceBase: 720, price1: 720, price2: 720, price3: 720 },
   { id: 37, name: 'EcoFlow DELTA 3 Max Series Portable Power Station', desc: '(2048 wh)-4800 pico', categories: ['solar'], images: ['img/productos/estacion de energia portatil Delta 3 Max.jpeg'], priceBase: 1220, price1: 1150.6, price2: 11115.9, price3: 1063.8 },
@@ -430,7 +429,6 @@ const PRODUCTS = [
   { id: 491, name: 'Capacitor de 5 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca029.jpg'], priceBase: 2.20, price1: 1.92, price2: 1.79, price3: 1.58 },
   { id: 492, name: 'Capacitor de 6 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca030.jpg'], priceBase: 3, price1: 2.51, price2: 2.27, price3: 1.90 },
   { id: 493, name: 'Capacitor de 6.5 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca031.jpg'], priceBase: 3, price1: 2.49, price2: 2.24, price3: 1.85 },
-  { id: 494, name: 'Capacitor de 7 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca032.jpg'], priceBase: 3, price1: 2.54, price2: 2.31, price3: 1.96 },
   { id: 495, name: 'Capacitor de 7.5 mf 370-440v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca034.jpg'], priceBase: 3, price1: 2.54, price2: 2.31, price3: 1.97 },
   { id: 496, name: 'Capacitor de 8 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca035.jpg'], priceBase: 2.50, price1: 2.15, price2: 1.98, price3: 1.72 },
   { id: 497, name: 'Capacitor de 10 mf 450v cuadrado', desc: '', categories: ['capacitores'], images: ['img/productos/ca036.jpg'], priceBase: 3.50, price1: 2.97, price2: 2.70, price3: 2.31 },
@@ -578,19 +576,24 @@ const PRODUCTS = [
   { id: 656, name: 'Cargador telescópico para vehículos 4 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/ca1291.jpg'], priceBase: 20.00, price1: 18.10, price2: 17.16, price3: 15.74 },
   { id: 657, name: 'Condensador/Parrilla de 10 vueltas 100 x 43,5 cm', desc: '', categories: ['herramientas'], images: ['img/productos/co054.jpg'], priceBase: 32.00, price1: 26.66, price2: 23.99, price3: 19.99 },
   { id: 658, name: 'Condensador/Parrilla de 12 vueltas 120 x43,5 cm', desc: '', categories: ['herramientas'], images: ['img/productos/co057.jpg'], priceBase: 38.00, price1: 31.66, price2: 28.49, price3: 23.74 },
- 
-
-
-
-
-
-
-
-
-
-
-
-
+  { id: 659, name: 'Controlador de Temperatura STC-3028 Digital 110-220v', desc: '', categories: ['refrigeracion'], images: ['img/productos/co0795.jpg'], priceBase: 30.00, price1: 26.12, price2: 24.19, price3: 21.28 },
+  { id: 660, name: 'Destornillador PZ2 x 100mm (242610)', desc: '', categories: ['herramientas'], images: ['img/productos/de0141.jpg'], priceBase: 3.50, price1: 3.02, price2: 2.78 , price3: 2.42 },
+  { id: 661, name: 'Disco de Lana para pulir 7"/180mm', desc: '', categories: ['herramientas'], images: ['img/productos/di002.jpg'], priceBase: 6.00, price1: 5.37, price2: 5.05, price3: 4.58 },
+  { id: 662, name: 'Disco para lijar con Velcro 125 mm x M14', desc: '', categories: ['herramientas'], images: ['img/productos/di012.jpg'], priceBase: 4.00, price1: 3.57, price2: 3.35, price3: 3.03 },
+  { id: 663, name: 'Disco para lijar con Velcro 180 mm x M14', desc: '', categories: ['herramientas'], images: ['img/productos/di013.jpg'], priceBase: 7.50, price1: 6.71, price2: 6.32, price3: 5.73 },
+  { id: 664, name: 'Espatula 2-1/2"(60mm)', desc: '', categories: ['herramientas'], images: ['img/productos/es015.jpg'], priceBase: 3.00, price1: 2.70, price2: 2.54, price3: 2.32 },
+  { id: 665, name: 'Espatula 4"(100mm)', desc: '', categories: ['herramientas'], images: ['img/productos/es018.jpg'], priceBase: 3.50, price1: 3.15, price2: 2.98, price3: 2.72 },
+  { id: 666, name: 'Expansor de tubo de cobre 1/4-3/4"', desc: '', categories: ['herramientas'], images: ['img/productos/ex0031.jpg'], priceBase: 8.00, price1: 6.97, price2: 6.45, price3: 5.68 },
+  { id: 667, name: 'Fan o Motor de Ventilador Axial 300 mm', desc: '', categories: ['herramientas'], images: ['img/productos/fa052.jpg'], priceBase: 120.00, price1: 103.23, price2: 94.85, price3: 82.27 },
+  { id: 668, name: 'Fan o Motor de Ventilador Axial 300MM YWF4E-300SE (Extractor) 1PH', desc: '', categories: ['herramientas'], images: ['img/productos/fa054.jpg'], priceBase: 160.00, price1: 135.15, price2: 122.73, price3: 104.09 },
+  { id: 669, name: 'Inversor híbrido SOLAR PowerMr 8KW 48Vdc 110/220V Split Phase', desc: '', categories: ['solar'], images: ['img/productos/in006.jpg'], priceBase: 1800.00, price1: 1800.00, price2: 1800.00, price3: 1800.00 },
+  { id: 670, name: 'Juego de destornillador Hoteche 2 piezas', desc: '', categories: ['herramientas'], images: ['img/productos/ju043.jpg'], priceBase: 5.00, price1: 4.38, price2: 4.07, price3: 3.61 },
+  { id: 671, name: 'Juego de extensiones para taladro incluye adaptadores 6 pcs', desc: '', categories: ['herramientas'], images: ['img/productos/ju051.jpg'], priceBase: 20.00, price1: 18.02, price2: 17.03, price3: 15.54 },
+  { id: 672, name: 'Juego de mini Alicate de Bloqueo 5" de 3 piezas', desc: '', categories: ['herramientas'], images: ['img/productos/ju069.jpg'], priceBase: 12.00, price1: 10.50, price2: 9.75, price3: 8.63 },
+  { id: 673, name: 'Kit de conectores variados (800 pcs) con pinza de crimpado (30-5 AWG)', desc: '', categories: ['herramientas'], images: ['img/productos/ki010.jpg'], priceBase: 55.00, price1: 48.40, price2: 45.10, price3: 40.15 },
+  { id: 674, name: 'Llave ajustable 10"/250 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll003.jpg'], priceBase: 12.00, price1: 10.77, price2: 10.15, price3: 9.22 },
+  { id: 675, name: 'Llave ajustable 12"/300 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll004.jpg'], priceBase: 18.00, price1: 16.04, price2: 15.06, price3: 13.59 },
+  { id: 676, name: 'Llave Ajustable Mango Dos Colores 6"/150 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll005.jpg'], priceBase: 9.00, price1: 8.03, price2: 7.55, price3: 6.82 },
   
 
 

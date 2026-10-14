@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 780;
+const USD_TO_CUP = 800;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -170,7 +170,7 @@ const PRODUCTS = [
   { id: 314, name: 'Llave de Tubo 8"/200mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll033.jpg'], priceBase: 8, price1: 6.92, price2: 6.38, price3: 5.58 },
   { id: 315, name: 'Llave de Tubo 10"/250mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll035-036.jpg'], priceBase: 12, price1: 10.22, price2: 9.33, price3: 8 },
   { id: 86, name: 'Llave de Tubo 12"/250mm', desc: '', categories: ['solar'], images: ['img/productos/ll036.png'], priceBase: 16, price1: 13.60, price2: 12.40, price3: 10.61 },
-  { id: 136, name: 'Llave Elevadora de mango Tipo L 1/2" -250 mm (200901)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll011-ll018.png'], priceBase: 9, price1: 7.66, price2: 7, price3: 6 },
+  { id: 136, name: 'Llave Elevadora de mango Tipo L 1/2" -250 mm (200901)', desc: '', categories: ['herramientas'], images: ['img/productos/ll040.jpg'], priceBase: 9, price1: 7.66, price2: 7, price3: 6 },
   { id: 137, name: 'Llave Fija Doble Boca 6x7 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll042.jpg'], priceBase: 2.50, price1: 2.24, price2: 2.11, price3: 1.88 },          
   { id: 138, name: 'Llave Fija Doble Boca 16x17 mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll042.jpg'], priceBase: 4, price1: 3.54, price2: 3.31, price3: 2.96 },
   { id: 139, name: 'Llave Fija Doble Boca 25x28mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/ll042.jpg'], priceBase: 4, price1: 3.54, price2: 3.31, price3: 2.96 },
@@ -591,15 +591,13 @@ const PRODUCTS = [
   { id: 671, name: 'Juego de extensiones para taladro incluye adaptadores 6 pcs', desc: '', categories: ['herramientas'], images: ['img/productos/ju051.jpg'], priceBase: 20.00, price1: 18.02, price2: 17.03, price3: 15.54 },
   { id: 672, name: 'Juego de mini Alicate de Bloqueo 5" de 3 piezas', desc: '', categories: ['herramientas'], images: ['img/productos/ju069.jpg'], priceBase: 12.00, price1: 10.50, price2: 9.75, price3: 8.63 },
   { id: 673, name: 'Kit de conectores variados (800 pcs) con pinza de crimpado (30-5 AWG)', desc: '', categories: ['herramientas'], images: ['img/productos/ki010.jpg'], priceBase: 55.00, price1: 48.40, price2: 45.10, price3: 40.15 },
-  { id: 674, name: 'Llave ajustable 10"/250 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll003.jpg'], priceBase: 12.00, price1: 10.77, price2: 10.15, price3: 9.22 },
-  { id: 675, name: 'Llave ajustable 12"/300 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll004.jpg'], priceBase: 18.00, price1: 16.04, price2: 15.06, price3: 13.59 },
-  { id: 676, name: 'Llave Ajustable Mango Dos Colores 6"/150 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll005.jpg'], priceBase: 9.00, price1: 8.03, price2: 7.55, price3: 6.82 },
-  
-
-
-
-
-
+  { id: 674, name: 'Llave ajustable 12"/300 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll004.jpg'], priceBase: 18.00, price1: 16.04, price2: 15.06, price3: 13.59 },
+  { id: 675, name: 'Llave Combinada de Rachet 13 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll023.jpg'], priceBase: 5.50, price1: 4.84, price2: 4.51, price3: 4.02 },
+  { id: 676, name: 'Llave Combinada de Rachet 15 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll024.jpg'], priceBase: 8.00, price1: 6.85, price2: 6.27, price3: 5.41 },
+  { id: 677, name: 'Llave combinada ratchet flexible 14 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll030.jpg'], priceBase: 7.50, price1: 6.61, price2: 6.17, price3: 5.51 },
+  { id: 678, name: 'Llave Fija Doble Boca 14x15 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll041.jpg'], priceBase: 3.00, price1: 2.68, price2: 2.52, price3: 2.28 },
+  { id: 679, name: 'Llavero portabrocas multicolor (capacidad 12 piezas)', desc: '', categories: ['herramientas'], images: ['img/productos/ll053.jpg'], priceBase: 6.00, price1: 5.51, price2: 5.27, price3: 4.90 },
+  { id: 680, name: 'Llave Fija Doble Boca 30x32mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll0422.jpg'], priceBase: 4.50, price1: 3.94, price2: 3.66, price3: 3.24 },
   
 
 

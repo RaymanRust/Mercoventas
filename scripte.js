@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 800;
+const USD_TO_CUP = 820;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -121,7 +121,7 @@ const PRODUCTS = [
   { id: 77, name: 'Filtro/regulador y lubricador tamaño del puerto : 1/4" (Max 1MPA)', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi014.png'], priceBase: 12, price1: 10.89, price2: 10.33, price3: 9.50 },
   { id: 112, name: 'Filtro domestico Sellado al Vacio', desc: '', categories: ['refrigeracion'], images: ['img/productos/fi005.jpg'], priceBase: 2.50, price1: 2.18, price2: 2.03, price3: 1.79 },
   { id: 113, name: 'Hidrolavadora 110v Hoteche -1400 W- 1525psi', desc: '', categories: ['refrigeracion'], images: ['img/productos/hi001.jpg'], priceBase: 160, price1: 144.87, price2: 137.30, price3: 125.95 },
-  { id: 42, name: 'Inversor híbrido SOLAR SUMRY 4000W/120VAC', desc: '', categories: ['solar'], images: ['img/productos/inversor negro.jpg'], priceBase: 480, price1: 480, price2: 405.8, price3: 395 },
+  { id: 42, name: 'Inversor híbrido SOLAR SUMRY 4000W/120VAC', desc: '', categories: ['solar'], images: ['img/productos/inversor negro.jpg'], priceBase: 400, price1: 400, price2: 400, price3: 400 },
   { id: 43, name: 'Juego de Manometros R410a/R134a/R22 Cowplandt', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/manometro.jpg'], priceBase: 36, price1: 34.55, price2: 31.83, price3: 27.75 },
   { id: 78, name: 'Juego 5 PCS de Cepillo de Alambre Circular 1/4" con vástago', desc: '', categories: ['solar'], images: ['img/productos/ju010.png'], priceBase: 9, price1: 8, price2: 7.50, price3: 6.75 },
   { id: 79, name: 'Juego de 9 piezas llaves hexagonales (allen) largas', desc: '', categories: ['herramientas'], images: ['img/productos/ju024.png'], priceBase: 9, price1: 7.80, price2: 7.20, price3: 6.30 },
@@ -598,7 +598,7 @@ const PRODUCTS = [
   { id: 678, name: 'Llave Fija Doble Boca 14x15 mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll041.jpg'], priceBase: 3.00, price1: 2.68, price2: 2.52, price3: 2.28 },
   { id: 679, name: 'Llavero portabrocas multicolor (capacidad 12 piezas)', desc: '', categories: ['herramientas'], images: ['img/productos/ll053.jpg'], priceBase: 6.00, price1: 5.51, price2: 5.27, price3: 4.90 },
   { id: 680, name: 'Llave Fija Doble Boca 30x32mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll0422.jpg'], priceBase: 4.50, price1: 3.94, price2: 3.66, price3: 3.24 },
-  
+  { id: 681, name: 'Protector de nevera Estandar 110v 15 amp', desc: '', categories: ['electricas'], images: ['img/productos/pr013.jpg'], priceBase: 9.00, price1: 7.93, price2: 7.39, price3: 6.59 },
 
 
 

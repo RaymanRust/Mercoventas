@@ -599,13 +599,13 @@ const PRODUCTS = [
   { id: 679, name: 'Llavero portabrocas multicolor (capacidad 12 piezas)', desc: '', categories: ['herramientas'], images: ['img/productos/ll053.jpg'], priceBase: 6.00, price1: 5.51, price2: 5.27, price3: 4.90 },
   { id: 680, name: 'Llave Fija Doble Boca 30x32mm', desc: '', categories: ['herramientas'], images: ['img/productos/ll0422.jpg'], priceBase: 4.50, price1: 3.94, price2: 3.66, price3: 3.24 },
   { id: 681, name: 'Protector de nevera Estandar 110v 15 amp', desc: '', categories: ['electricas'], images: ['img/productos/pr013.jpg'], priceBase: 9.00, price1: 7.93, price2: 7.39, price3: 6.59 },
-  { id: 682, name: 'Caja de cable (Estanca) 100 x 100 cm x 1/2¨-ABS', desc: '', categories: ['electricas'], images: ['img/productos/ca018.jpg'], priceBase: 3.50, price1: 3.50, price2: 3.50, price3: 3.50 },
-  { id: 683, name: 'Caja de breker de hasta 8 puestos individuales ABS C-45 interior/exterior impermeable', desc: '', categories: ['electricas'], images: ['img/productos/ca0161.jpg'], priceBase: 25.00, price1: 25.00, price2: 25.00, price3: 25.00 },
-  { id: 684, name: 'Caja de breker de hasta 36 puestos tipo ABS C-45 interior/exterior impermeable', desc: '', categories: ['electricas'], images: ['img/productos/ca0175.jpg'], priceBase: 80.00, price1: 80.00, price2: 80.00, price3: 80.00 },
-  { id: 685, name: 'Corta tubo CTP-127A 1/8 a 5/8 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca0892.jpg'], priceBase: 3.50, price1: 3.50, price2: 3.50, price3: 3.50 },
+  { id: 682, name: 'Caja de cable (Estanca) 100 x 100 cm x 1/2¨-ABS', desc: '', categories: ['electricas'], images: ['img/productos/CA018.jpg'], priceBase: 3.50, price1: 3.50, price2: 3.50, price3: 3.50 },
+  { id: 683, name: 'Caja de breker de hasta 8 puestos individuales ABS C-45 interior/exterior impermeable', desc: '', categories: ['electricas'], images: ['img/productos/CA0161.jpg'], priceBase: 25.00, price1: 25.00, price2: 25.00, price3: 25.00 },
+  { id: 684, name: 'Caja de breker de hasta 36 puestos tipo ABS C-45 interior/exterior impermeable', desc: '', categories: ['electricas'], images: ['img/productos/CA0175.jpg'], priceBase: 80.00, price1: 80.00, price2: 80.00, price3: 80.00 },
+  { id: 685, name: 'Corta tubo CTP-127A 1/8 a 5/8 Cowplandt', desc: '', categories: ['refrigeracion'], images: ['img/productos/CO0892.jpg'], priceBase: 3.50, price1: 3.50, price2: 3.50, price3: 3.50 },
   { id: 686, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia MT87', desc: '', categories: ['electricas'], images: ['img/productos/ju0012.jpg'], priceBase: 30.00, price1: 30.00, price2: 30.00, price3: 30.00},
   { id: 687, name: 'Pinza de Crimpado hexagonal HSC12 16-6 (30-5 AWG)', desc: '', categories: ['electricas'], images: ['img/productos/pi0122.jpg'], priceBase: 50.00, price1: 50.00, price2: 50.00, price3: 50.00},
-  { id: 688, name: 'Vaso de Vidrio Licuadora Oster', desc: '', categories: [''], images: ['img/productos/va022.jpg'], priceBase: 15.00, price1: 15.00, price2: 15.00, price3: 15.00},
+  { id: 688, name: 'Vaso de Vidrio Licuadora Oster', desc: '', categories: ['herramientas'], images: ['img/productos/VA022.jpg'], priceBase: 15.00, price1: 15.00, price2: 15.00, price3: 15.00},
 
 
 

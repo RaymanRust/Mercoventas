@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 820;
+const USD_TO_CUP = 9300;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -25,12 +25,12 @@ const PRODUCTS = [
   { id: 1, name: 'Acoplador Rapido Amaricano de 2 vias 1/4', desc: '', categories: ['herramientas'], images: ['img/productos/Acoplador-rapido-amercano-de-2-vias.jpg','img/productos/Acoplador-rapido-amercano-de-2-vias1.jpg'], priceBase: 9, price1: 8.06, price2: 7.59, price3: 6.84 },
   { id: 2, name: 'Acoplador Rapido kit alta/baja plateado', desc: '', categories: ['herramientas'], images: ['img/productos/acoplador-rapido-kit-altabaja-plateado.jpg'], priceBase: 16, price1: 13.86, price2: 12.79, price3: 11.18 },
   { id: 3, name: 'Adaptador Corto 410', desc: '', categories: ['refrigeracion'], images: ['img/productos/adaptador-corto.jpg'], priceBase: 2.5, price1: 2.18, price2: 2.02, price3: 1.78 },
-  { id: 4, name: 'Alambre de Soldadura de estano 100g', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
+  { id: 4, name: 'Alambre de Soldadura de estano 100g', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-de-estano.jpg'], priceBase: 10, price1: 9.04, price2: 8.56, price3: 7.83 },
   { id: 5, name: 'Alambre para soldar C/ Nucleo Fundente 1kg - 0,8 mm', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-para-soldar-con-nucleo-fundente.jpg'], priceBase: 10, price1: 8.76, price2: 8.14, price3: 7.21 },
   { id: 6, name: 'Alambre de Soldadura Solido 1kg', desc: '', categories: ['herramientas'], images: ['img/productos/alambre-de-soldadura-solido.jpg'], priceBase: 10.50, price1: 9.44, price2: 8.91, price3: 8.11 },
   { id: 7, name: 'Alicate de Corte Diagonal 7"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-corte-diagonal-7.jpg'], priceBase: 8, price1: 7.16, price2: 6.74, price3: 6.11 },
   { id: 8, name: 'Alicatede Presion recto 10"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-de-presion-recto-10.jpg'], priceBase: 8, price1: 6.90, price2: 6.35, price3: 5.53 },
-  { id: 9, name: 'Adaptador rotomartillo SDS PLUS 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/adaptador-rotomartillo.jpg'], priceBase: 20, price1: 17.94, price2: 16.91, price3: 15.36 },
+  { id: 9, name: 'Adaptador rotomartillo SDS PLUS 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/adaptador-rotomartillo.jpg'], priceBase: 15, price1: 13.94, price2: 13.41, price3: 12.61 },
   { id: 10, name: 'Alicatede Multifuncion C/ Bolsa 11 en 1', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-multifuncion-con-bolsa-11enuno.jpg','img/productos/al011.jpg'], priceBase: 6, price1: 5.33, price2: 5, price3: 4.50 },
   { id: 11, name: 'Alicate punta curva 6"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-6.jpg'], priceBase: 6, price1: 5.30, price2: 4.94, price3: 4.42 },
   { id: 12, name: 'Alicatede punta curva de 8"', desc: '', categories: ['herramientas'], images: ['img/productos/alicate-punta-curva-8.jpg'], priceBase: 8, price1: 7.03, price2: 6.55, price3: 5.82 },
@@ -509,7 +509,7 @@ const PRODUCTS = [
   { id: 573, name: 'Resistencia de cristal 16 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 6.00, price1: 5.42, price2: 5.14, price3: 4.71 },
   { id: 575, name: 'Resistencia de cristal 18 pg', desc: '', categories: ['refrigeracion'], images: ['img/productos/re054-re061.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.83 },
   { id: 576, name: 'Aceite lubricante sintético para Refrigerante 134 PAG 46 (237 MlL)', desc: '', categories: ['refrigeracion'], images: ['img/productos/ac0051.jpg'], priceBase: 20.00, price1: 17.45, price2: 16.17, price3: 14.26 },
-  { id: 577, name: 'Adaptador Para Broca 3/8', desc: '', categories: ['herramientas'], images: ['img/productos/ad002.jpg'], priceBase: 3.50, price1: 3.10, price2: 2.90, price3: 2.60 },
+  { id: 577, name: 'Adaptador Para Broca 3/8', desc: '', categories: ['herramientas'], images: ['img/productos/ad002.jpg'], priceBase: 3.00, price1: 2.70, price2: 2.55, price3: 2.32 },
   { id: 578, name: 'Aflojalo Todo WD40 450 ml', desc: '', categories: ['herramientas'], images: ['img/productos/af001.jpg'], priceBase: 5.00, price1: 4.30, price2: 3.94, price3: 3.41 },
   { id: 579, name: 'Alicate Punta Curva 6"/160 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al012.jpg'], priceBase: 6.00, price1: 5.30, price2: 4.94, price3: 4.42 },
   { id: 580, name: 'Alicate Punta Curva 8"/200 mm', desc: '', categories: ['herramientas'], images: ['img/productos/al013.jpg'], priceBase: 8.00, price1: 7.03, price2: 6.55, price3: 5.82 },

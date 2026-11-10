@@ -671,12 +671,12 @@ function getSavingsMessage(baseSubtotal) {
   if (baseSubtotal > 500) return '🏷️ Grupo 2 de precios activo';
   if (baseSubtotal > 200) return '✨ Grupo 1 de precios activo';
   if (baseSubtotal <= 200) {
-    return `💡 Agrega ${formatMoney(200.01 - baseSubtotal)} más para la oferta`;
+    return `💡 Agrega ${formatMoney(200 - baseSubtotal)} más para la oferta`;
   }
   if (baseSubtotal <= 500) {
-    return `💡 Agrega ${formatMoney(500.01 - baseSubtotal)} más para mejores precios`;
+    return `💡 Agrega ${formatMoney(500 - baseSubtotal)} más para mejores precios`;
   }
-  return `💡 Agrega ${formatMoney(1000.01 - baseSubtotal)} más para súper precios`;
+  return `💡 Agrega ${formatMoney(1000 - baseSubtotal)} más para súper precios`;
 }
 
 function calculateStableTotals() {

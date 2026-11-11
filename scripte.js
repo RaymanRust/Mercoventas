@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 920;
+const USD_TO_CUP = 915;
 let useCUP = false;
 
 const BANNER_SLIDES = [

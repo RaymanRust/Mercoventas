@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 915;
+const USD_TO_CUP = 930;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -606,6 +606,37 @@ const PRODUCTS = [
   { id: 582, name: 'Ventilador recargable TAZTIR 20000 mAh 4 en 1 con paneles en la base y altura ajustable', desc: '', categories: ['electricidad'], images: ['img/productos/ve008.jpg'], priceBase: 75, price1: 70.54, price2: 68.31, price3: 64.96 },
   { id: 583, name: 'Ventilador Recargable X13 20000mAh c/mando', desc: '', categories: ['solar'], images: ['img/productos/ventilador n.png'], priceBase: 55, price1: 49.1, price2: 46.15, price3: 41.73 },
   { id: 584, name: 'Virulero mediano 1/8 a 3/4 CFT 275', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/vi001.png'], priceBase: 45, price1: 38.7, price2: 35.56, price3: 30.84 },
+  { id: 585, name: 'Aceite para Bomba de Vacío Supercool 1L', desc: '', categories: ['herramientas','refrigeracion'], images: ['img/productos/ac004.jpg'], priceBase: 35, price1: 32.63, price2: 31.44, price3: 29.66 },
+  { id: 586, name: 'Bateria PowMr Lifepo4 de 25.6V 200Ah 5120Wh', desc: '', categories: ['solar'], images: ['img/productos/ba0131.jpg'], priceBase: 1200, price1: 1200, price2: 1200, price3: 1200 },
+  { id: 587, name: 'Bombillo para Refrigeradores Led 2W 110V (E-17)', desc: '', categories: ['refrigeracion'], images: ['img/productos/bo0071.jpg'], priceBase: 3, price1: 2.71, price2: 2.56, price3: 2.35 },
+  { id: 588, name: 'Broca adiamantada 1-1/8"(28 mm) ,vástago 9.5 mm', desc: '', categories: ['herramientas'], images: ['img/productos/br027.jpg'], priceBase: 5, price1: 4.55, price2: 4.32, price3: 3.98 },
+  { id: 589, name: 'Broca Escalonada (Set 3 piezas 4-12,4-20,3-12 mm) con Estuche', desc: '', categories: ['herramientas'], images: ['img/productos/br033.jpg'], priceBase: 8, price1: 7.17, price2: 6.76, price3: 6.14 },
+  { id: 590, name: 'Broca HSS/Barrena P/metal 8mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br047.jpg'], priceBase: 0.80, price1: 0.70, price2: 0.66, price3: 0.58 },
+  { id: 591, name: 'Breker DC 32 amp / 1000VDC 2Polos EARU', desc: '', categories: ['solar','electricidad'], images: ['img/productos/br0064.jpg'], priceBase: 20, price1: 17.36, price2: 16.04, price3: 14.06 },
+  { id: 592, name: 'Breker DC 40 amp / 1000VDC 2Polos EARU', desc: '', categories: ['electricidad','solar'], images: ['img/productos/br0065.jpg'], priceBase: 25, price1: 21.31, price2: 19.47, price3: 16.71 },
+  { id: 593, name: 'Breker DC 63 amp / 1000VDC 2Polos EARU', desc: '', categories: ['electricidad','solar'], images: ['img/productos/br0067.jpg'], priceBase: 28, price1: 23.83, price2: 21.75, price3: 18.62 },
+  { id: 594, name: 'Breker DC 125 amp / 1000VDC 2Polos EARU', desc: '', categories: ['electricidad','solar'], images: ['img/productos/br0069.jpg'], priceBase: 35, price1: 31.10, price2: 29.14, price3: 26.22 },
+  { id: 595, name: 'Broca HSS/Barrena P/metal 3,5 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/br0411.jpg'], priceBase: 0.25, price1: 0.22, price2: 0.20, price3: 0.18 },
+  { id: 596, name: 'Brocas Para Azulejo y Vidrio 4mm /und', desc: '', categories: ['herramientas'], images: ['img/productos/br0471.jpg'], priceBase: 1.50, price1: 1.32, price2: 1.23, price3: 1.10 },
+  { id: 597, name: 'Brocas Para Azulejo y Vidrio 8mm /und', desc: '', categories: ['herramientas'], images: ['img/productos/br0475.jpg'], priceBase: 2.20, price1: 1.93, price2: 1.79, price3: 1.59 },
+  { id: 598, name: 'Cable original para estaciones de energia portatil (ECOFLOW) de 12 AWG con conectores MC4 a XT60i (7,62 mts)', desc: '', categories: ['solar'], images: ['img/productos/ca0144.jpg'], priceBase: 75, price1: 75, price2: 75, price3: 75 },
+  { id: 599, name: 'Cable original para estaciones de energia portatil (ECOFLOW) de 12 AWG con conectores MC4 a XT60i (9,15 mts)', desc: '', categories: ['solar'], images: ['img/productos/ca0145.jpg'], priceBase: 90, price1: 90, price2: 90, price3: 90 },
+  { id: 600, name: 'Contactor Magnético 3 Polos 220v 75A', desc: '', categories: ['electricidad','refrigeracion','herramientas'], images: ['img/productos/co0752.jpg'], priceBase: 55, price1: 49.54, price2: 46.81, price3: 42.72 },
+  { id: 601, name: 'Controlador de carga solar MPPT PowMr 35A para conexión en paralelo 12/24V', desc: '', categories: ['electricidad','solar'], images: ['img/productos/co0766.jpg'], priceBase: 90, price1: 90, price2: 90, price3: 90 },
+  { id: 602, name: 'Controlador de carga solar MPPT PowMr 45A para conexión en paralelo 12/24V', desc: '', categories: ['electricidad','solar'], images: ['img/productos/co0767.jpg'], priceBase: 100, price1: 100, price2: 100, price3: 100 },
+  { id: 603, name: 'Jucon o Pinza Amperimetrica ANENG /Capacitancia ST170', desc: '', categories: ['electricidad','herramientas'], images: ['img/productos/ju0013.jpg'], priceBase: 30, price1: 30, price2: 30, price3: 30 },
+  { id: 604, name: 'Rollo de tuberia 1/4 15m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ro010.jpg'], priceBase: 65, price1: 65, price2: 65, price3: 65 },
+  { id: 605, name: 'Rollo de tuberia 3/8 15m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ro011.jpg'], priceBase: 85, price1: 85, price2: 85, price3: 85 },
+  { id: 606, name: 'Tuerca 1/2 reforzada', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu002jpg'], priceBase: 1.20, price1: 1.06, price2: 0.99, price3: 0.89 },
+  { id: 607, name: 'Tuerca 3/4 reforzada', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu004.jpg'], priceBase: 3, price1: 2.66, price2: 2.49, price3: 2.24 },
+  { id: 608, name: 'Tuerca 5/16 reforzada', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu007.jpg'], priceBase: 0.90, price1: 0.81, price2: 0.76, price3: 0.70 },
+  { id: 609, name: 'Tuerca 5/8 reforzada', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu008.jpg'], priceBase: 2, price1: 1.75, price2: 1.62, price3: 1.43 },
+  { id: 610, name: 'Tuerca 7/8 reforzada', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu009.jpg'], priceBase: 2.70, price1: 2.43, price2: 2.30, price3: 2.10 },
+  { id: 611, name: 'Turbina P/ split 93x612mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu015.jpg'], priceBase: 15, price1: 13.45, price2: 12.68, price3: 11.52 },
+  { id: 612, name: 'Turbina P/split 95x609.5mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu016.jpg'], priceBase: 10, price1: 9.20, price2: 8.80, price3: 8.20 },
+  { id: 613, name: 'Turbina P/split 95x609.5mm', desc: '', categories: ['refrigeracion'], images: ['img/productos/tu017.jpg'], priceBase: 18, price1: 16.05, price2: 15.08, price3: 13.62 },
+
+
 ];
 
 // 🔄 ORDENAR PRODUCTOS ALFABÉTICAMENTE

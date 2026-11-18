@@ -235,7 +235,6 @@ const PRODUCTS = [
   { id: 211, name: 'Capilar 0.064"x 0.125"x 1m', desc: '', categories: ['refrigeracion'], images: ['img/productos/ca127.jpg'], priceBase: 2, price1: 1.79, price2: 1.68, price3: 1.52 },
   { id: 212, name: 'Cargador de Batería Multifuncional de lithium', desc: '', categories: ['electricas'], images: ['img/productos/ca129.jpg'], priceBase: 25, price1: 23.54, price2: 22.81, price3: 21.72 },
   { id: 213, name: 'Cargador telescópico para vehículos 4 en 1', desc: '', categories: [''], images: ['img/productos/ca1291.jpg'], priceBase: 20, price1: 18.1, price2: 17.16, price3: 15.74 },
-  { id: 214, name: 'Cargador telescopico para vehiculos 4 en 1 ', desc: '', categories: ['herramientas'], images: ['img/productos/ca1291.png'], priceBase: 20, price1: 18.1, price2: 17.16, price3: 15.74 },
   { id: 215, name: 'Casco para soldar oscurecimiento automatico color negro (439008)', desc: '', categories: ['herramientas'], images: ['img/productos/ca135.jpg'], priceBase: 25, price1: 22.24, price2: 20.87, price3: 18.8 },
   { id: 216, name: 'Casco para soldar oscurecimiento automatico con diseño (439007)', desc: '', categories: ['herramientas'], images: ['img/productos/ca134.jpg'], priceBase: 28, price1: 25.47, price2: 24.21, price3: 22.31 },
   { id: 217, name: 'Cautin con Estaño 120v 30w', desc: '', categories: ['electricas','herramientas'], images: ['img/productos/ca132.jpg'], priceBase: 7, price1: 6.27, price2: 5.9, price3: 5.35 },

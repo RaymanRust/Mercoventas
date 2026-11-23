@@ -1,5 +1,5 @@
 // ---------- CONFIGURACIÓN ----------
-const USD_TO_CUP = 945;
+const USD_TO_CUP = 965;
 let useCUP = false;
 
 const BANNER_SLIDES = [
@@ -339,11 +339,11 @@ const PRODUCTS = [
   { id: 316, name: 'Disco de lana para pulir de velcro 7"/180mm', desc: '', categories: ['herramientas'], images: ['img/productos/di003.jpg'], priceBase: 9, price1: 8.17, price2: 7.75, price3: 7.12 },
   { id: 317, name: 'Disco de lijado de óxido de aluminio con velcro P120 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.5, price1: 0.44, price2: 0.41, price3: 0.37 },
   { id: 318, name: 'Disco de lijado de óxido de aluminio con velcro P180 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.5, price1: 0.44, price2: 0.41, price3: 0.37 },
-  { id: 319, name: 'Disco de lijado de óxido de aluminio con velcro P240 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0034.jpg'], priceBase: 0.18, price1: 0.16, price2: 0.15, price3: 0.13 },
-  { id: 320, name: 'Disco de lijado de óxido de aluminio con velcro P240 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0036.jpg'], priceBase: 0.4, price1: 0.35, price2: 0.33, price3: 0.29 },
-  { id: 321, name: 'Disco de lijado de óxido de aluminio con velcro P240 9"/225 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0085.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
+  { id: 319, name: 'Disco de lijado de óxido de aluminio con velcro P240 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg',], priceBase: 0.18, price1: 0.16, price2: 0.15, price3: 0.13 },
+  { id: 320, name: 'Disco de lijado de óxido de aluminio con velcro P240 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg',], priceBase: 0.4, price1: 0.35, price2: 0.33, price3: 0.29 },
+  { id: 321, name: 'Disco de lijado de óxido de aluminio con velcro P240 9"/225 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg',], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.38 },
   { id: 322, name: 'Disco de lijado de óxido de aluminio con velcro P320 5"/125 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.25, price1: 0.21, price2: 0.2, price3: 0.17 },
-  { id: 323, name: 'Disco de lijado de óxido de aluminio con velcro P320 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg','img/productos/di0035.jpg'], priceBase: 0.4, price1: 0.35, price2: 0.33, price3: 0.29 },
+  { id: 323, name: 'Disco de lijado de óxido de aluminio con velcro P320 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg',], priceBase: 0.4, price1: 0.35, price2: 0.33, price3: 0.29 },
   { id: 324, name: 'Disco de lijado de óxido de aluminio con velcro P40 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.5, price1: 0.44, price2: 0.42, price3: 0.37 },
   { id: 325, name: 'Disco de lijado de óxido de aluminio con velcro P60 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.5, price1: 0.45, price2: 0.42, price3: 0.39 },
   { id: 326, name: 'Disco de lijado de óxido de aluminio con velcro P80 7"/180 mm x u', desc: '', categories: ['herramientas'], images: ['img/productos/di004.jpg'], priceBase: 0.5, price1: 0.44, price2: 0.41, price3: 0.37 },
